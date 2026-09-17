@@ -1,0 +1,146 @@
+[
+  {
+    "id": "q1",
+    "tema": "forces",
+    "enunciat": "En quina unitat es mesura una força?",
+    "opcions": [
+      "Quilograms (kg)",
+      "Newtons (N)",
+      "Metres (m)"
+    ],
+    "correcta": 1,
+    "explicacio": "El newton és la unitat de força. El quilogram mesura massa."
+  },
+  {
+    "id": "q2",
+    "tema": "forces",
+    "enunciat": "Dues fletxes verticals, una cap amunt i l’altra cap avall, tenen…",
+    "opcions": [
+      "La mateixa direcció i sentits contraris",
+      "Direccions diferents",
+      "Sempre el mateix mòdul"
+    ],
+    "correcta": 0,
+    "explicacio": "La direcció és la recta vertical; el sentit indica cap a quin costat actua la força."
+  },
+  {
+    "id": "q3",
+    "tema": "materials",
+    "enunciat": "Una peça recupera la forma quan retires la força. Quin comportament observes?",
+    "opcions": [
+      "Plàstic",
+      "Fràgil",
+      "Elàstic"
+    ],
+    "correcta": 2,
+    "explicacio": "La deformació elàstica és reversible en retirar la càrrega."
+  },
+  {
+    "id": "q4",
+    "tema": "materials",
+    "enunciat": "Un material dur…",
+    "opcions": [
+      "No es pot trencar amb un cop",
+      "Resisteix ser ratllat o penetrat",
+      "Sempre és flexible"
+    ],
+    "correcta": 1,
+    "explicacio": "La duresa no és tenacitat. El vidre és dur però fràgil."
+  },
+  {
+    "id": "q5",
+    "tema": "tipus",
+    "enunciat": "Una grua formada per barres disposades en triangles és…",
+    "opcions": [
+      "Massissa",
+      "Triangulada",
+      "Pneumàtica"
+    ],
+    "correcta": 1,
+    "explicacio": "Els triangles donen rigidesa geomètrica a l’estructura de barres."
+  },
+  {
+    "id": "q6",
+    "tema": "tipus",
+    "enunciat": "Què manté la forma d’una estructura pneumàtica?",
+    "opcions": [
+      "L’aire a pressió",
+      "Només el pes propi",
+      "Sempre unes bigues de formigó"
+    ],
+    "correcta": 0,
+    "explicacio": "La pressió de l’aire manté tensa la membrana flexible."
+  },
+  {
+    "id": "q7",
+    "tema": "elements",
+    "enunciat": "Quin element transmet les càrregues de l’edifici al terreny?",
+    "opcions": [
+      "El tirant",
+      "La finestra",
+      "El fonament"
+    ],
+    "correcta": 2,
+    "explicacio": "Els fonaments reparteixen i transmeten les càrregues al terreny."
+  },
+  {
+    "id": "q8",
+    "tema": "elements",
+    "enunciat": "En quin esforç treballa un cable flexible que sosté un pes?",
+    "opcions": [
+      "Compressió",
+      "Tracció",
+      "Torsió"
+    ],
+    "correcta": 1,
+    "explicacio": "Un cable tibant sosté la càrrega treballant a tracció."
+  },
+  {
+    "id": "q9",
+    "tema": "esforcos",
+    "enunciat": "Una prestatgeria recolzada als extrems es corba sota els llibres. Quin esforç hi predomina?",
+    "opcions": [
+      "Torsió",
+      "Tracció pura",
+      "Flexió"
+    ],
+    "correcta": 2,
+    "explicacio": "La càrrega transversal corba la biga: una zona es comprimeix i l’altra s’estira."
+  },
+  {
+    "id": "q10",
+    "tema": "esforcos",
+    "enunciat": "Una barra esvelta comprimida es corba lateralment. Què hi observes?",
+    "opcions": [
+      "Vinclament",
+      "Ductilitat",
+      "Tracció"
+    ],
+    "correcta": 0,
+    "explicacio": "El vinclament és una inestabilitat d’un element sotmès a compressió."
+  },
+  {
+    "id": "q11",
+    "tema": "condicions",
+    "enunciat": "Una estructura no es trenca però es deforma massa. Què li falta?",
+    "opcions": [
+      "Massa",
+      "Rigidesa",
+      "Duresa superficial"
+    ],
+    "correcta": 1,
+    "explicacio": "La rigidesa limita la deformació; la resistència evita la fallada."
+  },
+  {
+    "id": "q12",
+    "tema": "condicions",
+    "enunciat": "Un quadrilàter de barres articulades es deforma. Què el rigiditza geomètricament?",
+    "opcions": [
+      "Pintar-lo",
+      "Afegir una diagonal adequada",
+      "Retirar una barra"
+    ],
+    "correcta": 1,
+    "explicacio": "La diagonal forma dos triangles i impedeix el moviment del mecanisme idealitzat."
+  }
+]

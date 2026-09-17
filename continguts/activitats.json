@@ -1,0 +1,62 @@
+[
+  {
+    "id": "propietats",
+    "codi": "S1A1",
+    "titol": "Materials a examen",
+    "dinamica": "Individual",
+    "entrega": "Google Sites · portafoli",
+    "resum": "Explica les propietats mecàniques amb exemples del teu entorn.",
+    "tema": "materials",
+    "fitxer": "continguts/activitats/propietats.html"
+  },
+  {
+    "id": "esforcos",
+    "codi": "S1A2",
+    "titol": "Detectius dels esforços",
+    "dinamica": "Individual",
+    "entrega": "Google Sites · portafoli",
+    "resum": "Troba els cinc esforços en objectes quotidians.",
+    "tema": "esforcos",
+    "fitxer": "continguts/activitats/esforcos.html"
+  },
+  {
+    "id": "triangulacio",
+    "codi": "S1Exp2",
+    "titol": "El poder d’una diagonal",
+    "dinamica": "Parelles",
+    "entrega": "Google Sites · portafoli",
+    "resum": "Compara dos marcs: un sense diagonal i un de triangulat.",
+    "tema": "condicions",
+    "fitxer": "continguts/activitats/triangulacio.html"
+  },
+  {
+    "id": "paper",
+    "codi": "S1AF2",
+    "titol": "Un full, tres estructures",
+    "dinamica": "Grups de 3",
+    "entrega": "Google Sites · portafoli",
+    "resum": "Investiga com la forma del paper canvia la seva capacitat de suportar càrregues.",
+    "tema": "condicions",
+    "fitxer": "continguts/activitats/paper.html"
+  },
+  {
+    "id": "entorn",
+    "codi": "S1AF3",
+    "titol": "L’estructura que tens a prop",
+    "dinamica": "Individual",
+    "entrega": "Google Sites · portafoli",
+    "resum": "Analitza una estructura real: una marquesina, un pont o una coberta.",
+    "tema": "elements",
+    "fitxer": "continguts/activitats/entorn.html"
+  },
+  {
+    "id": "pont",
+    "codi": "REPTE",
+    "titol": "Construeix un pont de paper",
+    "dinamica": "Grups de 3",
+    "entrega": "A concretar pel professorat",
+    "resum": "Dissenya una estructura que salvi 25 cm amb només paper i cinta.",
+    "tema": "condicions",
+    "fitxer": "continguts/activitats/pont.html"
+  }
+]
