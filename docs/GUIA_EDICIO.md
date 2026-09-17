@@ -102,3 +102,26 @@ Per a nous continguts de teoria o activitats no cal modificar JavaScript. Un nou
 - Executa `npm run check` si tens Node, i revisa la pàgina després del desplegament.
 - Si afegeixes vídeos o imatges externes, comprova la disponibilitat, els permisos d'ús i el text alternatiu.
 - Els fragments HTML són contingut de confiança del docent: no hi enganxis scripts de procedència desconeguda.
+
+## Ampliació: sessions, diagnòstic, fotografies i laboratoris
+
+| Contingut nou | On s'edita |
+|---|---|
+| Ordre, títols i objectius de les 12 sessions | `continguts/sessions.json` |
+| Activitats i temps d'una sessió | `continguts/sessions/ID.html` |
+| Repàs previ | `continguts/inici/basics.html` |
+| Preguntes de diagnòstic i de repàs inicial | `continguts/inici/preguntes.json` |
+| Fotografies, autoria, preguntes i pistes | `continguts/galeria.json` |
+| Preguntes guia dels laboratoris | `continguts/laboratoris.json` |
+| Flexió, molles i suports | `js/laboratoris/flexio.js`, `molles.js`, `suports.js` |
+| Fórmules i dibuix compartit | `js/laboratoris/models.js` |
+| Registre de proves i informe | `js/laboratoris/index.js` |
+| Vistes de sessions, diagnòstic i galeria | `js/expanded.js` |
+
+Per afegir una sessió, crea el seu HTML i una entrada a `sessions.json`, amb `id`, `numero`, `titol`, `objectiu`, `durada`, `dinamica` i `fitxer`. El temps de 55 minuts i la proposta de 12 sessions són orientatius. Si canvies el nombre total, actualitza les frases de presentació a `expanded.js` i a la portada d'`app.js`.
+
+Les fotografies s'enllacen a Wikimedia Commons i necessiten connexió. Cada entrada indica l'autor, la font, la llicència i el text alternatiu. Per utilitzar una foto pròpia, puja-la a `assets/`, canvia `src` a la ruta local i indica'n l'autoria. Si una foto externa falla, apareix un text alternatiu amb l'enllaç a l'original.
+
+Les respostes `previ-*` es conserven quan es reinicia el qüestionari de repàs. Les `basics-*` es poden tornar a practicar. Es conserven les dades de la versió anterior; els informes dels nous laboratoris apareixen també al quadern exportable. El registre d'una prova desa els controls i el resultat calculat, no una mesura real.
+
+La comprovació de GitHub Actions `Valida continguts i interaccions` és només una prova: **la publicació continua sent Deploy from a branch, main, / (root)**. Aquesta comprovació instal·la Playwright al runner, prova la web amb Chromium i guarda captures durant 7 dies. La web pública no necessita Playwright ni cap instal·lació.

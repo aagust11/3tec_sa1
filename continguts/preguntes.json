@@ -142,5 +142,149 @@
     ],
     "correcta": 1,
     "explicacio": "La diagonal forma dos triangles i impedeix el moviment del mecanisme idealitzat."
+  },
+  {
+    "id": "q13",
+    "tema": "forces",
+    "enunciat": "Una massa de 3 kg té a la Terra un pes aproximat de…",
+    "opcions": [
+      "3 N",
+      "30 N",
+      "300 N"
+    ],
+    "correcta": 1,
+    "explicacio": "Amb g ≈ 10 N/kg, P = 3 · 10 = 30 N."
+  },
+  {
+    "id": "q14",
+    "tema": "forces",
+    "enunciat": "Si dues forces tenen el mateix mòdul i sentit contrari, sempre impedeixen el gir?",
+    "opcions": [
+      "Sí, sempre",
+      "No: depèn de les rectes d’aplicació",
+      "Només si es mesuren en kg"
+    ],
+    "correcta": 1,
+    "explicacio": "Si actuen en rectes diferents poden formar un parell. L’equilibri també requereix compensar els moments."
+  },
+  {
+    "id": "q15",
+    "tema": "materials",
+    "enunciat": "Per obtenir fils de coure ens interessa la…",
+    "opcions": [
+      "Ductilitat",
+      "Fragilitat",
+      "Duresa"
+    ],
+    "correcta": 0,
+    "explicacio": "La ductilitat permet deformar un material plàsticament per formar fils."
+  },
+  {
+    "id": "q16",
+    "tema": "materials",
+    "enunciat": "En una molla ideal, si dupliquem F sense canviar k…",
+    "opcions": [
+      "L’allargament es redueix a la meitat",
+      "L’allargament es duplica",
+      "La molla sempre es trenca"
+    ],
+    "correcta": 1,
+    "explicacio": "F = k·x: amb k constant, força i allargament són proporcionals dins del règim lineal."
+  },
+  {
+    "id": "q17",
+    "tema": "tipus",
+    "enunciat": "Una cúpula geodèsica és un exemple de…",
+    "opcions": [
+      "Estructura només massissa",
+      "Estructura triangulada",
+      "Estructura sempre pneumàtica"
+    ],
+    "correcta": 1,
+    "explicacio": "La xarxa de barres forma triangles disposats sobre una superfície aproximadament esfèrica."
+  },
+  {
+    "id": "q18",
+    "tema": "tipus",
+    "enunciat": "Un objecte tecnològic pot combinar diversos sistemes estructurals?",
+    "opcions": [
+      "Sí, cal analitzar les seves peces",
+      "No, només pot tenir-ne un",
+      "Només si és natural"
+    ],
+    "correcta": 0,
+    "explicacio": "Una construcció pot combinar entramats, cables i superfícies laminars."
+  },
+  {
+    "id": "q19",
+    "tema": "elements",
+    "enunciat": "Una càrrega puntual s’apropa al suport esquerre d’una biga ideal. Què passa?",
+    "opcions": [
+      "Els dos suports sempre reben la meitat",
+      "Augmenta la reacció del suport esquerre",
+      "El suport dret rep tota la força"
+    ],
+    "correcta": 1,
+    "explicacio": "Per equilibrar els moments, el suport més proper rep una fracció més gran de la càrrega."
+  },
+  {
+    "id": "q20",
+    "tema": "elements",
+    "enunciat": "En un arc tradicional de pedra, els suports han de resistir…",
+    "opcions": [
+      "Només tracció vertical",
+      "També l’empenta lateral",
+      "Només el pes de l’aire"
+    ],
+    "correcta": 1,
+    "explicacio": "L’arc transmet càrregues cap als recolzaments i pot produir empentes horitzontals."
+  },
+  {
+    "id": "q21",
+    "tema": "esforcos",
+    "enunciat": "Què passa en una barra esvelta sota compressió excessiva?",
+    "opcions": [
+      "Pot perdre estabilitat per vinclament",
+      "Sempre es converteix en un tirant",
+      "Només pot girar per torsió"
+    ],
+    "correcta": 0,
+    "explicacio": "El vinclament és una inestabilitat lateral possible en barres comprimides."
+  },
+  {
+    "id": "q22",
+    "tema": "esforcos",
+    "enunciat": "En el model de biga rectangular, duplicar només l’alçada fa que la deformació relativa sigui…",
+    "opcions": [
+      "La meitat",
+      "Una vuitena part",
+      "El doble"
+    ],
+    "correcta": 1,
+    "explicacio": "I és proporcional a b·h³. Amb la resta igual, la deformació és inversament proporcional a h³; 2³ = 8."
+  },
+  {
+    "id": "q23",
+    "tema": "condicions",
+    "enunciat": "Per provar l’efecte del perfil de paper, què convé mantenir igual?",
+    "opcions": [
+      "Només el color del paper",
+      "Material, quantitat, càrrega i distància entre suports",
+      "Canviar-ho tot"
+    ],
+    "correcta": 1,
+    "explicacio": "Controlar les altres variables permet relacionar millor els canvis observats amb el perfil."
+  },
+  {
+    "id": "q24",
+    "tema": "condicions",
+    "enunciat": "Si un model prediu equilibri de forces, podem assegurar que la biga no es trencarà?",
+    "opcions": [
+      "Sí, equilibri i resistència són iguals",
+      "No, cal comprovar també resistència i deformació",
+      "Sí, si el dibuix no cau"
+    ],
+    "correcta": 1,
+    "explicacio": "Equilibri, resistència i rigidesa són comprovacions diferents."
   }
 ]

@@ -1,13 +1,13 @@
 // Persistència local. Cap dada s'envia a cap servidor.
 const KEY = '3tec-sa1-v1';
-const initial = () => ({ completed: [], notes: {}, done: [], answers: {}, rubric: {} });
+const initial = () => ({ completed: [], notes: {}, done: [], answers: {}, rubric: {}, experiments: {} });
 function warning(message) { const node = document.querySelector('#storage-warning'); node.hidden = false; node.textContent = message; }
 function read() {
   try {
     const value = JSON.parse(localStorage.getItem(KEY) || 'null');
     if (!value) return initial();
     if (!Array.isArray(value.completed) || !Array.isArray(value.done) || !value.notes || typeof value.notes !== 'object' || Array.isArray(value.notes)) throw Error('Format desconegut');
-    for (const key of ['notes', 'answers', 'rubric']) {
+    for (const key of ['notes', 'answers', 'rubric', 'experiments']) {
       if (!value[key] || typeof value[key] !== 'object' || Array.isArray(value[key])) value[key] = {};
     }
     value.completed = value.completed.filter(x => typeof x === 'string');

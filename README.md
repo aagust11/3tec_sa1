@@ -4,12 +4,14 @@ Web d'aprenentatge estàtica en català, preparada per a GitHub Pages. No requer
 
 ## Què inclou
 
+- Diagnòstic inicial, repàs de conceptes bàsics i 12 sessions amb recursos i evidències.
+- Galeria de 3 fotografies amb autoria, pistes i preguntes d’observació.
 - Sis temes amb explicacions, exemples i preguntes de comprovació.
-- Tres models visuals: vectors de força, triangulació i estabilitat.
+- Sis models visuals: vectors, triangulació, estabilitat, flexió, molles i repartiment de càrregues.
 - Sis activitats, incloent experiments, anàlisi de l'entorn i un repte de construcció.
-- Dotze preguntes amb retorn explicatiu, seguiment local i autoavaluació.
+- Vint-i-quatre preguntes amb retorn explicatiu, seguiment local i autoavaluació.
 - Quadern amb desat local, exportació de text i impressió a PDF.
-- Disseny adaptable a mòbil, navegació per teclat i sense recursos externs.
+- Disseny adaptable a mòbil, navegació per teclat. Les fotografies es carreguen des de Wikimedia Commons.
 
 ## Publicar a GitHub Pages
 
@@ -38,3 +40,5 @@ Les respostes de pràctica són visibles al codi font. No utilitzeu aquest qües
 Estructura temàtica basada en el dossier «Forces i estructures · Tecnologia i Digitalització 3r ESO. 2026–2027» facilitat pel docent, amb el document de Casals com a referència complementària. Les explicacions, preguntes, esquemes i models de la web s'han redactat o creat per a aquesta implementació. No es publiquen els PDFs ni s'hi incorporen les pàgines escanejades.
 
 Aquesta és una base ampliable, no una transcripció íntegra dels dossiers. Les dinàmiques i els llocs d'entrega són una proposta editable. Les durades de lectura són orientatives. Els models són didàctics, no eines de càlcul estructural.
+
+Els nous laboratoris permeten escriure prediccions, registrar proves, comparar condicions i desar conclusions. Els models de flexió, molles i suports expliciten les hipòtesis i no representen comprovacions de seguretat.

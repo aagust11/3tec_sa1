@@ -1,0 +1,110 @@
+[
+  {
+    "id": "punt-partida",
+    "numero": 1,
+    "titol": "Què sabem?",
+    "objectiu": "Fer visibles les idees inicials i formular preguntes.",
+    "durada": 55,
+    "dinamica": "Individual → grup",
+    "fitxer": "continguts/sessions/punt-partida.html"
+  },
+  {
+    "id": "eines-basiques",
+    "numero": 2,
+    "titol": "Les eines per començar",
+    "objectiu": "Distingir magnituds, unitats, forces i mesures.",
+    "durada": 55,
+    "dinamica": "Parelles",
+    "fitxer": "continguts/sessions/eines-basiques.html"
+  },
+  {
+    "id": "forces",
+    "numero": 3,
+    "titol": "Les forces que ens envolten",
+    "objectiu": "Representar forces i identificar càrregues.",
+    "durada": 55,
+    "dinamica": "Individual → parelles",
+    "fitxer": "continguts/sessions/forces.html"
+  },
+  {
+    "id": "materials",
+    "numero": 4,
+    "titol": "Materials: mirar més enllà de la duresa",
+    "objectiu": "Relacionar propietats i usos amb evidències.",
+    "durada": 55,
+    "dinamica": "Parelles",
+    "fitxer": "continguts/sessions/materials.html"
+  },
+  {
+    "id": "esforcos",
+    "numero": 5,
+    "titol": "Què li passa a cada peça?",
+    "objectiu": "Identificar els cinc esforços i el vinclament.",
+    "durada": 55,
+    "dinamica": "Grups de 3",
+    "fitxer": "continguts/sessions/esforcos.html"
+  },
+  {
+    "id": "estructures",
+    "numero": 6,
+    "titol": "Llegir una estructura real",
+    "objectiu": "Reconèixer sistemes i seguir el camí de les càrregues.",
+    "durada": 55,
+    "dinamica": "Parelles",
+    "fitxer": "continguts/sessions/estructures.html"
+  },
+  {
+    "id": "triangles",
+    "numero": 7,
+    "titol": "Triangles que rigiditzen",
+    "objectiu": "Explicar la rigidesa geomètrica i les seves limitacions.",
+    "durada": 55,
+    "dinamica": "Parelles",
+    "fitxer": "continguts/sessions/triangles.html"
+  },
+  {
+    "id": "bigues",
+    "numero": 8,
+    "titol": "La forma del paper importa",
+    "objectiu": "Controlar variables i interpretar deformacions relatives.",
+    "durada": 55,
+    "dinamica": "Grups de 3",
+    "fitxer": "continguts/sessions/bigues.html"
+  },
+  {
+    "id": "equilibri",
+    "numero": 9,
+    "titol": "Repartir càrregues i evitar el bolcat",
+    "objectiu": "Relacionar posició de càrrega, suports i estabilitat.",
+    "durada": 55,
+    "dinamica": "Parelles",
+    "fitxer": "continguts/sessions/equilibri.html"
+  },
+  {
+    "id": "disseny",
+    "numero": 10,
+    "titol": "Projectem un pont",
+    "objectiu": "Prendre decisions justificades i repartir tasques.",
+    "durada": 55,
+    "dinamica": "Grups de 3",
+    "fitxer": "continguts/sessions/disseny.html"
+  },
+  {
+    "id": "prototip",
+    "numero": 11,
+    "titol": "Construïm, provem i millorem",
+    "objectiu": "Utilitzar proves comparables per millorar un prototip.",
+    "durada": 55,
+    "dinamica": "Grups de 3",
+    "fitxer": "continguts/sessions/prototip.html"
+  },
+  {
+    "id": "transferencia",
+    "numero": 12,
+    "titol": "Què sabem ara?",
+    "objectiu": "Transferir aprenentatges i comparar-los amb les idees inicials.",
+    "durada": 55,
+    "dinamica": "Individual → grup",
+    "fitxer": "continguts/sessions/transferencia.html"
+  }
+]

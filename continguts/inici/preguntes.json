@@ -1,0 +1,98 @@
+[
+  {
+    "id": "previ-1",
+    "tema": "materials",
+    "enunciat": "Si un material és dur, vol dir que no es trenca amb un cop?",
+    "opcions": [
+      "Sí, duresa vol dir irrompible",
+      "No, pot ser dur i fràgil",
+      "No ho sé encara"
+    ],
+    "correcta": 1,
+    "explicacio": "La duresa explica la resistència al ratllat o penetració; la fragilitat descriu una ruptura amb poca deformació plàstica."
+  },
+  {
+    "id": "previ-2",
+    "tema": "forces",
+    "enunciat": "Sobre un llibre quiet damunt d’una taula…",
+    "opcions": [
+      "No actua cap força",
+      "Només actua el pes",
+      "Actuen el pes i la força de suport"
+    ],
+    "correcta": 2,
+    "explicacio": "Que estigui quiet no vol dir absència de forces: en aquest cas estan compensades."
+  },
+  {
+    "id": "previ-3",
+    "tema": "condicions",
+    "enunciat": "Un marc quadrat de barres articulades sense diagonal…",
+    "opcions": [
+      "Pot canviar els angles sense allargar les barres",
+      "És sempre rígid",
+      "És més rígid que qualsevol triangle"
+    ],
+    "correcta": 0,
+    "explicacio": "La diagonal evita aquest moviment geomètric. Les unions i la resistència de les barres també importen."
+  },
+  {
+    "id": "previ-4",
+    "tema": "elements",
+    "enunciat": "Una corda flexible que sosté una càrrega treballa principalment a…",
+    "opcions": [
+      "Compressió",
+      "Tracció",
+      "No ho sé encara"
+    ],
+    "correcta": 1,
+    "explicacio": "La corda tibant estira; no pot fer de pilar a compressió."
+  },
+  {
+    "id": "previ-5",
+    "tema": "condicions",
+    "enunciat": "Compara dos perfils de paper. Quina prova és més justa?",
+    "opcions": [
+      "Canviar el paper, la forma i el pes alhora",
+      "Mantenir iguals paper, càrrega i distància, i canviar la forma",
+      "Triar el resultat que m’agrada més"
+    ],
+    "correcta": 1,
+    "explicacio": "Per estudiar la forma cal controlar les altres variables."
+  },
+  {
+    "id": "basics-1",
+    "tema": "forces",
+    "enunciat": "Amb g ≈ 10 N/kg, quin pes té una massa de 2 kg?",
+    "opcions": [
+      "2 N",
+      "20 N",
+      "200 N"
+    ],
+    "correcta": 1,
+    "explicacio": "P = m · g = 2 · 10 = 20 N."
+  },
+  {
+    "id": "basics-2",
+    "tema": "forces",
+    "enunciat": "A escala 1 cm = 5 N, quina longitud representa 15 N?",
+    "opcions": [
+      "3 cm",
+      "15 cm",
+      "75 cm"
+    ],
+    "correcta": 0,
+    "explicacio": "15 N dividit entre 5 N/cm dona 3 cm."
+  },
+  {
+    "id": "basics-3",
+    "tema": "condicions",
+    "enunciat": "Una barra de 250 mm mesura…",
+    "opcions": [
+      "2,5 cm",
+      "25 cm",
+      "250 cm"
+    ],
+    "correcta": 1,
+    "explicacio": "Cada centímetre té 10 mm. 250 / 10 = 25 cm."
+  }
+]

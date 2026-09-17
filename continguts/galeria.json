@@ -1,0 +1,44 @@
+[
+  {
+    "id": "golden",
+    "titol": "Un pont que penja",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/1/17/Golden_Gate_Bridge.png",
+    "alt": "Golden Gate Bridge: torres, cables principals corbats i tauler suspès",
+    "autor": "Steven Pavlov",
+    "font": "https://commons.wikimedia.org/wiki/File:Golden_Gate_Bridge.png",
+    "llicencia": "CC BY-SA 3.0",
+    "urlLlicencia": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "tema": "elements",
+    "pregunta": "Quines peces estiren i quines suporten compressió?",
+    "pista": "Localitza els cables corbats, els elements verticals de suspensió, les torres i el tauler.",
+    "explicacio": "Els cables i els elements de suspensió treballen a tracció. Les torres reben principalment compressió. El tauler també suporta flexió. No podem deduir les forces exactes només a partir d’aquesta fotografia."
+  },
+  {
+    "id": "cupula",
+    "titol": "Triangles que cobreixen un espai",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Geodesic_dome_-_mth_-_1.jpg",
+    "alt": "Model de cúpula geodèsica format per una xarxa de barres triangulades",
+    "autor": "Mth",
+    "font": "https://commons.wikimedia.org/wiki/File:Geodesic_dome_-_mth_-_1.jpg",
+    "llicencia": "CC BY-SA 3.0",
+    "urlLlicencia": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "tema": "tipus",
+    "pregunta": "Com s’aconsegueix una forma corba amb barres rectes?",
+    "pista": "Busca les figures que formen les barres i observa com canvia la seva orientació.",
+    "explicacio": "Els triangles formen una xarxa que aproxima una superfície corba. Les unions connecten les barres; el conjunt pot cobrir un espai amb poc material. La geometria no substitueix la necessitat de dimensionar peces i unions."
+  },
+  {
+    "id": "cardona",
+    "titol": "Un arc al nostre territori",
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Pont_del_Diable_%28Cardona%29.jpg/960px-Pont_del_Diable_%28Cardona%29.jpg",
+    "alt": "Arcs de pedra del Pont del Diable de Cardona",
+    "autor": "Beusson",
+    "font": "https://commons.wikimedia.org/wiki/File:Pont_del_Diable_(Cardona).jpg",
+    "llicencia": "CC BY-SA 3.0 ES",
+    "urlLlicencia": "https://creativecommons.org/licenses/by-sa/3.0/es/",
+    "tema": "elements",
+    "pregunta": "Com arriben les càrregues de l’arc als suports?",
+    "pista": "Ressegueix la curvatura de l’arc fins als recolzaments.",
+    "explicacio": "En un arc de pedra ben configurat, les peces es transmeten forces principalment per compressió. Als extrems hi ha també empenta lateral, que han de resistir els suports. La pedra no necessita treballar com una biga llarga a flexió."
+  }
+]
