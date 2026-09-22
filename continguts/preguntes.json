@@ -286,5 +286,213 @@
     ],
     "correcta": 1,
     "explicacio": "Equilibri, resistència i rigidesa són comprovacions diferents."
+  },
+  {
+    "id": "amplia-triangulacio-1",
+    "tema": "triangulacio",
+    "enunciat": "Un quadrilàter articulat sense diagonal: tria la resposta correcta.",
+    "opcions": [
+      "Pot canviar de forma",
+      "Manté la forma",
+      "Pot haver vinclat"
+    ],
+    "correcta": 0,
+    "explicacio": "Els angles poden variar sense canviar les longituds."
+  },
+  {
+    "id": "amplia-triangulacio-2",
+    "tema": "triangulacio",
+    "enunciat": "Un triangle de barres rígides: tria la resposta correcta.",
+    "opcions": [
+      "Pot canviar de forma",
+      "Manté la forma",
+      "Pot haver vinclat"
+    ],
+    "correcta": 1,
+    "explicacio": "Les tres longituds determinen la geometria."
+  },
+  {
+    "id": "amplia-triangulacio-3",
+    "tema": "triangulacio",
+    "enunciat": "Una barra prima comprimida lateralment corbada: tria la resposta correcta.",
+    "opcions": [
+      "Pot canviar de forma",
+      "Manté la forma",
+      "Pot haver vinclat"
+    ],
+    "correcta": 2,
+    "explicacio": "La compressió pot provocar inestabilitat lateral."
+  },
+  {
+    "id": "amplia-perfils-1",
+    "tema": "perfils",
+    "enunciat": "Doble altura de secció en el model rectangular ideal: tria la resposta correcta.",
+    "opcions": [
+      "Deformació dividida per 8",
+      "Deformació dividida per 2",
+      "Deformació multiplicada per 8"
+    ],
+    "correcta": 0,
+    "explicacio": "La deformació depèn de l’invers del cub de l’altura."
+  },
+  {
+    "id": "amplia-perfils-2",
+    "tema": "perfils",
+    "enunciat": "Doble amplada amb la resta igual: tria la resposta correcta.",
+    "opcions": [
+      "Deformació dividida per 8",
+      "Deformació dividida per 2",
+      "Deformació multiplicada per 8"
+    ],
+    "correcta": 1,
+    "explicacio": "L’amplada té una dependència lineal en aquest model."
+  },
+  {
+    "id": "amplia-perfils-3",
+    "tema": "perfils",
+    "enunciat": "Doble llum amb la resta igual: tria la resposta correcta.",
+    "opcions": [
+      "Deformació dividida per 8",
+      "Deformació dividida per 2",
+      "Deformació multiplicada per 8"
+    ],
+    "correcta": 2,
+    "explicacio": "La llum té una dependència cúbica en el model."
+  },
+  {
+    "id": "amplia-arcs-1",
+    "tema": "arcs",
+    "enunciat": "Peça central superior: tria la resposta correcta.",
+    "opcions": [
+      "Clau",
+      "Cintra",
+      "Volta de canó",
+      "Empenta"
+    ],
+    "correcta": 0,
+    "explicacio": "És una dovella situada al centre superior."
+  },
+  {
+    "id": "amplia-arcs-2",
+    "tema": "arcs",
+    "enunciat": "Suport provisional de construcció: tria la resposta correcta.",
+    "opcions": [
+      "Clau",
+      "Cintra",
+      "Volta de canó",
+      "Empenta"
+    ],
+    "correcta": 1,
+    "explicacio": "Es retira quan el conjunt està preparat."
+  },
+  {
+    "id": "amplia-arcs-3",
+    "tema": "arcs",
+    "enunciat": "Arc prolongat longitudinalment: tria la resposta correcta.",
+    "opcions": [
+      "Clau",
+      "Cintra",
+      "Volta de canó",
+      "Empenta"
+    ],
+    "correcta": 2,
+    "explicacio": "Cobreix una superfície allargada."
+  },
+  {
+    "id": "amplia-arcs-4",
+    "tema": "arcs",
+    "enunciat": "Força lateral als suports: tria la resposta correcta.",
+    "opcions": [
+      "Clau",
+      "Cintra",
+      "Volta de canó",
+      "Empenta"
+    ],
+    "correcta": 3,
+    "explicacio": "Els recolzaments han de resistir-la."
+  },
+  {
+    "id": "amplia-ponts-1",
+    "tema": "ponts",
+    "enunciat": "Cable principal d’un pont penjant: tria la resposta correcta.",
+    "opcions": [
+      "Tracció",
+      "Compressió",
+      "Flexió"
+    ],
+    "correcta": 0,
+    "explicacio": "Un cable flexible tibat no actua com una barra comprimida."
+  },
+  {
+    "id": "amplia-ponts-2",
+    "tema": "ponts",
+    "enunciat": "Dovelles d’un arc tradicional ben carregat: tria la resposta correcta.",
+    "opcions": [
+      "Tracció",
+      "Compressió",
+      "Flexió"
+    ],
+    "correcta": 1,
+    "explicacio": "Es pressionen entre elles."
+  },
+  {
+    "id": "amplia-ponts-3",
+    "tema": "ponts",
+    "enunciat": "Tauler idealitzat com una biga entre suports: tria la resposta correcta.",
+    "opcions": [
+      "Tracció",
+      "Compressió",
+      "Flexió"
+    ],
+    "correcta": 2,
+    "explicacio": "La càrrega transversal tendeix a corbar-lo."
+  },
+  {
+    "id": "amplia-sostenibilitat-1",
+    "tema": "sostenibilitat",
+    "enunciat": "Canviar una sola variable: tria la resposta correcta.",
+    "opcions": [
+      "Comparació controlada",
+      "Transparència de les dades",
+      "Facilitat de reparació"
+    ],
+    "correcta": 0,
+    "explicacio": "Permet atribuir millor les diferències observades."
+  },
+  {
+    "id": "amplia-sostenibilitat-2",
+    "tema": "sostenibilitat",
+    "enunciat": "Conservar els valors de totes les repeticions: tria la resposta correcta.",
+    "opcions": [
+      "Comparació controlada",
+      "Transparència de les dades",
+      "Facilitat de reparació"
+    ],
+    "correcta": 1,
+    "explicacio": "La mitjana no mostra tota la variabilitat."
+  },
+  {
+    "id": "amplia-sostenibilitat-3",
+    "tema": "sostenibilitat",
+    "enunciat": "Preveure unions desmuntables: tria la resposta correcta.",
+    "opcions": [
+      "Comparació controlada",
+      "Transparència de les dades",
+      "Facilitat de reparació"
+    ],
+    "correcta": 2,
+    "explicacio": "Facilita separar i substituir peces."
+  },
+  {
+    "id": "amplia-projecte-1",
+    "tema": "projecte",
+    "enunciat": "Per saber si una diagonal millora el model, què fem?",
+    "opcions": [
+      "Canviem només la diagonal i mantenim la resta de condicions",
+      "Canviem alhora material, llum i càrrega",
+      "Ens fixem només en l’aspecte"
+    ],
+    "correcta": 0,
+    "explicacio": "Controlar les variables ajuda a interpretar la causa dels canvis observats."
   }
 ]

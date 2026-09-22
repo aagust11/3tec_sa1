@@ -7,7 +7,7 @@
       "titol": "Forces i càrregues",
       "resum": "Aprèn a veure les forces que no es veuen.",
       "icona": "↗",
-      "durada": "10 min",
+      "durada": "20–30 min",
       "fitxer": "continguts/temes/forces.html"
     },
     {
@@ -15,15 +15,23 @@
       "titol": "Materials que responen",
       "resum": "Resistent, elàstic o fràgil? No és el mateix.",
       "icona": "◈",
-      "durada": "12 min",
+      "durada": "20–30 min",
       "fitxer": "continguts/temes/materials.html"
+    },
+    {
+      "id": "esforcos",
+      "titol": "Cinc maneres de deformar-se",
+      "resum": "Identifica tracció, compressió, flexió, torsió i cisallament.",
+      "icona": "⇆",
+      "durada": "20–30 min",
+      "fitxer": "continguts/temes/esforcos.html"
     },
     {
       "id": "tipus",
       "titol": "Un món d’estructures",
       "resum": "Descobreix què tenen en comú un pont i un esquelet.",
       "icona": "▦",
-      "durada": "12 min",
+      "durada": "20–30 min",
       "fitxer": "continguts/temes/tipus.html"
     },
     {
@@ -31,24 +39,64 @@
       "titol": "Les peces de l’estructura",
       "resum": "Segueix el camí de les càrregues fins al terra.",
       "icona": "⌑",
-      "durada": "10 min",
+      "durada": "20–30 min",
       "fitxer": "continguts/temes/elements.html"
-    },
-    {
-      "id": "esforcos",
-      "titol": "Cinc maneres de deformar-se",
-      "resum": "Identifica tracció, compressió, flexió, torsió i cisallament.",
-      "icona": "⇆",
-      "durada": "15 min",
-      "fitxer": "continguts/temes/esforcos.html"
     },
     {
       "id": "condicions",
       "titol": "Per què no cau?",
       "resum": "Investiga la resistència, la rigidesa i l’estabilitat.",
       "icona": "△",
-      "durada": "12 min",
+      "durada": "20–30 min",
       "fitxer": "continguts/temes/condicions.html"
+    },
+    {
+      "id": "triangulacio",
+      "titol": "Triangles i barres",
+      "resum": "Per què una diagonal transforma un marc?",
+      "icona": "◇",
+      "durada": "20–30 min",
+      "fitxer": "continguts/temes/triangulacio.html"
+    },
+    {
+      "id": "perfils",
+      "titol": "Perfils i formes eficients",
+      "resum": "Distribuir el material per resistir la flexió.",
+      "icona": "◇",
+      "durada": "20–30 min",
+      "fitxer": "continguts/temes/perfils.html"
+    },
+    {
+      "id": "arcs",
+      "titol": "Arcs, voltes i cúpules",
+      "resum": "La geometria que dirigeix les càrregues.",
+      "icona": "◇",
+      "durada": "20–30 min",
+      "fitxer": "continguts/temes/arcs.html"
+    },
+    {
+      "id": "ponts",
+      "titol": "Ponts: tecnologia i història",
+      "resum": "De la pedra als cables i als contactes recíprocs.",
+      "icona": "◇",
+      "durada": "20–30 min",
+      "fitxer": "continguts/temes/ponts.html"
+    },
+    {
+      "id": "sostenibilitat",
+      "titol": "Dissenyar amb responsabilitat",
+      "resum": "Materials, persones, natura i dades.",
+      "icona": "◇",
+      "durada": "20–30 min",
+      "fitxer": "continguts/temes/sostenibilitat.html"
+    },
+    {
+      "id": "projecte",
+      "titol": "Investiguem i construïm",
+      "resum": "Del problema al prototip i a les evidències.",
+      "icona": "◇",
+      "durada": "20–30 min",
+      "fitxer": "continguts/temes/projecte.html"
     }
   ]
 }

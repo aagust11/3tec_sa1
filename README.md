@@ -6,10 +6,12 @@ Web d'aprenentatge estàtica en català, preparada per a GitHub Pages. No requer
 
 - Diagnòstic inicial, repàs de conceptes bàsics i 12 sessions amb recursos i evidències.
 - Galeria de 3 fotografies amb autoria, pistes i preguntes d’observació.
-- Sis temes amb explicacions, exemples i preguntes de comprovació.
+- 12 temes desenvolupats amb objectius, explicacions, exemples resolts i pràctiques autocorrectives.
 - Sis models visuals: vectors, triangulació, estabilitat, flexió, molles i repartiment de càrregues.
-- Sis activitats, incloent experiments, anàlisi de l'entorn i un repte de construcció.
-- Vint-i-quatre preguntes amb retorn explicatiu, seguiment local i autoavaluació.
+- 15 activitats, incloent experiments, lectures, síntesi, anàlisi de l’entorn i un repte de construcció.
+- 41 preguntes amb retorn explicatiu, seguiment local i autoavaluació.
+- 15 esquemes SVG propis, glossari cercable i 11 exercicis de relació amb retorn.
+- Presentació pedagògica tipus eXeLearning en taronja i gris fosc.
 - Quadern amb desat local, exportació de text i impressió a PDF.
 - Disseny adaptable a mòbil, navegació per teclat. Les fotografies es carreguen des de Wikimedia Commons.
 
@@ -21,7 +23,7 @@ Adreça prevista: https://aagust11.github.io/3tec_sa1/ (disponible després d'ac
 
 ## Editar
 
-Consulta [la guia d'edició](docs/GUIA_EDICIO.md). El contingut és a `continguts/`; el disseny, a `assets/styles.css`; el funcionament, a `js/`.
+Consulta [la guia d'edició](docs/GUIA_EDICIO.md). El contingut és a `continguts/`; el disseny, a `assets/styles.css` i `assets/unit.css`; el funcionament, a `js/`.
 
 ## Provar en local
 

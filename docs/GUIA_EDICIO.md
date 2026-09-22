@@ -125,3 +125,16 @@ Les fotografies s'enllacen a Wikimedia Commons i necessiten connexió. Cada entr
 Les respostes `previ-*` es conserven quan es reinicia el qüestionari de repàs. Les `basics-*` es poden tornar a practicar. Es conserven les dades de la versió anterior; els informes dels nous laboratoris apareixen també al quadern exportable. El registre d'una prova desa els controls i el resultat calculat, no una mesura real.
 
 La comprovació de GitHub Actions `Valida continguts i interaccions` és només una prova: **la publicació continua sent Deploy from a branch, main, / (root)**. Aquesta comprovació instal·la Playwright al runner, prova la web amb Chromium i guarda captures durant 7 dies. La web pública no necessita Playwright ni cap instal·lació.
+
+## Ampliació de la unitat
+
+- `continguts/temes/`: un HTML independent per tema. Els blocs `idevice` separen objectius, explicació, exemple, lectura, experiment i pràctica.
+- `continguts/exercicis.json`: enunciats, respostes i explicacions dels exercicis de relació. Per inserir-ne un: `<div class="interactive-task" data-task="IDENTIFICADOR"></div>`.
+- `continguts/glossari.json`: termes i definicions.
+- `assets/esquemes/`: 15 imatges SVG editables, independents del text.
+- `assets/unit.css`: paleta taronja/gris i presentació pedagògica.
+- `js/learning-devices.js`: funcionament dels exercicis autocorrectius.
+
+Per afegir un tema, crea el seu HTML, afegeix-lo a `curs.json` i incorpora preguntes amb identificadors nous a `preguntes.json`. Evita canviar els identificadors existents: mantenen el progrés dels alumnes. No canviïs la clau `3tec-sa1-v1` de persistència.
+
+Els sis laboratoris, les 12 sessions i les activitats originals continuen disponibles amb les mateixes rutes. GitHub Pages continua amb **Deploy from a branch / main / root**; Actions comprova continguts, models i navegador, però no substitueix aquesta configuració de publicació.

@@ -58,5 +58,95 @@
     "resum": "Dissenya una estructura que salvi 25 cm amb només paper i cinta.",
     "tema": "condicions",
     "fitxer": "continguts/activitats/pont.html"
+  },
+  {
+    "id": "sintesi",
+    "codi": "AMPLIA",
+    "titol": "Completa i relaciona els conceptes",
+    "dinamica": "Individual o parelles",
+    "entrega": "Quadern · portafoli",
+    "resum": "Completa i relaciona els conceptes. Observa, argumenta i registra les evidències.",
+    "tema": "forces",
+    "fitxer": "continguts/activitats/sintesi.html"
+  },
+  {
+    "id": "aplica-tipus",
+    "codi": "AMPLIA",
+    "titol": "Classifica amb arguments",
+    "dinamica": "Individual o parelles",
+    "entrega": "Quadern · portafoli",
+    "resum": "Classifica amb arguments. Observa, argumenta i registra les evidències.",
+    "tema": "tipus",
+    "fitxer": "continguts/activitats/aplica-tipus.html"
+  },
+  {
+    "id": "aplica-bicicleta",
+    "codi": "AMPLIA",
+    "titol": "Els esforços d’una bicicleta",
+    "dinamica": "Individual o parelles",
+    "entrega": "Quadern · portafoli",
+    "resum": "Els esforços d’una bicicleta. Observa, argumenta i registra les evidències.",
+    "tema": "esforcos",
+    "fitxer": "continguts/activitats/aplica-bicicleta.html"
+  },
+  {
+    "id": "barres",
+    "codi": "AMPLIA",
+    "titol": "Quina barra està tibada?",
+    "dinamica": "Individual o parelles",
+    "entrega": "Quadern · portafoli",
+    "resum": "Quina barra està tibada?. Observa, argumenta i registra les evidències.",
+    "tema": "triangulacio",
+    "fitxer": "continguts/activitats/barres.html"
+  },
+  {
+    "id": "organitza",
+    "codi": "AMPLIA",
+    "titol": "El mapa de les estructures",
+    "dinamica": "Individual o parelles",
+    "entrega": "Quadern · portafoli",
+    "resum": "El mapa de les estructures. Observa, argumenta i registra les evidències.",
+    "tema": "projecte",
+    "fitxer": "continguts/activitats/organitza.html"
+  },
+  {
+    "id": "romans",
+    "codi": "AMPLIA",
+    "titol": "Llegim un pont de pedra",
+    "dinamica": "Individual o parelles",
+    "entrega": "Quadern · portafoli",
+    "resum": "Llegim un pont de pedra. Observa, argumenta i registra les evidències.",
+    "tema": "ponts",
+    "fitxer": "continguts/activitats/romans.html"
+  },
+  {
+    "id": "leonardo",
+    "codi": "AMPLIA",
+    "titol": "Un pont sense cargols?",
+    "dinamica": "Individual o parelles",
+    "entrega": "Quadern · portafoli",
+    "resum": "Un pont sense cargols?. Observa, argumenta i registra les evidències.",
+    "tema": "ponts",
+    "fitxer": "continguts/activitats/leonardo.html"
+  },
+  {
+    "id": "arc-biga",
+    "codi": "AMPLIA",
+    "titol": "Un arc i una biga de paper",
+    "dinamica": "Individual o parelles",
+    "entrega": "Quadern · portafoli",
+    "resum": "Un arc i una biga de paper. Observa, argumenta i registra les evidències.",
+    "tema": "arcs",
+    "fitxer": "continguts/activitats/arc-biga.html"
+  },
+  {
+    "id": "centre-gravetat",
+    "codi": "AMPLIA",
+    "titol": "Quan bolca una torre?",
+    "dinamica": "Individual o parelles",
+    "entrega": "Quadern · portafoli",
+    "resum": "Quan bolca una torre?. Observa, argumenta i registra les evidències.",
+    "tema": "condicions",
+    "fitxer": "continguts/activitats/centre-gravetat.html"
   }
 ]

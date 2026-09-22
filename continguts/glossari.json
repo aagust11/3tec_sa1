@@ -1,0 +1,142 @@
+[
+  {
+    "terme": "Biga",
+    "definicio": "Rep càrregues i les transmet als suports."
+  },
+  {
+    "terme": "Centre de gravetat",
+    "definicio": "Punt on es pot considerar aplicat el pes resultant del cos."
+  },
+  {
+    "terme": "Cintra",
+    "definicio": "Es retira quan el conjunt està preparat."
+  },
+  {
+    "terme": "Cisallament",
+    "definicio": "Les parts tendeixen a lliscar una respecte de l’altra."
+  },
+  {
+    "terme": "Clau",
+    "definicio": "És una dovella situada al centre superior."
+  },
+  {
+    "terme": "Compressió",
+    "definicio": "Les forces tendeixen a escurçar-lo."
+  },
+  {
+    "terme": "Càrrega",
+    "definicio": "Acció externa que ha de suportar una estructura."
+  },
+  {
+    "terme": "Càrrega ambiental",
+    "definicio": "Prové de l’entorn meteorològic."
+  },
+  {
+    "terme": "Càrrega d’ús",
+    "definicio": "Les persones utilitzen l’estructura."
+  },
+  {
+    "terme": "Ductilitat",
+    "definicio": "És una forma de deformació plàstica."
+  },
+  {
+    "terme": "Duresa",
+    "definicio": "No equival a resistir qualsevol esforç."
+  },
+  {
+    "terme": "Elasticitat",
+    "definicio": "La deformació és reversible dins del límit elàstic."
+  },
+  {
+    "terme": "Empenta",
+    "definicio": "Els recolzaments han de resistir-la."
+  },
+  {
+    "terme": "Entramada",
+    "definicio": "Els elements formen un entramat."
+  },
+  {
+    "terme": "Esforç",
+    "definicio": "Manera com treballa una peça internament davant les accions."
+  },
+  {
+    "terme": "Estabilitat",
+    "definicio": "Pot perdre l’equilibri sense ruptura del material."
+  },
+  {
+    "terme": "Flexió",
+    "definicio": "Es corba i combina zones comprimides i tibades."
+  },
+  {
+    "terme": "Fonament",
+    "definicio": "Reparteix o transmet la càrrega al sòl."
+  },
+  {
+    "terme": "Forjat",
+    "definicio": "Pot combinar biguetes, entrevigat i capa de compressió."
+  },
+  {
+    "terme": "Força",
+    "definicio": "Interacció que pot modificar el moviment o deformar un cos. Es mesura en newtons."
+  },
+  {
+    "terme": "Laminar",
+    "definicio": "La superfície prima participa en el treball estructural."
+  },
+  {
+    "terme": "Llum",
+    "definicio": "Distància lliure entre els recolzaments d’un element."
+  },
+  {
+    "terme": "Perfil",
+    "definicio": "Forma de la secció transversal d’una peça."
+  },
+  {
+    "terme": "Pes propi",
+    "definicio": "Forma part de la mateixa estructura."
+  },
+  {
+    "terme": "Pilar",
+    "definicio": "Transmet càrregues cap als fonaments."
+  },
+  {
+    "terme": "Pneumàtica",
+    "definicio": "La diferència de pressió manté la forma."
+  },
+  {
+    "terme": "Resistència",
+    "definicio": "No suporta l’esforç aplicat."
+  },
+  {
+    "terme": "Rigidesa",
+    "definicio": "Cal limitar la deformació durant l’ús."
+  },
+  {
+    "terme": "Tenacitat",
+    "definicio": "Un material tenaç no es trenca fàcilment amb un impacte."
+  },
+  {
+    "terme": "Torsió",
+    "definicio": "Les seccions tendeixen a girar entre elles."
+  },
+  {
+    "terme": "Tracció",
+    "definicio": "Les forces tendeixen a allargar-la."
+  },
+  {
+    "terme": "Triangulada",
+    "definicio": "Els triangles limiten els canvis de forma."
+  },
+  {
+    "terme": "Unió",
+    "definicio": "Connexió entre elements que transmet forces."
+  },
+  {
+    "terme": "Vinclament",
+    "definicio": "Inestabilitat lateral d’una peça esvelta sotmesa a compressió."
+  },
+  {
+    "terme": "Volta de canó",
+    "definicio": "Cobreix una superfície allargada."
+  }
+]

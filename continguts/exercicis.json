@@ -1,0 +1,252 @@
+{
+  "cargues": {
+    "instruccio": "Relaciona cada situació amb el concepte adequat. Comprova les respostes i explica els errors abans de tornar-ho a intentar.",
+    "files": [
+      {
+        "text": "El pes de les bigues",
+        "resposta": "Pes propi",
+        "explicacio": "Forma part de la mateixa estructura."
+      },
+      {
+        "text": "Els alumnes damunt la passera",
+        "resposta": "Càrrega d’ús",
+        "explicacio": "Les persones utilitzen l’estructura."
+      },
+      {
+        "text": "La neu acumulada a la coberta",
+        "resposta": "Càrrega ambiental",
+        "explicacio": "Prové de l’entorn meteorològic."
+      }
+    ]
+  },
+  "propietats": {
+    "instruccio": "Relaciona cada situació amb el concepte adequat. Comprova les respostes i explica els errors abans de tornar-ho a intentar.",
+    "files": [
+      {
+        "text": "Recupera la forma en retirar la força",
+        "resposta": "Elasticitat",
+        "explicacio": "La deformació és reversible dins del límit elàstic."
+      },
+      {
+        "text": "Es deixa convertir en fils",
+        "resposta": "Ductilitat",
+        "explicacio": "És una forma de deformació plàstica."
+      },
+      {
+        "text": "Resisteix ratllades",
+        "resposta": "Duresa",
+        "explicacio": "No equival a resistir qualsevol esforç."
+      },
+      {
+        "text": "Absorbeix energia abans de trencar-se",
+        "resposta": "Tenacitat",
+        "explicacio": "Un material tenaç no es trenca fàcilment amb un impacte."
+      }
+    ]
+  },
+  "esforcos": {
+    "instruccio": "Relaciona cada situació amb el concepte adequat. Comprova les respostes i explica els errors abans de tornar-ho a intentar.",
+    "files": [
+      {
+        "text": "Una corda tibada",
+        "resposta": "Tracció",
+        "explicacio": "Les forces tendeixen a allargar-la."
+      },
+      {
+        "text": "Un pilar carregat axialment",
+        "resposta": "Compressió",
+        "explicacio": "Les forces tendeixen a escurçar-lo."
+      },
+      {
+        "text": "Un prestatge carregat al centre",
+        "resposta": "Flexió",
+        "explicacio": "Es corba i combina zones comprimides i tibades."
+      },
+      {
+        "text": "Un eix que transmet un gir",
+        "resposta": "Torsió",
+        "explicacio": "Les seccions tendeixen a girar entre elles."
+      },
+      {
+        "text": "Les tisores tallant una làmina",
+        "resposta": "Cisallament",
+        "explicacio": "Les parts tendeixen a lliscar una respecte de l’altra."
+      }
+    ]
+  },
+  "elements": {
+    "instruccio": "Relaciona cada situació amb el concepte adequat. Comprova les respostes i explica els errors abans de tornar-ho a intentar.",
+    "files": [
+      {
+        "text": "Porta les càrregues del pilar al terreny",
+        "resposta": "Fonament",
+        "explicacio": "Reparteix o transmet la càrrega al sòl."
+      },
+      {
+        "text": "Element vertical principal d’un pòrtic",
+        "resposta": "Pilar",
+        "explicacio": "Transmet càrregues cap als fonaments."
+      },
+      {
+        "text": "Element horitzontal que salva una distància",
+        "resposta": "Biga",
+        "explicacio": "Rep càrregues i les transmet als suports."
+      },
+      {
+        "text": "Conjunt estructural d’un pis",
+        "resposta": "Forjat",
+        "explicacio": "Pot combinar biguetes, entrevigat i capa de compressió."
+      }
+    ]
+  },
+  "tipus": {
+    "instruccio": "Relaciona cada situació amb el concepte adequat. Comprova les respostes i explica els errors abans de tornar-ho a intentar.",
+    "files": [
+      {
+        "text": "Esquelet de pilars i bigues",
+        "resposta": "Entramada",
+        "explicacio": "Els elements formen un entramat."
+      },
+      {
+        "text": "Xarxa de barres amb diagonals",
+        "resposta": "Triangulada",
+        "explicacio": "Els triangles limiten els canvis de forma."
+      },
+      {
+        "text": "Coberta sostinguda per pressió d’aire",
+        "resposta": "Pneumàtica",
+        "explicacio": "La diferència de pressió manté la forma."
+      },
+      {
+        "text": "Coberta fina contínua",
+        "resposta": "Laminar",
+        "explicacio": "La superfície prima participa en el treball estructural."
+      }
+    ]
+  },
+  "condicions": {
+    "instruccio": "Relaciona cada situació amb el concepte adequat. Comprova les respostes i explica els errors abans de tornar-ho a intentar.",
+    "files": [
+      {
+        "text": "La peça es trenca",
+        "resposta": "Resistència",
+        "explicacio": "No suporta l’esforç aplicat."
+      },
+      {
+        "text": "La peça es deforma massa sense trencar-se",
+        "resposta": "Rigidesa",
+        "explicacio": "Cal limitar la deformació durant l’ús."
+      },
+      {
+        "text": "El conjunt bolca",
+        "resposta": "Estabilitat",
+        "explicacio": "Pot perdre l’equilibri sense ruptura del material."
+      }
+    ]
+  },
+  "triangles": {
+    "instruccio": "Relaciona cada situació amb el concepte adequat. Comprova les respostes i explica els errors abans de tornar-ho a intentar.",
+    "files": [
+      {
+        "text": "Un quadrilàter articulat sense diagonal",
+        "resposta": "Pot canviar de forma",
+        "explicacio": "Els angles poden variar sense canviar les longituds."
+      },
+      {
+        "text": "Un triangle de barres rígides",
+        "resposta": "Manté la forma",
+        "explicacio": "Les tres longituds determinen la geometria."
+      },
+      {
+        "text": "Una barra prima comprimida lateralment corbada",
+        "resposta": "Pot haver vinclat",
+        "explicacio": "La compressió pot provocar inestabilitat lateral."
+      }
+    ]
+  },
+  "perfils": {
+    "instruccio": "Relaciona cada situació amb el concepte adequat. Comprova les respostes i explica els errors abans de tornar-ho a intentar.",
+    "files": [
+      {
+        "text": "Doble altura de secció en el model rectangular ideal",
+        "resposta": "Deformació dividida per 8",
+        "explicacio": "La deformació depèn de l’invers del cub de l’altura."
+      },
+      {
+        "text": "Doble amplada amb la resta igual",
+        "resposta": "Deformació dividida per 2",
+        "explicacio": "L’amplada té una dependència lineal en aquest model."
+      },
+      {
+        "text": "Doble llum amb la resta igual",
+        "resposta": "Deformació multiplicada per 8",
+        "explicacio": "La llum té una dependència cúbica en el model."
+      }
+    ]
+  },
+  "arcs": {
+    "instruccio": "Relaciona cada situació amb el concepte adequat. Comprova les respostes i explica els errors abans de tornar-ho a intentar.",
+    "files": [
+      {
+        "text": "Peça central superior",
+        "resposta": "Clau",
+        "explicacio": "És una dovella situada al centre superior."
+      },
+      {
+        "text": "Suport provisional de construcció",
+        "resposta": "Cintra",
+        "explicacio": "Es retira quan el conjunt està preparat."
+      },
+      {
+        "text": "Arc prolongat longitudinalment",
+        "resposta": "Volta de canó",
+        "explicacio": "Cobreix una superfície allargada."
+      },
+      {
+        "text": "Força lateral als suports",
+        "resposta": "Empenta",
+        "explicacio": "Els recolzaments han de resistir-la."
+      }
+    ]
+  },
+  "ponts": {
+    "instruccio": "Relaciona cada situació amb el concepte adequat. Comprova les respostes i explica els errors abans de tornar-ho a intentar.",
+    "files": [
+      {
+        "text": "Cable principal d’un pont penjant",
+        "resposta": "Tracció",
+        "explicacio": "Un cable flexible tibat no actua com una barra comprimida."
+      },
+      {
+        "text": "Dovelles d’un arc tradicional ben carregat",
+        "resposta": "Compressió",
+        "explicacio": "Es pressionen entre elles."
+      },
+      {
+        "text": "Tauler idealitzat com una biga entre suports",
+        "resposta": "Flexió",
+        "explicacio": "La càrrega transversal tendeix a corbar-lo."
+      }
+    ]
+  },
+  "sostenibilitat": {
+    "instruccio": "Relaciona cada situació amb el concepte adequat. Comprova les respostes i explica els errors abans de tornar-ho a intentar.",
+    "files": [
+      {
+        "text": "Canviar una sola variable",
+        "resposta": "Comparació controlada",
+        "explicacio": "Permet atribuir millor les diferències observades."
+      },
+      {
+        "text": "Conservar els valors de totes les repeticions",
+        "resposta": "Transparència de les dades",
+        "explicacio": "La mitjana no mostra tota la variabilitat."
+      },
+      {
+        "text": "Preveure unions desmuntables",
+        "resposta": "Facilitat de reparació",
+        "explicacio": "Facilita separar i substituir peces."
+      }
+    ]
+  }
+}
