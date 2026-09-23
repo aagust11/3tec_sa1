@@ -1,142 +1,242 @@
 [
   {
     "terme": "Biga",
-    "definicio": "Rep càrregues i les transmet als suports."
+    "definicio": "Element que salva una distància i transmet càrregues transversals als suports, treballant principalment a flexió.",
+    "exemple": "La biga que sosté un sostre.",
+    "confusio": "No totes les barres horitzontals tenen la mateixa funció."
   },
   {
     "terme": "Centre de gravetat",
-    "definicio": "Punt on es pot considerar aplicat el pes resultant del cos."
+    "definicio": "Punt on podem considerar aplicat el pes resultant d’un cos en un camp gravitatori uniforme.",
+    "exemple": "El centre d’una anella homogènia.",
+    "confusio": "Pot estar fora del material."
   },
   {
     "terme": "Cintra",
-    "definicio": "Es retira quan el conjunt està preparat."
+    "definicio": "Estructura provisional que sosté un arc durant la seva construcció.",
+    "exemple": "Un motlle de fusta sota les dovelles.",
+    "confusio": "No és una peça permanent de l’arc."
   },
   {
     "terme": "Cisallament",
-    "definicio": "Les parts tendeixen a lliscar una respecte de l’altra."
+    "definicio": "Esforç que tendeix a fer lliscar parts adjacents d’una peça.",
+    "exemple": "El tall d’una làmina amb tisores.",
+    "confusio": "No és equivalent a estirar la peça."
   },
   {
     "terme": "Clau",
-    "definicio": "És una dovella situada al centre superior."
+    "definicio": "Dovella situada a la part central superior d’un arc tradicional.",
+    "exemple": "La peça central d’un arc de mig punt.",
+    "confusio": "No sosté tota sola la resta de l’arc."
   },
   {
     "terme": "Compressió",
-    "definicio": "Les forces tendeixen a escurçar-lo."
+    "definicio": "Esforç que tendeix a escurçar una peça.",
+    "exemple": "Un pilar sota una càrrega axial.",
+    "confusio": "Una barra comprimida també pot vinclar."
   },
   {
     "terme": "Càrrega",
-    "definicio": "Acció externa que ha de suportar una estructura."
+    "definicio": "Acció externa que ha de suportar una estructura durant la construcció o l’ús.",
+    "exemple": "El pes dels llibres sobre un prestatge.",
+    "confusio": "La càrrega és externa; l’esforç descriu el treball intern de la peça."
   },
   {
     "terme": "Càrrega ambiental",
-    "definicio": "Prové de l’entorn meteorològic."
+    "definicio": "Acció de l’entorn sobre l’estructura.",
+    "exemple": "Vent o neu acumulada en una coberta.",
+    "confusio": "El vent pot actuar lateralment i també produir succió."
   },
   {
     "terme": "Càrrega d’ús",
-    "definicio": "Les persones utilitzen l’estructura."
+    "definicio": "Càrrega associada a la utilització d’una estructura.",
+    "exemple": "Persones, vehicles o mobles que sosté.",
+    "confusio": "Pot variar al llarg del temps."
+  },
+  {
+    "terme": "Cúpula",
+    "definicio": "Coberta corbada desenvolupada al voltant d’un espai que transmet càrregues cap al perímetre.",
+    "exemple": "Una coberta hemisfèrica.",
+    "confusio": "Pot construir-se amb sistemes diferents, inclosa una xarxa geodèsica."
+  },
+  {
+    "terme": "Dovella",
+    "definicio": "Peça d’un arc tradicional que transmet forces a les peces veïnes.",
+    "exemple": "Una peça de pedra d’un arc.",
+    "confusio": "L’arc funciona com un conjunt, no com una sola peça."
   },
   {
     "terme": "Ductilitat",
-    "definicio": "És una forma de deformació plàstica."
+    "definicio": "Capacitat de deformar-se plàsticament a tracció, que permet obtenir fils.",
+    "exemple": "Fils de coure.",
+    "confusio": "No és la capacitat de recuperar la forma."
   },
   {
     "terme": "Duresa",
-    "definicio": "No equival a resistir qualsevol esforç."
+    "definicio": "Resistència d’un material a ser ratllat o penetrat.",
+    "exemple": "Una superfície ceràmica resisteix el ratllat.",
+    "confusio": "Un material dur pot ser fràgil."
   },
   {
     "terme": "Elasticitat",
-    "definicio": "La deformació és reversible dins del límit elàstic."
+    "definicio": "Capacitat de recuperar la forma en retirar la càrrega dins del règim elàstic.",
+    "exemple": "Una molla que retorna a la longitud inicial.",
+    "confusio": "Elàstic no vol dir necessàriament tou."
   },
   {
     "terme": "Empenta",
-    "definicio": "Els recolzaments han de resistir-la."
+    "definicio": "Força amb què un cos o conjunt pressiona un altre; en un arc interessa especialment la component lateral als suports.",
+    "exemple": "L’empenta d’un arc sobre els estreps.",
+    "confusio": "Els suports han de resistir accions horitzontals a més de verticals."
   },
   {
     "terme": "Entramada",
-    "definicio": "Els elements formen un entramat."
+    "definicio": "Estructura amb un esquelet de pilars, bigues i altres elements connectats.",
+    "exemple": "Un edifici de pòrtics.",
+    "confusio": "Les parets de tancament no són necessàriament portants."
   },
   {
     "terme": "Esforç",
-    "definicio": "Manera com treballa una peça internament davant les accions."
+    "definicio": "Manera com treballa internament una peça en resposta a les accions aplicades.",
+    "exemple": "Un tirant treballa a tracció.",
+    "confusio": "Una peça pot combinar diferents esforços."
   },
   {
     "terme": "Estabilitat",
-    "definicio": "Pot perdre l’equilibri sense ruptura del material."
+    "definicio": "Capacitat de mantenir una configuració d’equilibri davant les accions i petites pertorbacions considerades.",
+    "exemple": "Una torre amb una base ampla té més marge davant el bolcat.",
+    "confusio": "Es pot perdre estabilitat sense trencar el material."
   },
   {
     "terme": "Flexió",
-    "definicio": "Es corba i combina zones comprimides i tibades."
+    "definicio": "Esforç que tendeix a corbar una peça, amb zones tibades i comprimides.",
+    "exemple": "Un prestatge carregat entre dos suports.",
+    "confusio": "Les zones tibades depenen de la càrrega i dels recolzaments."
   },
   {
     "terme": "Fonament",
-    "definicio": "Reparteix o transmet la càrrega al sòl."
+    "definicio": "Element que transmet les càrregues de la construcció al terreny.",
+    "exemple": "Una sabata sota un pilar.",
+    "confusio": "El terreny també es deforma i pot assentar-se."
   },
   {
     "terme": "Forjat",
-    "definicio": "Pot combinar biguetes, entrevigat i capa de compressió."
+    "definicio": "Conjunt estructural que forma un pis o coberta i transmet les càrregues als elements de suport.",
+    "exemple": "Un forjat de biguetes i peces d’entrebigat.",
+    "confusio": "No és només el paviment visible."
   },
   {
     "terme": "Força",
-    "definicio": "Interacció que pot modificar el moviment o deformar un cos. Es mesura en newtons."
+    "definicio": "Interacció que pot modificar el moviment d’un cos o deformar-lo. Es mesura en newtons (N).",
+    "exemple": "La taula exerceix una força sobre el llibre.",
+    "confusio": "Estar quiet no vol dir que no hi actuïn forces."
+  },
+  {
+    "terme": "Fragilitat",
+    "definicio": "Tendència a fracturar-se amb poca deformació plàstica prèvia.",
+    "exemple": "El vidre es pot trencar sense deformació permanent apreciable.",
+    "confusio": "Un material fràgil pot experimentar petites deformacions elàstiques."
   },
   {
     "terme": "Laminar",
-    "definicio": "La superfície prima participa en el treball estructural."
+    "definicio": "Estructura en què una superfície prima participa en el suport de càrregues.",
+    "exemple": "Una closca o una carcassa resistent.",
+    "confusio": "Una làmina decorativa no és necessàriament estructural."
   },
   {
     "terme": "Llum",
-    "definicio": "Distància lliure entre els recolzaments d’un element."
+    "definicio": "Distància lliure entre els recolzaments d’un element.",
+    "exemple": "Un pont de paper salva una llum de 25 cm.",
+    "confusio": "No és necessàriament la longitud total de la peça."
+  },
+  {
+    "terme": "Mal·leabilitat",
+    "definicio": "Capacitat de deformar-se plàsticament per obtenir làmines.",
+    "exemple": "Làmines d’alumini.",
+    "confusio": "No s’ha de confondre amb la ductilitat."
   },
   {
     "terme": "Perfil",
-    "definicio": "Forma de la secció transversal d’una peça."
+    "definicio": "Forma de la secció transversal d’una peça.",
+    "exemple": "Secció rectangular, tubular o en I.",
+    "confusio": "La seva orientació influeix en la resposta a flexió."
   },
   {
     "terme": "Pes propi",
-    "definicio": "Forma part de la mateixa estructura."
+    "definicio": "Càrrega deguda al pes dels elements que formen l’estructura.",
+    "exemple": "El pes de les bigues d’un pont.",
+    "confusio": "No inclou el pes dels vehicles que hi circulen."
   },
   {
     "terme": "Pilar",
-    "definicio": "Transmet càrregues cap als fonaments."
+    "definicio": "Element estructural habitualment vertical que transmet càrregues als elements inferiors.",
+    "exemple": "Un pilar sota una jàssera.",
+    "confusio": "Pot combinar compressió i flexió."
+  },
+  {
+    "terme": "Plasticitat",
+    "definicio": "Capacitat de deformar-se permanentment sense trencar-se.",
+    "exemple": "Un fil que conserva un plec.",
+    "confusio": "La deformació plàstica no desapareix en descarregar."
   },
   {
     "terme": "Pneumàtica",
-    "definicio": "La diferència de pressió manté la forma."
+    "definicio": "Estructura que manté la forma mitjançant aire a pressió en una membrana o elements inflats.",
+    "exemple": "Una coberta inflable.",
+    "confusio": "Requereix mantenir les condicions de pressió."
   },
   {
     "terme": "Resistència",
-    "definicio": "No suporta l’esforç aplicat."
+    "definicio": "Capacitat de suportar les accions previstes sense fallar.",
+    "exemple": "Un cable sosté la càrrega sense trencar-se.",
+    "confusio": "Resistir no significa deformar-se poc."
   },
   {
     "terme": "Rigidesa",
-    "definicio": "Cal limitar la deformació durant l’ús."
+    "definicio": "Oposició d’una peça o estructura a deformar-se davant una càrrega.",
+    "exemple": "Una regla de cantell es corba menys que plana.",
+    "confusio": "Depèn del material, la geometria i les condicions de suport."
   },
   {
     "terme": "Tenacitat",
-    "definicio": "Un material tenaç no es trenca fàcilment amb un impacte."
+    "definicio": "Capacitat d’absorbir energia abans de fracturar-se.",
+    "exemple": "Un acer tenaç pot deformar-se abans de trencar-se.",
+    "confusio": "No és el mateix que duresa superficial."
   },
   {
     "terme": "Torsió",
-    "definicio": "Les seccions tendeixen a girar entre elles."
+    "definicio": "Esforç que tendeix a fer girar unes seccions respecte de les altres.",
+    "exemple": "Un eix que transmet parell.",
+    "confusio": "Girar tot un objecte lliurement no implica necessàriament torsió interna."
   },
   {
     "terme": "Tracció",
-    "definicio": "Les forces tendeixen a allargar-la."
+    "definicio": "Esforç que tendeix a allargar una peça.",
+    "exemple": "Una corda tibada que sosté una càrrega.",
+    "confusio": "Un cable flexible no substitueix un pilar comprimit."
   },
   {
     "terme": "Triangulada",
-    "definicio": "Els triangles limiten els canvis de forma."
+    "definicio": "Estructura de barres organitzades en triangles que limiten els canvis geomètrics de forma.",
+    "exemple": "Una encavallada.",
+    "confusio": "Les barres i les unions reals encara es deformen."
   },
   {
     "terme": "Unió",
-    "definicio": "Connexió entre elements que transmet forces."
+    "definicio": "Connexió entre elements que transmet forces.",
+    "exemple": "Unió cargolada entre dues barres.",
+    "confusio": "Una unió deficient pot fer fallar peces resistents."
   },
   {
     "terme": "Vinclament",
-    "definicio": "Inestabilitat lateral d’una peça esvelta sotmesa a compressió."
+    "definicio": "Pèrdua d’estabilitat lateral d’una peça esvelta sotmesa a compressió.",
+    "exemple": "Una palleta llarga es corba quan la comprimim axialment.",
+    "confusio": "És un fenomen d’inestabilitat, no un sisè esforç bàsic."
   },
   {
     "terme": "Volta de canó",
-    "definicio": "Cobreix una superfície allargada."
+    "definicio": "Coberta corbada que es pot imaginar com un arc prolongat en una direcció.",
+    "exemple": "Una coberta longitudinal de maçoneria.",
+    "confusio": "Una volta cobreix superfície; un arc és un element lineal."
   }
 ]

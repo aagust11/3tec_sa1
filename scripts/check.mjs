@@ -25,3 +25,12 @@ for(let x=0;x<=100;x+=10){const {left,right}=supportReactions(60,x);assert.ok(Ma
 assert.deepEqual(supportReactions(60,0),{left:60,right:0});
 assert.deepEqual(supportReactions(60,100),{left:0,right:60});
 console.log(`${sessions.length} sessions, ${labs.length} laboratoris, ${initial.length} preguntes inicials i ${photos.length} fotografies: correctes. Models verificats.`);
+// Noves activitats i protocols: referències i dades consistents.
+const exercises=json('continguts/exercicis.json'),reasoning=json('continguts/raonament.json'),project=json('continguts/projecte.json'),glossary=json('continguts/glossari.json');
+for(const topic of course.temes){assert.ok(reasoning[topic.id]?.model);assert.equal(reasoning[topic.id].criteris.length,3);}
+for(const t of glossary)for(const field of ['terme','definicio','exemple','confusio'])assert.ok(t[field]?.trim(),`${t.terme}: falta ${field}`);
+assert.equal(sessions.filter(s=>s.itinerari==='essencial').length,12);assert.equal(sessions.filter(s=>s.itinerari==='ampliacio').length,3);
+for(const s of sessions){const html=readFileSync(s.fitxer,'utf8');const times=[...html.matchAll(/class="tag">(\d+) min/g)].map(m=>+m[1]);assert.equal(times.reduce((a,b)=>a+b,0),55,s.id);}
+assert.ok(project.plec.incrementG>0&&project.plec.maximG>=project.plec.incrementG);for(const c of project.criteris)assert.equal(c.descriptors.length,project.nivells.length);
+for(const item of [...course.temes,...activities,...sessions]){const html=readFileSync(item.fitxer,'utf8');for(const [,id] of html.matchAll(/data-task="([^"]+)"/g))assert.ok(exercises[id]);for(const [,type,id] of html.matchAll(/href="#(tema|activitat|sessio|laboratori)\/([^"/]+)"/g)){const list={tema:course.temes,activitat:activities,sessio:sessions,laboratori:labs}[type];assert.ok(list.some(x=>x.id===id),`${item.fitxer}: ${type}/${id}`);}}
+console.log('Glossari complet, raonament, rúbrica, enllaços i temps de les sessions: correctes.');

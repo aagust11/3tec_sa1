@@ -3,108 +3,150 @@
     "id": "punt-partida",
     "numero": 1,
     "titol": "Què sabem?",
-    "objectiu": "Fer visibles les idees inicials i formular preguntes.",
+    "objectiu": "Dibuix inicial i dues preguntes, sense substituir-los per la resposta corregida.",
     "durada": 55,
     "dinamica": "Individual → grup",
-    "fitxer": "continguts/sessions/punt-partida.html"
+    "fitxer": "continguts/sessions/punt-partida.html",
+    "itinerari": "essencial"
   },
   {
     "id": "eines-basiques",
     "numero": 2,
-    "titol": "Les eines per començar",
-    "objectiu": "Distingir magnituds, unitats, forces i mesures.",
+    "titol": "Mesurem i representem forces",
+    "objectiu": "Dos dibuixos a escala, conversió amb unitats i justificació de l’equilibri.",
     "durada": 55,
     "dinamica": "Parelles",
-    "fitxer": "continguts/sessions/eines-basiques.html"
+    "fitxer": "continguts/sessions/eines-basiques.html",
+    "itinerari": "essencial"
   },
   {
     "id": "forces",
     "numero": 3,
-    "titol": "Les forces que ens envolten",
-    "objectiu": "Representar forces i identificar càrregues.",
+    "titol": "Forces, càrregues i camins",
+    "objectiu": "Croquis del camí de càrregues i una prova que refuti el repartiment sempre igual.",
     "durada": 55,
     "dinamica": "Individual → parelles",
-    "fitxer": "continguts/sessions/forces.html"
+    "fitxer": "continguts/sessions/forces.html",
+    "itinerari": "essencial"
   },
   {
     "id": "materials",
     "numero": 4,
-    "titol": "Materials: mirar més enllà de la duresa",
-    "objectiu": "Relacionar propietats i usos amb evidències.",
+    "titol": "Materials: propietats i evidències",
+    "objectiu": "Taula, gràfic simulat i justificació de materials; dos exemples seleccionats de S1A1.",
     "durada": 55,
     "dinamica": "Parelles",
-    "fitxer": "continguts/sessions/materials.html"
+    "fitxer": "continguts/sessions/materials.html",
+    "itinerari": "essencial"
   },
   {
     "id": "esforcos",
     "numero": 5,
-    "titol": "Què li passa a cada peça?",
-    "objectiu": "Identificar els cinc esforços i el vinclament.",
+    "titol": "Esforços i deformacions",
+    "objectiu": "Tres peces de bicicleta justificades i una proposta per millorar el prestatge.",
     "durada": 55,
     "dinamica": "Grups de 3",
-    "fitxer": "continguts/sessions/esforcos.html"
+    "fitxer": "continguts/sessions/esforcos.html",
+    "itinerari": "essencial"
   },
   {
     "id": "estructures",
     "numero": 6,
-    "titol": "Llegir una estructura real",
-    "objectiu": "Reconèixer sistemes i seguir el camí de les càrregues.",
+    "titol": "Sistemes, elements i arcs",
+    "objectiu": "Una fotografia anotada i dibuix d’un arc amb forces als suports.",
     "durada": 55,
     "dinamica": "Parelles",
-    "fitxer": "continguts/sessions/estructures.html"
+    "fitxer": "continguts/sessions/estructures.html",
+    "itinerari": "essencial"
   },
   {
     "id": "triangles",
     "numero": 7,
-    "titol": "Triangles que rigiditzen",
-    "objectiu": "Explicar la rigidesa geomètrica i les seves limitacions.",
+    "titol": "Triangles, barres i cables",
+    "objectiu": "Dibuix, observacions amb dos sentits de moviment i conclusió sobre el cable.",
     "durada": 55,
     "dinamica": "Parelles",
-    "fitxer": "continguts/sessions/triangles.html"
+    "fitxer": "continguts/sessions/triangles.html",
+    "itinerari": "essencial"
   },
   {
     "id": "bigues",
     "numero": 8,
-    "titol": "La forma del paper importa",
-    "objectiu": "Controlar variables i interpretar deformacions relatives.",
+    "titol": "Perfils: comparar amb justícia",
+    "objectiu": "Taula comparativa amb quantitat de paper, llum i càrrega comunes.",
     "durada": 55,
     "dinamica": "Grups de 3",
-    "fitxer": "continguts/sessions/bigues.html"
+    "fitxer": "continguts/sessions/bigues.html",
+    "itinerari": "essencial"
   },
   {
     "id": "equilibri",
     "numero": 9,
-    "titol": "Repartir càrregues i evitar el bolcat",
-    "objectiu": "Relacionar posició de càrrega, suports i estabilitat.",
+    "titol": "Estabilitat i decisions de disseny",
+    "objectiu": "Predicció i dues proves d’estabilitat, més una decisió del projecte.",
     "durada": 55,
     "dinamica": "Parelles",
-    "fitxer": "continguts/sessions/equilibri.html"
+    "fitxer": "continguts/sessions/equilibri.html",
+    "itinerari": "essencial"
   },
   {
     "id": "disseny",
     "numero": 10,
-    "titol": "Projectem un pont",
-    "objectiu": "Prendre decisions justificades i repartir tasques.",
+    "titol": "Taller 1: disseny i primer prototip",
+    "objectiu": "Croquis, justificació, prototip i registre de material; conserva el model per al taller 2.",
     "durada": 55,
     "dinamica": "Grups de 3",
-    "fitxer": "continguts/sessions/disseny.html"
+    "fitxer": "continguts/sessions/disseny.html",
+    "itinerari": "essencial"
   },
   {
     "id": "prototip",
     "numero": 11,
-    "titol": "Construïm, provem i millorem",
-    "objectiu": "Utilitzar proves comparables per millorar un prototip.",
+    "titol": "Taller 2: provar, millorar i repetir",
+    "objectiu": "Taula de les dues versions, fotografies i conclusió; si falta temps, completa la comparació en una sessió addicional.",
     "durada": 55,
     "dinamica": "Grups de 3",
-    "fitxer": "continguts/sessions/prototip.html"
+    "fitxer": "continguts/sessions/prototip.html",
+    "itinerari": "essencial"
   },
   {
     "id": "transferencia",
     "numero": 12,
-    "titol": "Què sabem ara?",
-    "objectiu": "Transferir aprenentatges i comparar-los amb les idees inicials.",
+    "titol": "Transferència i portafoli",
+    "objectiu": "Portafoli seleccionat, autorevisió amb evidències i exportació del quadern.",
     "durada": 55,
     "dinamica": "Individual → grup",
-    "fitxer": "continguts/sessions/transferencia.html"
+    "fitxer": "continguts/sessions/transferencia.html",
+    "itinerari": "essencial"
+  },
+  {
+    "id": "arcs-ponts",
+    "numero": "A1",
+    "titol": "Arcs i ponts de pedra",
+    "objectiu": "Experimentar amb paper i interpretar els límits del model.",
+    "durada": 55,
+    "dinamica": "Parelles o grups de 3",
+    "fitxer": "continguts/sessions/arcs-ponts.html",
+    "itinerari": "ampliacio"
+  },
+  {
+    "id": "pont-reciproc",
+    "numero": "A2",
+    "titol": "Un pont recíproc de llistons",
+    "objectiu": "Construir amb contactes i interpretar-ne la funció.",
+    "durada": 55,
+    "dinamica": "Parelles o grups de 3",
+    "fitxer": "continguts/sessions/pont-reciproc.html",
+    "itinerari": "ampliacio"
+  },
+  {
+    "id": "dades-entorn",
+    "numero": "A3",
+    "titol": "Dades, reparació i entorn",
+    "objectiu": "Tractar dades i justificar decisions ambientals.",
+    "durada": 55,
+    "dinamica": "Parelles o grups de 3",
+    "fitxer": "continguts/sessions/dades-entorn.html",
+    "itinerari": "ampliacio"
   }
 ]

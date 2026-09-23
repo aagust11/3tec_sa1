@@ -138,3 +138,15 @@ La comprovació de GitHub Actions `Valida continguts i interaccions` és només 
 Per afegir un tema, crea el seu HTML, afegeix-lo a `curs.json` i incorpora preguntes amb identificadors nous a `preguntes.json`. Evita canviar els identificadors existents: mantenen el progrés dels alumnes. No canviïs la clau `3tec-sa1-v1` de persistència.
 
 Els sis laboratoris, les 12 sessions i les activitats originals continuen disponibles amb les mateixes rutes. GitHub Pages continua amb **Deploy from a branch / main / root**; Actions comprova continguts, models i navegador, però no substitueix aquesta configuració de publicació.
+
+## Revisió didàctica de setembre
+
+- `continguts/glossari.json`: cada entrada conté `terme`, `definicio`, `exemple` i `confusio`; són definicions autònomes.
+- `continguts/raonament.json`: un cas obert per tema amb pregunta, pista, model i tres criteris. Les respostes es desen al quadern com `aplicacio:ID`. No reben una nota automàtica.
+- `continguts/projecte.json`: únic plec numèric del pont i descriptors de rúbrica. Modifica aquí les quantitats de paper/cinta, increments i límits després de provar el material de classe.
+- `continguts/sessions.json`: 12 sessions essencials amb els IDs previs i 3 opcionals (`itinerari: ampliacio`). Cada sessió suma 55 minuts. Disseny i prototip són dos tallers consecutius; si cal assecat o reconstrucció, amplia la durada abans de començar.
+- `js/laboratoris/extensions.js`: reptes de configuració i gràfic de molles a partir de les proves registrades. Les proves antigues sense dades numèriques continuen a la taula, però no s’infereixen punts del seu text.
+
+Les preguntes substituïdes tenen IDs nous `r2-*`: les respostes antigues continuen emmagatzemades, però no es reutilitzen per corregir enunciats diferents. No s’ha canviat la clau `3tec-sa1-v1`, ni les notes o els IDs de laboratoris, temes i activitats.
+
+Per treballar fotografies comparables, l’alumnat aporta fotos pròpies abans/després dels muntatges amb el mateix enquadrament. Els nous esquemes de procediment són SVG, no fotografies d’assaigs reals.

@@ -4,14 +4,17 @@ Web d'aprenentatge estàtica en català, preparada per a GitHub Pages. No requer
 
 ## Què inclou
 
-- Diagnòstic inicial, repàs de conceptes bàsics i 12 sessions amb recursos i evidències.
+- Diagnòstic inicial, repàs de conceptes bàsics i 12 sessions essencials i 3 ampliacions opcionals, amb recursos i evidències seleccionades.
 - Galeria de 3 fotografies amb autoria, pistes i preguntes d’observació.
 - 12 temes desenvolupats amb objectius, explicacions, exemples resolts i pràctiques autocorrectives.
 - Sis models visuals: vectors, triangulació, estabilitat, flexió, molles i repartiment de càrregues.
 - 15 activitats, incloent experiments, lectures, síntesi, anàlisi de l’entorn i un repte de construcció.
 - 41 preguntes amb retorn explicatiu, seguiment local i autoavaluació.
-- 15 esquemes SVG propis, glossari cercable i 11 exercicis de relació amb retorn.
+- 18 esquemes SVG propis, glossari cercable de 40 conceptes, amb definició, exemple i confusió habitual i 11 exercicis de relació amb retorn.
 - Presentació pedagògica tipus eXeLearning en taronja i gris fosc.
+- 12 situacions de raonament obert amb pistes, models de resposta i autorevisió.
+- Plec de construcció editable i rúbrica del projecte amb evidències exportables.
+- Laboratoris amb àrea constant, gràfics de molles, base inclinada, cable diagonal i reptes d’objectiu.
 - Quadern amb desat local, exportació de text i impressió a PDF.
 - Disseny adaptable a mòbil, navegació per teclat. Les fotografies es carreguen des de Wikimedia Commons.
 

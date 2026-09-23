@@ -1,0 +1,122 @@
+{
+  "forces": {
+    "pregunta": "Una motxilla de 4 kg penja quieta d’un ganxo. Dibuixa les forces sobre la motxilla a escala 1 cm = 10 N i justifica per què no cau.",
+    "pista": "Comença amb P = m · g i g ≈ 10 N/kg. Quina altra interacció hi ha?",
+    "model": "El pes és aproximadament 40 N cap avall i el ganxo exerceix 40 N cap amunt. Les dues fletxes fan 4 cm a l’escala indicada; en aquest cas les forces i els moments es compensen.",
+    "criteris": [
+      "Diferencio kg i N",
+      "Indico dues forces i el cos estudiat",
+      "Justifico escala i equilibri"
+    ]
+  },
+  "materials": {
+    "pregunta": "Tria material per a un cable i per a una carcassa exposada a cops. Explica dues propietats rellevants i què encara hauries de saber.",
+    "pista": "Relaciona la funció amb tracció, tenacitat, massa i ambient.",
+    "model": "Per al cable interessa resistència a tracció i capacitat de fabricar fils. Per a la carcassa interessa absorbir energia sense ruptura sobtada. Cal conèixer càrregues, geometria, ambient i cost abans de decidir.",
+    "criteris": [
+      "Relaciono propietat i funció",
+      "No confonc duresa i tenacitat",
+      "Explicito una dada que falta"
+    ]
+  },
+  "esforcos": {
+    "pregunta": "Observa l’esquema dels cinc esforços. Un prestatge no es trenca, però es corba i els objectes llisquen cap al centre. Diagnostica el problema i proposa dues millores.",
+    "pista": "Separa l’esforç que hi ha de la condició que no es compleix.",
+    "model": "Hi predomina flexió i la deformació excessiva indica falta de rigidesa. Un suport intermedi redueix la llum; un perfil de més cantell pot reduir la deformació. La comparació ha de mantenir la càrrega.",
+    "criteris": [
+      "Distingeixo flexió de rigidesa",
+      "Proposo dues modificacions pertinents",
+      "Relaciono cada modificació amb el resultat"
+    ]
+  },
+  "tipus": {
+    "pregunta": "Observa la galeria. Tria una estructura que combini dos sistemes i indica quina part correspon a cadascun.",
+    "pista": "Descriu peces visibles abans de posar etiquetes.",
+    "model": "Una coberta geodèsica té forma global de cúpula i una xarxa triangulada de barres. Les categories descriuen aspectes diferents i no s’exclouen. En altres exemples cal justificar les parts concretes.",
+    "criteris": [
+      "Descric elements visibles",
+      "Distingeixo sistema i forma global",
+      "Justifico la classificació"
+    ]
+  },
+  "elements": {
+    "pregunta": "Dibuixa el camí del pes d’un armari situat en un pis fins al terreny d’un edifici entramat. Què passaria si una unió d’aquest camí fallés?",
+    "pista": "Utilitza forjat, biga, pilar i fonament en ordre.",
+    "model": "L’armari carrega el forjat, que transmet a bigues o jàsseres, pilars, fonaments i terreny. Una unió deficient pot interrompre aquest camí tot i que les peces aïllades siguin resistents.",
+    "criteris": [
+      "Ordeno el camí de càrregues",
+      "Incloc el terreny",
+      "Explico la funció d’una unió"
+    ]
+  },
+  "condicions": {
+    "pregunta": "Dues torres tenen la mateixa base. En una, la massa es concentra més amunt. Quina inclinació de bolcat esperes? Dibuixa la vertical del pes.",
+    "pista": "Imagina que inclines lentament la base sense que llisqui.",
+    "model": "Amb el centre de gravetat més alt i centrat, cal menys inclinació perquè la vertical arribi a la vora. El resultat depèn també de la distribució de massa, la base i l’absència de lliscament.",
+    "criteris": [
+      "Relaciono altura i inclinació",
+      "Dibuixo la vertical i la base",
+      "Indico les hipòtesis"
+    ]
+  },
+  "triangulacio": {
+    "pregunta": "Una prestatgeria té un sol cable diagonal. Explica per què pot resistir millor una empenta que la contrària i proposa una millora.",
+    "pista": "Un cable es pot tensar, però també quedar fluix.",
+    "model": "Una empenta allarga la diagonal i tensa el cable; la contrària pot escurçar-la. Dos cables creuats permeten que un treballi a tracció en cada sentit, amb ancoratges adequats.",
+    "criteris": [
+      "Diferencio cable i barra rígida",
+      "Explico els dos sentits",
+      "Justifico la millora"
+    ]
+  },
+  "perfils": {
+    "pregunta": "Observa l’esquema dels perfils. Com compararies una regla plana i de cantell sense canviar la quantitat de material?",
+    "pista": "Utilitza la mateixa regla i gira-la; mantén llum i càrrega.",
+    "model": "La mateixa regla conserva material i volum. Es mesura la deformació amb la mateixa llum, càrrega central i suports. Canvia només l’orientació de la secció.",
+    "criteris": [
+      "Controlo material i volum",
+      "Mantinc llum i càrrega",
+      "Mesuro deformació amb unitats"
+    ]
+  },
+  "arcs": {
+    "pregunta": "Observa l’esquema de l’arc. Les pedres són resistents, però els estreps es desplacen lateralment. Explica per què això pot fer fallar el conjunt.",
+    "pista": "Segueix les forces fins als recolzaments.",
+    "model": "L’arc transmet també empentes laterals. Si els recolzaments se separen, canvien els contactes i la geometria; pot perdre equilibri sense trencar abans les dovelles.",
+    "criteris": [
+      "Identifico l’empenta",
+      "Relaciono recolzaments i geometria",
+      "Distingeixo ruptura i pèrdua d’equilibri"
+    ]
+  },
+  "ponts": {
+    "pregunta": "Compara un pont de pedra amb un model recíproc de llistons. Què comparteixen i què impedeix afirmar que funcionen exactament igual?",
+    "pista": "Pensa en peces, contactes, materials i forma.",
+    "model": "Tots dos transmeten forces entre peces en contacte. Un arc de dovelles treballa principalment a compressió en condicions adequades; els llistons poden combinar flexió i forces de contacte amb fregament. El model petit no valida una obra real.",
+    "criteris": [
+      "Identifico una semblança",
+      "Explico una diferència mecànica",
+      "Reconec els límits del model"
+    ]
+  },
+  "sostenibilitat": {
+    "pregunta": "Un prototip A utilitza menys paper que B, però no es pot reparar. Quines dades necessites per decidir quin és preferible?",
+    "pista": "No decideixis només amb la massa inicial.",
+    "model": "Cal comparar servei, vida útil, freqüència de substitució, reparació, origen i recuperació dels materials. Sense aquestes dades no es pot donar una resposta ambiental definitiva.",
+    "criteris": [
+      "Incloc vida útil",
+      "Incloc reparació i recuperació",
+      "Evito conclusions sense dades"
+    ]
+  },
+  "projecte": {
+    "pregunta": "El teu pont falla en una unió. Proposa una segona versió i explica com demostraries que la modificació ha ajudat.",
+    "pista": "Tria una sola modificació i repeteix el protocol.",
+    "model": "Reforçaria aquella unió dins del pressupost de material, mantenint llum, perfil i càrrega de prova. Compararia la deformació i el lloc de fallada, indicant si el primer pont havia quedat danyat i limitava la comparació.",
+    "criteris": [
+      "La millora respon a la fallada",
+      "Mantinc condicions comparables",
+      "Aporto dades i limitacions"
+    ]
+  }
+}

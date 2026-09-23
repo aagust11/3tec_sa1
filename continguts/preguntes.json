@@ -240,30 +240,6 @@
     "explicacio": "L’arc transmet càrregues cap als recolzaments i pot produir empentes horitzontals."
   },
   {
-    "id": "q21",
-    "tema": "esforcos",
-    "enunciat": "Què passa en una barra esvelta sota compressió excessiva?",
-    "opcions": [
-      "Pot perdre estabilitat per vinclament",
-      "Sempre es converteix en un tirant",
-      "Només pot girar per torsió"
-    ],
-    "correcta": 0,
-    "explicacio": "El vinclament és una inestabilitat lateral possible en barres comprimides."
-  },
-  {
-    "id": "q22",
-    "tema": "esforcos",
-    "enunciat": "En el model de biga rectangular, duplicar només l’alçada fa que la deformació relativa sigui…",
-    "opcions": [
-      "La meitat",
-      "Una vuitena part",
-      "El doble"
-    ],
-    "correcta": 1,
-    "explicacio": "I és proporcional a b·h³. Amb la resta igual, la deformació és inversament proporcional a h³; 2³ = 8."
-  },
-  {
     "id": "q23",
     "tema": "condicions",
     "enunciat": "Per provar l’efecte del perfil de paper, què convé mantenir igual?",
@@ -288,211 +264,231 @@
     "explicacio": "Equilibri, resistència i rigidesa són comprovacions diferents."
   },
   {
-    "id": "amplia-triangulacio-1",
-    "tema": "triangulacio",
-    "enunciat": "Un quadrilàter articulat sense diagonal: tria la resposta correcta.",
+    "id": "r2-1",
+    "tema": "esforcos",
+    "enunciat": "Dues palletes iguals es comprimeixen axialment. Una és llarga i l’altra curta. Quina té més tendència al vinclament?",
     "opcions": [
-      "Pot canviar de forma",
-      "Manté la forma",
-      "Pot haver vinclat"
+      "La llarga, amb les altres condicions iguals",
+      "La curta, perquè té menys material",
+      "Tenen necessàriament el mateix comportament"
     ],
     "correcta": 0,
-    "explicacio": "Els angles poden variar sense canviar les longituds."
+    "explicacio": "L’esveltesa influeix en el vinclament; no comparem només el material."
   },
   {
-    "id": "amplia-triangulacio-2",
-    "tema": "triangulacio",
-    "enunciat": "Un triangle de barres rígides: tria la resposta correcta.",
+    "id": "r2-2",
+    "tema": "esforcos",
+    "enunciat": "Un eix transmet el gir del motor a una roda. Quin esforç està directament relacionat amb aquesta transmissió?",
     "opcions": [
-      "Pot canviar de forma",
-      "Manté la forma",
-      "Pot haver vinclat"
-    ],
-    "correcta": 1,
-    "explicacio": "Les tres longituds determinen la geometria."
-  },
-  {
-    "id": "amplia-triangulacio-3",
-    "tema": "triangulacio",
-    "enunciat": "Una barra prima comprimida lateralment corbada: tria la resposta correcta.",
-    "opcions": [
-      "Pot canviar de forma",
-      "Manté la forma",
-      "Pot haver vinclat"
-    ],
-    "correcta": 2,
-    "explicacio": "La compressió pot provocar inestabilitat lateral."
-  },
-  {
-    "id": "amplia-perfils-1",
-    "tema": "perfils",
-    "enunciat": "Doble altura de secció en el model rectangular ideal: tria la resposta correcta.",
-    "opcions": [
-      "Deformació dividida per 8",
-      "Deformació dividida per 2",
-      "Deformació multiplicada per 8"
-    ],
-    "correcta": 0,
-    "explicacio": "La deformació depèn de l’invers del cub de l’altura."
-  },
-  {
-    "id": "amplia-perfils-2",
-    "tema": "perfils",
-    "enunciat": "Doble amplada amb la resta igual: tria la resposta correcta.",
-    "opcions": [
-      "Deformació dividida per 8",
-      "Deformació dividida per 2",
-      "Deformació multiplicada per 8"
-    ],
-    "correcta": 1,
-    "explicacio": "L’amplada té una dependència lineal en aquest model."
-  },
-  {
-    "id": "amplia-perfils-3",
-    "tema": "perfils",
-    "enunciat": "Doble llum amb la resta igual: tria la resposta correcta.",
-    "opcions": [
-      "Deformació dividida per 8",
-      "Deformació dividida per 2",
-      "Deformació multiplicada per 8"
-    ],
-    "correcta": 2,
-    "explicacio": "La llum té una dependència cúbica en el model."
-  },
-  {
-    "id": "amplia-arcs-1",
-    "tema": "arcs",
-    "enunciat": "Peça central superior: tria la resposta correcta.",
-    "opcions": [
-      "Clau",
-      "Cintra",
-      "Volta de canó",
-      "Empenta"
-    ],
-    "correcta": 0,
-    "explicacio": "És una dovella situada al centre superior."
-  },
-  {
-    "id": "amplia-arcs-2",
-    "tema": "arcs",
-    "enunciat": "Suport provisional de construcció: tria la resposta correcta.",
-    "opcions": [
-      "Clau",
-      "Cintra",
-      "Volta de canó",
-      "Empenta"
-    ],
-    "correcta": 1,
-    "explicacio": "Es retira quan el conjunt està preparat."
-  },
-  {
-    "id": "amplia-arcs-3",
-    "tema": "arcs",
-    "enunciat": "Arc prolongat longitudinalment: tria la resposta correcta.",
-    "opcions": [
-      "Clau",
-      "Cintra",
-      "Volta de canó",
-      "Empenta"
-    ],
-    "correcta": 2,
-    "explicacio": "Cobreix una superfície allargada."
-  },
-  {
-    "id": "amplia-arcs-4",
-    "tema": "arcs",
-    "enunciat": "Força lateral als suports: tria la resposta correcta.",
-    "opcions": [
-      "Clau",
-      "Cintra",
-      "Volta de canó",
-      "Empenta"
-    ],
-    "correcta": 3,
-    "explicacio": "Els recolzaments han de resistir-la."
-  },
-  {
-    "id": "amplia-ponts-1",
-    "tema": "ponts",
-    "enunciat": "Cable principal d’un pont penjant: tria la resposta correcta.",
-    "opcions": [
-      "Tracció",
       "Compressió",
-      "Flexió"
-    ],
-    "correcta": 0,
-    "explicacio": "Un cable flexible tibat no actua com una barra comprimida."
-  },
-  {
-    "id": "amplia-ponts-2",
-    "tema": "ponts",
-    "enunciat": "Dovelles d’un arc tradicional ben carregat: tria la resposta correcta.",
-    "opcions": [
-      "Tracció",
-      "Compressió",
-      "Flexió"
+      "Torsió",
+      "Només tracció"
     ],
     "correcta": 1,
-    "explicacio": "Es pressionen entre elles."
+    "explicacio": "Transmetre un parell produeix torsió interna."
   },
   {
-    "id": "amplia-ponts-3",
-    "tema": "ponts",
-    "enunciat": "Tauler idealitzat com una biga entre suports: tria la resposta correcta.",
+    "id": "r2-3",
+    "tema": "triangulacio",
+    "enunciat": "Substituïm una diagonal rígida per un fil tens. Què pot passar si invertim el sentit de l’empenta?",
     "opcions": [
-      "Tracció",
-      "Compressió",
-      "Flexió"
-    ],
-    "correcta": 2,
-    "explicacio": "La càrrega transversal tendeix a corbar-lo."
-  },
-  {
-    "id": "amplia-sostenibilitat-1",
-    "tema": "sostenibilitat",
-    "enunciat": "Canviar una sola variable: tria la resposta correcta.",
-    "opcions": [
-      "Comparació controlada",
-      "Transparència de les dades",
-      "Facilitat de reparació"
-    ],
-    "correcta": 0,
-    "explicacio": "Permet atribuir millor les diferències observades."
-  },
-  {
-    "id": "amplia-sostenibilitat-2",
-    "tema": "sostenibilitat",
-    "enunciat": "Conservar els valors de totes les repeticions: tria la resposta correcta.",
-    "opcions": [
-      "Comparació controlada",
-      "Transparència de les dades",
-      "Facilitat de reparació"
+      "El fil rigiditza sempre igual",
+      "El fil pot destensar-se i permetre moviment",
+      "El fil es converteix en una barra comprimida"
     ],
     "correcta": 1,
-    "explicacio": "La mitjana no mostra tota la variabilitat."
+    "explicacio": "El fil resisteix tracció, però no bloqueja un moviment que l’escurça."
   },
   {
-    "id": "amplia-sostenibilitat-3",
-    "tema": "sostenibilitat",
-    "enunciat": "Preveure unions desmuntables: tria la resposta correcta.",
+    "id": "r2-4",
+    "tema": "triangulacio",
+    "enunciat": "Una armadura triangular real es deforma una mica. Contradiu el model de triangle rígid?",
     "opcions": [
-      "Comparació controlada",
-      "Transparència de les dades",
-      "Facilitat de reparació"
+      "Sí: el triangle no serveix",
+      "No: les barres i les unions reals es deformen",
+      "Sí: només els triangles equilàters són rígids"
     ],
-    "correcta": 2,
-    "explicacio": "Facilita separar i substituir peces."
+    "correcta": 1,
+    "explicacio": "La rigidesa geomètrica ideal no implica rigidesa infinita dels materials."
   },
   {
-    "id": "amplia-projecte-1",
+    "id": "r2-5",
+    "tema": "triangulacio",
+    "enunciat": "Una mènsula té diagonal superior i barra horitzontal inferior, amb pes al vèrtex lliure. Podem substituir la barra inferior per una corda?",
+    "opcions": [
+      "Sí, sempre",
+      "No en aquest model: cal una peça que empenyi",
+      "Sí, si la corda és més llarga"
+    ],
+    "correcta": 1,
+    "explicacio": "La barra inferior treballa a compressió en aquest cas concret."
+  },
+  {
+    "id": "r2-6",
+    "tema": "perfils",
+    "enunciat": "Girem una regla rectangular de 20 × 5 mm perquè els 20 mm quedin verticals. Què hem mantingut igual?",
+    "opcions": [
+      "Material, volum i longitud",
+      "L’altura de la secció",
+      "Sí, si tenen la mateixa longitud"
+    ],
+    "correcta": 0,
+    "explicacio": "Canvia l’orientació, però no la quantitat de material."
+  },
+  {
+    "id": "r2-7",
+    "tema": "perfils",
+    "enunciat": "Dos perfils es proven amb càrregues diferents. Un es corba menys. Podem atribuir-ho només a la forma?",
+    "opcions": [
+      "Sí, el resultat més petit sempre guanya",
+      "No: la càrrega és una variable no controlada",
+      "Sí, si tenen el mateix color"
+    ],
+    "correcta": 1,
+    "explicacio": "Cal mantenir comparables càrrega, material, llum i quantitat de material."
+  },
+  {
+    "id": "r2-8",
+    "tema": "perfils",
+    "enunciat": "Una deformació relativa de 0,25 al laboratori significa…",
+    "opcions": [
+      "0,25 mm",
+      "Una quarta part de la deformació de referència",
+      "Que suporta quatre vegades qualsevol càrrega"
+    ],
+    "correcta": 1,
+    "explicacio": "És una relació, no una mesura absoluta ni una càrrega de ruptura."
+  },
+  {
+    "id": "r2-9",
+    "tema": "arcs",
+    "enunciat": "Els recolzaments d’un arc de dovelles se separen. Què pot passar?",
+    "opcions": [
+      "Pot perdre l’equilibri encara que les pedres siguin senceres",
+      "La clau evita qualsevol moviment",
+      "Només pot fallar si abans es trenca una dovella"
+    ],
+    "correcta": 0,
+    "explicacio": "La geometria i els recolzaments són essencials per transmetre les forces."
+  },
+  {
+    "id": "r2-10",
+    "tema": "arcs",
+    "enunciat": "Una tira corbada de paper aguanta més pes que una plana. Què podem concloure sobre un arc de pedra?",
+    "opcions": [
+      "Que tots dos tenen el mateix comportament",
+      "Que la forma importa, però els models no són equivalents",
+      "Que la pedra és elàstica com el paper"
+    ],
+    "correcta": 1,
+    "explicacio": "El paper continu també pot treballar a tracció i flexió; les dovelles són peces separades."
+  },
+  {
+    "id": "r2-11",
+    "tema": "arcs",
+    "enunciat": "Una coberta sembla un arc prolongat al llarg d’un passadís. Quina forma descriu?",
+    "opcions": [
+      "Una volta de canó",
+      "Un tirant",
+      "Una sabata"
+    ],
+    "correcta": 0,
+    "explicacio": "La volta de canó cobreix una superfície allargada."
+  },
+  {
+    "id": "r2-12",
+    "tema": "arcs",
+    "enunciat": "Abans de completar un arc, algunes dovelles encara no se sostenen. Quin recurs correspon?",
+    "opcions": [
+      "Retirar els estreps",
+      "Col·locar una cintra provisional",
+      "Augmentar la llum sense suport"
+    ],
+    "correcta": 1,
+    "explicacio": "La cintra sosté les peces durant la construcció."
+  },
+  {
+    "id": "r2-13",
+    "tema": "ponts",
+    "enunciat": "Un pont de pedra presenta erosió al voltant d’una pila. Què cal investigar?",
+    "opcions": [
+      "Només l’aspecte del tauler",
+      "El suport del fonament i el camí de les càrregues",
+      "Només si falta la clau"
+    ],
+    "correcta": 1,
+    "explicacio": "La pèrdua de terreny de suport pot afectar tot el conjunt."
+  },
+  {
+    "id": "r2-14",
+    "tema": "ponts",
+    "enunciat": "En una fotografia, els cables uneixen directament les torres amb el tauler. Quin sistema suggereix?",
+    "opcions": [
+      "Atirantat",
+      "Arc de dovelles",
+      "Pneumàtic"
+    ],
+    "correcta": 0,
+    "explicacio": "En el sistema atirantat els tirants connecten directament torre i tauler."
+  },
+  {
+    "id": "r2-15",
+    "tema": "ponts",
+    "enunciat": "Un pont de llistons no té cargols. Com es transmeten forces entre peces?",
+    "opcions": [
+      "No s’hi transmeten forces",
+      "Mitjançant els contactes i el fregament",
+      "Només per l’aire que hi ha entre peces"
+    ],
+    "correcta": 1,
+    "explicacio": "L’absència de cargols no implica absència d’unions o forces de contacte."
+  },
+  {
+    "id": "r2-16",
+    "tema": "sostenibilitat",
+    "enunciat": "Una estructura utilitza menys material però s’ha de substituir cada any. Què falta comparar?",
+    "opcions": [
+      "Només el color",
+      "La vida útil, el manteniment i els recursos totals",
+      "Només la massa del primer dia"
+    ],
+    "correcta": 1,
+    "explicacio": "L’avaluació ambiental ha de considerar el cicle de vida."
+  },
+  {
+    "id": "r2-17",
+    "tema": "sostenibilitat",
+    "enunciat": "Mesures deformacions de 2, 2 i 8 mm en condicions nominalment iguals. Què fas primer?",
+    "opcions": [
+      "Esborro el 8 perquè molesta",
+      "Conservo les dades i reviso el muntatge i la mesura",
+      "Publico només la mitjana"
+    ],
+    "correcta": 1,
+    "explicacio": "Una dada diferent requereix investigar; no s’elimina sense justificació."
+  },
+  {
+    "id": "r2-18",
+    "tema": "sostenibilitat",
+    "enunciat": "Una unió cargolada permet substituir una peça danyada. Quin avantatge aporta?",
+    "opcions": [
+      "Facilita reparació i possible reutilització",
+      "Garanteix consum energètic nul",
+      "Fa que el material sigui sempre més resistent"
+    ],
+    "correcta": 0,
+    "explicacio": "La possibilitat de desmuntar pot allargar la vida del conjunt."
+  },
+  {
+    "id": "r2-19",
     "tema": "projecte",
-    "enunciat": "Per saber si una diagonal millora el model, què fem?",
+    "enunciat": "El segon pont aguanta més, però heu canviat perfil, cinta i llum. Quina conclusió és defensable?",
     "opcions": [
-      "Canviem només la diagonal i mantenim la resta de condicions",
-      "Canviem alhora material, llum i càrrega",
-      "Ens fixem només en l’aspecte"
+      "La diagonal explica tota la millora",
+      "El conjunt ha millorat en aquesta prova; no hem aïllat la causa",
+      "Ja és segur per a persones"
     ],
-    "correcta": 0,
-    "explicacio": "Controlar les variables ajuda a interpretar la causa dels canvis observats."
+    "correcta": 1,
+    "explicacio": "Cal separar el resultat observat de l’explicació causal."
   }
 ]

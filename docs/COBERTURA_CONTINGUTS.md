@@ -21,3 +21,11 @@ Adaptació didàctica original basada en el dossier docent «Dossier teoria sa1(
 Els continguts contextuals són propostes d’ampliació i no transcripcions. Les lectures s’han reformulat, els esquemes són propis i les fotografies externes conserven els crèdits a la galeria. El muntatge de barres concreta orientació i suports per evitar assignar esforços sense definir el cas. Els experiments expliciten controls i límits de comparació.
 
 Conservació: 6 laboratoris, 12 sessions, 6 activitats inicials, preguntes q1–q24, notes, exportació, diagnòstic i clau de dades preservats. La nova propietat `practice` s’afegeix sense substituir les dades existents.
+
+## Revisió aplicada
+
+Glossari reescrit amb exemples i errors habituals. Qüestionari renovat sense reinterpretar respostes anteriors; 12 tasques obertes amb autorevisió. Itinerari essencial amb dos tallers de projecte i tres ampliacions per a arcs, pont recíproc i dades. Protocols de triangulació, paper, arc/biga, pont recíproc i projecte concretats. El plec és editable pel docent i requereix assaig previ amb els materials disponibles.
+
+La guia de muntatge recíproc es basa en la seqüència publicada per Scouts (https://www.scouts.org.uk/activities/da-vinci-s-unbelievable-bridge/), consultada el 23/09/2026; l’esquema i l’activitat d’observació són propis. S’utilitza només la versió de taula amb peces lleugeres.
+
+Verificació prevista: continguts i referències, 55 minuts per sessió, sis laboratoris, nous controls, gràfics, rubricació, persistència i càrrega de dades de la versió anterior. La verificació informàtica no substitueix la prova física dels protocols escolars.

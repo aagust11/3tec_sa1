@@ -1,0 +1,68 @@
+{
+  "plec": {
+    "llumCm": 25,
+    "fullsPerVersio": 4,
+    "cintaCmPerVersio": 100,
+    "incrementG": 50,
+    "maximG": 500,
+    "fletxaLimitMm": 10
+  },
+  "nivells": [
+    "NA",
+    "AS",
+    "AN",
+    "AE"
+  ],
+  "criteris": [
+    {
+      "id": "projecte-1",
+      "titol": "Explicació científica",
+      "descriptors": [
+        "Anomena peces sense relacionar forces o esforços.",
+        "Identifica elements i un esforç principal amb suport.",
+        "Relaciona càrregues, elements, esforços i condicions amb precisió.",
+        "Justifica el model, les unions i els límits amb un cas de transferència."
+      ]
+    },
+    {
+      "id": "projecte-2",
+      "titol": "Control de variables",
+      "descriptors": [
+        "Canvia condicions sense registrar-les.",
+        "Manté algunes condicions però necessita completar el protocol.",
+        "Manté llum, punt de càrrega i increments; identifica la variable modificada.",
+        "Justifica els controls i reconeix l’efecte del dany o de la variabilitat."
+      ]
+    },
+    {
+      "id": "projecte-3",
+      "titol": "Dades i evidències",
+      "descriptors": [
+        "Les conclusions no tenen dades identificables.",
+        "Aporta una taula parcial o amb unitats incompletes.",
+        "Registra dades amb unitats i fotografies identificades de les dues versions.",
+        "Analitza dispersió, incidències i limitacions sense ocultar resultats."
+      ]
+    },
+    {
+      "id": "projecte-4",
+      "titol": "Millora del prototip",
+      "descriptors": [
+        "Proposa canvis sense vincular-los a la prova.",
+        "Proposa una millora plausible però la comparació és incompleta.",
+        "Modifica un aspecte justificat i compara amb el protocol comú.",
+        "Interpreta si la millora ajuda, què costa i quina prova faria després."
+      ]
+    },
+    {
+      "id": "projecte-5",
+      "titol": "Comunicació i responsabilitat",
+      "descriptors": [
+        "Falten passos, autoria o evidències del treball.",
+        "Presenta el procés amb algunes omissions.",
+        "Explica un procés repetible, cita fonts i identifica aportacions.",
+        "Selecciona evidències amb claredat i argumenta reparació i ús de recursos."
+      ]
+    }
+  ]
+}
