@@ -58,6 +58,8 @@ La correspondència amb les pàgines del PDF, els aclariments editorials i les i
 
 Totes les pàgines amb respostes tenen «Copia per a Google Sites» i «Estil i previsualització». El codi inclou els valors actuals dels camps i desplegables, les opcions de qüestionari triades i els registres visibles; no exporta formularis actius ni solucions desplegables. El menú permet canviar font, mida, accent, fons, text i títol personal opcional. Les preferències es desen al navegador.
 
-A Google Sites: Insereix → Insereix contingut (Embed) → Codi d’inserció. Enganxa el codi copiat i ajusta l’altura del requadre. És una còpia fixa: les edicions posteriors s’han de tornar a copiar. Les imatges es carreguen des d’URLs absolutes del web original. Si el navegador denega el porta-retalls, s’ofereix selecció manual i descàrrega HTML. Les dades només s’envien a Google Sites quan l’alumne les hi enganxa.
+A Google Sites: Insereix → Insereix contingut (Embed) → Codi d’inserció. Enganxa el codi copiat i ajusta l’altura del requadre. És una còpia fixa: les edicions posteriors s’han de tornar a copiar. No es copien les imatges ni les explicacions de teoria. Si el navegador denega el porta-retalls, s’ofereix selecció manual i descàrrega HTML. Les dades només s’envien a Google Sites quan l’alumne les hi enganxa.
 
 Implementació central: `js/sites-export.js` i `assets/sites-export.css`; detecta també els formularis que es tornen a renderitzar. Referència del flux d’inserció: https://support.google.com/sites/answer/90569 .
+
+L’exportació HTML conté exclusivament treball de l’alumnat: títol, pregunta i resposta a sota. S’ometen els camps buits, la teoria, materials, procediments, exemples, pistes i solucionaris. Les proves registrades dels laboratoris es conserven com a evidències. Els desplegables s’exporten amb el text de l’opció seleccionada, sota l’enunciat i la identificació de l’element.

@@ -3,28 +3,43 @@ const defaults={font:'Arial',size:'16',accent:'#ad490b',background:'#f4f5f6',ink
 const fonts={Arial:'Arial,Helvetica,sans-serif',Verdana:'Verdana,Geneva,sans-serif',Georgia:'Georgia,serif'};
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 function options(value={}){const o={...defaults};if(fonts[value.font])o.font=value.font;if(['14','16','18','20'].includes(String(value.size)))o.size=String(value.size);for(const k of ['accent','background','ink'])if(/^#[0-9a-f]{6}$/i.test(value[k]||''))o[k]=value[k];o.name=String(value.name||'').slice(0,100);return o;}
-// Read current properties, not HTML attributes: select/textarea attributes can be stale.
+// Export only student work. Never clone theory, instructions, examples or solutions.
 export function sitesSnapshot(main){
- const clone=main.cloneNode(true),original=[...main.querySelectorAll('input,textarea,select')],copied=[...clone.querySelectorAll('input,textarea,select')];
- copied.forEach((el,i)=>{const live=original[i];if(live.closest('.sites-toolbar'))return;const p=document.createElement('p');p.className='student-response';
-  if(live.type==='checkbox'||live.type==='radio')p.textContent=live.checked?'☑ Marcat':'☐ No marcat';
-  else if(live.tagName==='SELECT')p.textContent=live.value?live.selectedOptions[0]?.textContent||live.value:'Sense respondre';
-  else p.textContent=live.value||'Sense respondre';
-  el.replaceWith(p);
- });
- clone.querySelectorAll('.question').forEach(q=>{const chosen=q.querySelector('.answer.chosen');const p=document.createElement('p');p.className='student-response';p.textContent=chosen?.textContent||'Sense respondre';q.querySelector('.answers')?.replaceWith(p);});
- clone.querySelectorAll('script,style,iframe,object,embed,svg,canvas,button,nav,details,.sites-toolbar,.back,.save-status,.toolbar,.dossier-toolbar,.lesson-side,.lesson-bottom,.dossier-bridge,.feedback,.task-feedback,.task-score,.entry-recommendation,.quiz-summary,.dossier-print-sheet,.text-link,.photo-fallback').forEach(n=>n.remove());
- // A trial's last column contains only the delete button; do not export it.
- clone.querySelectorAll('#trials tr').forEach(row=>row.lastElementChild?.remove());
- clone.querySelectorAll('*').forEach(el=>{
-  for(const attr of [...el.attributes])if(!['class','href','src','alt','colspan','rowspan','scope'].includes(attr.name))el.removeAttribute(attr.name);
-  for(const attr of ['href','src'])if(el.hasAttribute(attr)){
-   try{const url=new URL(el.getAttribute(attr),location.href);if(!['https:','http:'].includes(url.protocol))el.removeAttribute(attr);else el.setAttribute(attr,url.href);}catch{el.removeAttribute(attr);}
+ const text=node=>node?.textContent.trim()||'';
+ const pair=(question,answer)=>`<div class="response-item"><h3 class="response-label">${esc(question)}</h3><p class="student-response">${esc(answer)}</p></div>`;
+ const parts=[`<h1>${esc(text(main.querySelector('h1'))||'Les meves activitats')}</h1>`];
+ let lastGroup='',count=0;
+ function add(group,question,answer){if(!String(answer??'').trim())return;if(group&&group!==lastGroup){parts.push(`<h2>${esc(group)}</h2>`);lastGroup=group;}parts.push(pair(question,answer));count++;}
+ const nodes=main.querySelectorAll('textarea,select,input[data-criterion],.question,.notebook-entry,#trials tbody tr');
+ for(const node of nodes){
+  if(node.closest('.sites-toolbar,#experiment-model,.dossier-filters'))continue;
+  if(node.matches('.notebook-entry')){add(text(node.querySelector('h2')),'Apunts i respostes',text(node.querySelector('p')));continue;}
+  if(node.matches('#trials tbody tr')){const cells=node.querySelectorAll('td');add('Proves registrades · model simulat','Prova '+text(cells[0]),'Condicions: '+text(cells[1])+'\nResultat del model: '+text(cells[2]));continue;}
+  if(node.matches('.question')){add('Qüestionari',text(node.querySelector('h3')),text(node.querySelector('.answer.chosen')));continue;}
+  if(node.closest('.question'))continue;
+  const value=node.matches('select')?(node.value&&node.value!=='Sense valorar'?text(node.selectedOptions[0]):''):node.type==='checkbox'?(node.checked?'Marcat':'No marcat'):node.value;
+  if(!String(value||'').trim())continue;
+  let label=text(node.labels?.[0]);
+  // Remove option text nested inside a label (notebook rubric).
+  if(node.labels?.[0]){const copy=node.labels[0].cloneNode(true);copy.querySelectorAll('input,textarea,select').forEach(n=>n.remove());label=text(copy);}
+  const field=node.closest('.dossier-field');
+  if(field){
+   const section=field.closest('section'),group=text(section?.querySelector('h2'))||'Activitat';
+   const question=text(field.querySelector('legend,label'));
+   const cell=node.closest('td');
+   if(cell){const row=cell.parentElement;const col=cell.cellIndex;const heading=text(cell.closest('table').querySelector('thead tr')?.children[col]);add(group,`${question} — ${text(row.querySelector('th'))} · ${heading}`,value);}
+   else add(group,question,value);
+   continue;
   }
-  if(el.tagName==='A'){el.setAttribute('target','_blank');el.setAttribute('rel','noopener noreferrer');}
- });
- clone.querySelectorAll('label').forEach(label=>{const d=document.createElement('div');d.className='response-label';while(label.firstChild)d.append(label.firstChild);label.replaceWith(d);});
- return clone.innerHTML;
+  const reasoning=node.closest('.reasoning');
+  if(reasoning){add(text(reasoning.querySelector('h2')),node.id==='reasoning-answer'?text(reasoning.querySelector('.device-body > p')):label,value);continue;}
+  const rubric=node.closest('.rubric-criterion');if(rubric){add('Rúbrica · '+text(rubric.querySelector('h3')),label,value);continue;}
+  const task=node.closest('[data-task]');if(task){add(text(task.closest('.idevice')?.querySelector('h2'))||'Activitat de pràctica',label,value);continue;}
+  const group=node.id==='prediction'||node.id==='conclusion'?text(main.querySelector('.experiment-question h2')):node.hasAttribute('data-rubric')?'Autoavaluació':'Reflexió personal';
+  add(group,label||node.getAttribute('aria-label')||'La meva resposta',value);
+ }
+ if(!count)parts.push('<p>Encara no hi ha respostes escrites o seleccionades per copiar.</p>');
+ return parts.join('\n');
 }
 export function sitesHTML(content,raw={}){
  const o=options(raw);
@@ -50,7 +65,7 @@ export function installSitesExport(main){
  dialog.querySelector('#sites-download').onclick=()=>{const url=URL.createObjectURL(new Blob([generate()],{type:'text/html;charset=utf-8'}));const a=document.createElement('a');a.href=url;a.download='portafoli-forces-estructures.html';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);};
  function mount(){
   if(main.querySelector('.sites-toolbar')||!main.querySelector('textarea,select:not(#dossier-filter),.question,.notebook-entry'))return;
-  const bar=document.createElement('section');bar.className='sites-toolbar';bar.setAttribute('aria-label','Exporta les respostes a Google Sites');bar.innerHTML='<div><strong>Porta les teves respostes al portafoli</strong><p>Copia aquesta pàgina amb els textos i les opcions seleccionades.</p></div><div class="sites-actions"><button class="btn" data-sites-copy>Copia per a Google Sites</button><button class="btn secondary" data-sites-style>Estil i previsualització</button></div><p class="sites-status" role="status"></p>';
+  const bar=document.createElement('section');bar.className='sites-toolbar';bar.setAttribute('aria-label','Exporta les respostes a Google Sites');bar.innerHTML='<div><strong>Porta les teves respostes al portafoli</strong><p>Copia només les activitats respostes: títol, pregunta i resposta. La teoria no s’inclou.</p></div><div class="sites-actions"><button class="btn" data-sites-copy>Copia per a Google Sites</button><button class="btn secondary" data-sites-style>Estil i previsualització</button></div><p class="sites-status" role="status"></p>';
   const head=main.querySelector('.page-head');if(head)head.after(bar);else main.prepend(bar);
   bar.querySelector('[data-sites-copy]').onclick=e=>{prefs=options(state.exportStyle);copy(e.target,bar.querySelector('.sites-status'));};bar.querySelector('[data-sites-style]').onclick=e=>open(e.target);
  }
