@@ -12,7 +12,7 @@
   "preguntes": [
     {
       "id": "nivells",
-      "label": "Valora el teu nivell en cadascun dels aspectes del dossier.",
+      "label": "Valora el teu nivell en cadascun dels aspectes següents.",
       "type": "table",
       "rows": [
         "Propietats mecàniques dels materials",

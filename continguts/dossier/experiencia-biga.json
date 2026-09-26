@@ -50,7 +50,7 @@
   "registres": [
     {
       "id": "prova",
-      "label": "Registre afegit per justificar la resposta.",
+      "label": "Registra les mesures per justificar la resposta.",
       "type": "table",
       "rows": [
         "Una palleta",

@@ -77,7 +77,7 @@
     {
       "src": "assets/dossier/paper-final.jpg",
       "alt": "Comparació del paper pla i del paper amb plecs entre dos suports.",
-      "peu": "Fragment del dossier original aportat pel professorat."
+      "peu": ""
     }
   ],
   "passos": [
@@ -88,7 +88,7 @@
   "registres": [
     {
       "id": "proves",
-      "label": "Registre afegit per recolzar les respostes.",
+      "label": "Registra les mesures per justificar les respostes.",
       "type": "table",
       "rows": [
         "Prova 1",

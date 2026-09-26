@@ -12,7 +12,7 @@
   "preguntes": [
     {
       "id": "q1",
-      "label": "Observa les estructures representades. Primerament assenyala si són laminars o no. En cas que siguin laminars, indica si es componen només de làmines o hi ha altres elements estructurals.",
+      "label": "Analitza els quatre objectes proposats. Primerament assenyala si són laminars o no. En cas que siguin laminars, indica si es componen només de làmines o hi ha altres elements estructurals.",
       "type": "text"
     }
   ],
@@ -23,5 +23,5 @@
       "type": "text"
     }
   ],
-  "aclariment": "Al PDF aportat no hi apareixen les figures anunciades en aquest exercici. Per poder fer-lo, proposem quatre referents complementaris: una llauna de beguda, una caixa de cartró, una bastida i un tendal sostingut per cables. Són referents afegits, no les imatges originals."
+  "aclariment": "Analitza aquests quatre objectes: una llauna de beguda, una caixa de cartró, una bastida i un tendal sostingut per cables."
 }

@@ -12,7 +12,7 @@
   "preguntes": [
     {
       "id": "proves",
-      "label": "Taula d’observació demanada al dossier: registra almenys tres pesos en les dues estructures.",
+      "label": "Taula d’observació: registra almenys tres pesos en les dues estructures.",
       "type": "table",
       "rows": [
         "Càrrega 1",
@@ -77,7 +77,7 @@
     "Prova almenys tres càrregues petites en totes dues estructures. Fotografia i registra la deformació. Atura’t si es desenganxa una unió.",
     "Individualment, crea una pàgina al portafoli amb fotografies sense pes i amb diferents pesos, la taula d’observació i la reflexió final que respon les preguntes a–c."
   ],
-  "aclariment": "Es conserven les mides del dossier. La longitud útil depèn de la superposició a les unions: anota la mida final dels costats. Si només mesures deformació, les dades informen sobretot sobre rigidesa; no demostren per si soles la càrrega de ruptura.",
+  "aclariment": "La longitud útil depèn de la superposició a les unions: anota la mida final dels costats. Si només mesures deformació, les dades informen sobretot sobre rigidesa; no demostren per si soles la càrrega de ruptura.",
   "enllacos": [
     {
       "href": "#laboratori/triangulacio",

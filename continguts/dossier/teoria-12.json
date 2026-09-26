@@ -54,7 +54,7 @@
     {
       "src": "assets/dossier/poligons.jpg",
       "alt": "Cinc polígons de barres amb unions als vèrtexs: quadrilàter, triangle, pentàgon, hexàgon i trapezi.",
-      "peu": "Fragment del dossier original aportat pel professorat."
+      "peu": ""
     }
   ],
   "aclariment": "Considera unions articulades i barres que no canvien de longitud. La regularitat geomètrica i la rigidesa són propietats diferents.",

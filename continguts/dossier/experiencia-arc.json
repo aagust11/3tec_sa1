@@ -47,7 +47,7 @@
   "registres": [
     {
       "id": "prova",
-      "label": "Registre afegit de la comparació.",
+      "label": "Registra els resultats de la comparació.",
       "type": "table",
       "rows": [
         "Tira plana",
