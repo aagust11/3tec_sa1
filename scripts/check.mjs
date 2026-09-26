@@ -57,3 +57,8 @@ assert.equal(beamDeflection({length:200}),10);
 assert.equal(beamDeflection({height:20}),0.15625);
 assert.equal(beamDeflection({width:5,height:20}),0.3125);
 assert.equal(beamDeflection({modulus:100}),2.5);
+
+assert.equal(beamRatio({modulus:10}),20);
+assert.equal(beamDeflection({modulus:10}),25);
+assert.ok(Math.abs(beamDeflection({modulus:70})-25/7)<1e-10);
+assert.ok(Math.abs(beamDeflection({modulus:3.3})-250/3.3)<1e-10);

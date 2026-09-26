@@ -1,7 +1,7 @@
 // Models educatius. Unitats i hipòtesis explícites a cada laboratori.
-export function beamRatio({force=10,length=100,width=10,height=10}) {
-  // δ = F L³/(48 E I), I = b h³/12. E és constant.
-  return (force/10)*(length/100)**3*(10/width)*(10/height)**3;
+export function beamRatio({force=10,length=100,width=10,height=10,modulus=200}) {
+  // Referència fixa: acer, E = 200 GPa; δ = F L³/(48 E I), I = b h³/12.
+  return (force/10)*(length/100)**3*(10/width)*(10/height)**3*(200/modulus);
 }
 // F en N; longitud en cm; perfil en mm; E en GPa. Retorna la fletxa en mm.
 // Biga simplement recolzada amb càrrega puntual central, sense pes propi.
@@ -17,3 +17,11 @@ export const graph = body => `<svg viewBox="0 0 500 320" role="img" aria-label="
 export const range = (id,label,min,max,step,value) => `<label for="${id}">${label}: <output id="${id}-value">${value}</output></label><input type="range" id="${id}" min="${min}" max="${max}" step="${step}" value="${value}">`;
 export function scaffold(root,title,controls,description){root.innerHTML=`<div class="lab-grid"><div class="lab-visual"></div><div class="lab-controls"><h2>${title}</h2>${controls}<p>${description}</p><div class="lab-result" aria-live="polite"></div></div></div>`;}
 export function labels(root){root.querySelectorAll('input[type="range"]').forEach(x=>{root.querySelector(`#${x.id}-value`).textContent=x.value;});}
+
+// Valors representatius per comparar materials, no fitxes d’un producte concret.
+export const beamMaterials=[
+ {id:'acer',name:'Acer',modulus:200},
+ {id:'alumini',name:'Alumini',modulus:70},
+ {id:'fusta',name:'Fusta (fibra longitudinal)',modulus:10},
+ {id:'pmma',name:'Metacrilat (PMMA)',modulus:3.3}
+];
