@@ -1,0 +1,50 @@
+{
+  "id": "experiencia-palleta",
+  "codi": "S1A3 · 1",
+  "titol": "Fabrica una palleta de paper",
+  "grup": "Experiències",
+  "pdf": [
+    28
+  ],
+  "pagina": [
+    27
+  ],
+  "preguntes": [
+    {
+      "id": "q1",
+      "label": "Completa la fabricació de la palleta seguint les sis indicacions i conserva-la per a les experiències següents.",
+      "type": "text"
+    }
+  ],
+  "reflexions": [
+    {
+      "id": "r1",
+      "label": "Per què convé retirar aviat la guia?",
+      "type": "text"
+    },
+    {
+      "id": "r2",
+      "label": "Quines diferències hi ha entre els extrems i la zona central abans de retallar?",
+      "type": "text"
+    },
+    {
+      "id": "r3",
+      "label": "Anota la longitud i el diàmetre aproximats de la palleta. Afegeix una referència de la fotografia i explica una millora del procés.",
+      "type": "text"
+    }
+  ],
+  "materials": [
+    "Paper",
+    "Càrrega buida i neta d’un bolígraf com a guia, o vareta equivalent",
+    "Cinta adhesiva",
+    "Tisores escolars"
+  ],
+  "passos": [
+    "1. Extreu la càrrega d’un bolígraf que es pugui desmuntar. Com a alternativa afegida, utilitza una vareta neta i prima.",
+    "2. Col·loca la guia en una cantonada del paper i comença a enrotllar en diagonal, ben ajustat.",
+    "3. Retira la guia quan ja hagis iniciat el tub, abans que quedi atrapada.",
+    "4. Continua enrotllant el paper sense la guia.",
+    "5. Fixa l’última punta amb cinta adhesiva.",
+    "6. Retalla els extrems per obtenir una palleta regular."
+  ]
+}

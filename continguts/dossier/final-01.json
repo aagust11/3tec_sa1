@@ -1,0 +1,90 @@
+{
+  "id": "final-01",
+  "codi": "S1AF1",
+  "titol": "Construeix l’estructura triangulada",
+  "grup": "Activitats finals",
+  "pdf": [
+    30
+  ],
+  "pagina": [
+    29
+  ],
+  "preguntes": [
+    {
+      "id": "barres",
+      "label": "Construeix l’estructura de la figura amb barres de 7 cm. Identifica quin esforç suporta cada barra quan la carregues.",
+      "type": "table",
+      "rows": [
+        "Barra 1",
+        "Barra 2",
+        "Barra 3",
+        "Barra 4",
+        "Barra 5",
+        "Barra 6",
+        "Barra 7"
+      ],
+      "columns": [
+        {
+          "id": "c1",
+          "label": "Extrems o nom al teu croquis"
+        },
+        {
+          "id": "c2",
+          "label": "Esforç principal"
+        },
+        {
+          "id": "c3",
+          "label": "Justificació"
+        }
+      ]
+    }
+  ],
+  "reflexions": [
+    {
+      "id": "r1",
+      "label": "Afegeix la referència de la fotografia o del croquis amb les barres numerades i les forces.",
+      "type": "text"
+    },
+    {
+      "id": "r2",
+      "label": "Quines conclusions es basen en l’equilibri del model i quines en una deformació que realment has observat?",
+      "type": "text"
+    }
+  ],
+  "figures": [
+    {
+      "src": "assets/dossier/triangulada-final.jpg",
+      "alt": "Estructura amb dues cel·les triangulars, unió superior i càrrega al nus inferior central, recolzada als extrems.",
+      "peu": "Fragment del dossier original aportat pel professorat."
+    }
+  ],
+  "passos": [
+    "Fabrica les palletes i talla barres de 7 cm. Reprodueix la disposició de la figura.",
+    "Dibuixa el teu muntatge i numera les set barres per poder relacionar el croquis amb les respostes.",
+    "Recolza els extrems a la mateixa altura i aplica una càrrega petita al nus inferior central.",
+    "Observa el comportament i identifica els esforços. No pressuposis que totes les barres suporten el mateix esforç.",
+    "Pots reforçar les unions amb triangles de paper. Deixa assecar l’adhesiu abans de carregar. Aplica diferents càrregues petites, sense arribar a deformar apreciablement les barres, i dibuixa el diagrama indicant tracció o compressió en cada barra."
+  ],
+  "registres": [
+    {
+      "id": "cargues",
+      "label": "Registre complementari de proves.",
+      "type": "table",
+      "rows": [
+        "Prova 1",
+        "Prova 2",
+        "Prova 3"
+      ],
+      "columns": [
+        {
+          "id": "c1",
+          "label": "Càrrega"
+        },
+        {
+          "id": "c2",
+          "label": "Observacions de barres i unions"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "teoria-10",
+  "codi": "Teoria 10",
+  "titol": "Com se sosté l’institut?",
+  "grup": "Activitats de teoria",
+  "pdf": [
+    16
+  ],
+  "pagina": [
+    15
+  ],
+  "preguntes": [
+    {
+      "id": "q1",
+      "label": "Esbrina si el teu institut està construït amb parets mestres o amb pilars. Indica com has arribat a la teva conclusió.",
+      "type": "text"
+    }
+  ],
+  "reflexions": [
+    {
+      "id": "r1",
+      "label": "Quines evidències donen suport a la resposta? Què no pots saber només mirant la façana?",
+      "type": "text"
+    }
+  ],
+  "passos": [
+    "Observa els espais permesos i consulta el professorat o documentació de l’edifici. No retiris revestiments ni accedeixis a zones restringides."
+  ]
+}

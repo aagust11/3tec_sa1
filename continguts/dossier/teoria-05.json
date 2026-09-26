@@ -1,0 +1,51 @@
+{
+  "id": "teoria-05",
+  "codi": "Teoria 5",
+  "titol": "Quin esforç suporta?",
+  "grup": "Activitats de teoria",
+  "pdf": [
+    13
+  ],
+  "pagina": [
+    12
+  ],
+  "preguntes": [
+    {
+      "id": "casos",
+      "label": "Identifica l’esforç en cada cas.",
+      "type": "table",
+      "rows": [
+        "Pota d’una taula",
+        "Tauló d’una bastida",
+        "Punta d’un bolígraf",
+        "Eix del pom d’una porta",
+        "Corda d’un globus",
+        "Cargol central d’unes tisores",
+        "Ganxo penjat en una paret",
+        "Ganxo penjat en un sostre",
+        "Barra que sosté una antena de TV",
+        "Seient d’una bicicleta",
+        "Cadena d’una bicicleta",
+        "Rebló que uneix dues anelles d’una cadena"
+      ],
+      "columns": [
+        {
+          "id": "c1",
+          "label": "Esforç principal"
+        },
+        {
+          "id": "c2",
+          "label": "Com s’aplica la càrrega? Justificació"
+        }
+      ]
+    }
+  ],
+  "reflexions": [
+    {
+      "id": "r1",
+      "label": "Com canviaria l’esforç d’un dels elements si canviessis la direcció de la força?",
+      "type": "text"
+    }
+  ],
+  "aclariment": "La justificació de la càrrega és un suport afegit. Alguns elements poden suportar més d’un esforç: concreta la situació que estàs imaginant."
+}

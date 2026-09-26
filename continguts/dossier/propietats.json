@@ -1,0 +1,61 @@
+{
+  "id": "propietats",
+  "codi": "S1A1",
+  "titol": "Propietats mecàniques",
+  "grup": "Activitats inicials",
+  "pdf": [
+    8
+  ],
+  "pagina": [
+    7
+  ],
+  "preguntes": [
+    {
+      "id": "propietats",
+      "label": "Per a cada propietat: nom, definició amb les teves paraules, exemple i imatge explicativa.",
+      "type": "table",
+      "rows": [
+        "Resistència",
+        "Elasticitat",
+        "Plasticitat",
+        "Ductilitat",
+        "Mal·leabilitat",
+        "Duresa",
+        "Tenacitat",
+        "Fragilitat"
+      ],
+      "columns": [
+        {
+          "id": "c1",
+          "label": "Definició pròpia"
+        },
+        {
+          "id": "c2",
+          "label": "Material o objecte i justificació"
+        },
+        {
+          "id": "c3",
+          "label": "Enllaç o referència de la imatge"
+        }
+      ]
+    }
+  ],
+  "reflexions": [
+    {
+      "id": "r1",
+      "label": "Un material dur també ha de ser tenaç? Com ho explicaries amb dos exemples?",
+      "type": "text"
+    }
+  ],
+  "passos": [
+    "Crea al teu Google Site de la SA1 una pàgina titulada «Propietats mecàniques».",
+    "Recull les propietats treballades a classe. No copiïs les definicions: explica-les amb paraules pròpies.",
+    "Incorpora un exemple i una imatge que ajudi a entendre cada propietat. Revisa que la imatge mostri allò que expliques."
+  ],
+  "enllacos": [
+    {
+      "href": "#activitat/propietats",
+      "label": "Guia i activitats complementàries"
+    }
+  ]
+}

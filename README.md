@@ -47,3 +47,9 @@ Estructura temàtica basada en el dossier «Forces i estructures · Tecnologia i
 Aquesta és una base ampliable, no una transcripció íntegra dels dossiers. Les dinàmiques i els llocs d'entrega són una proposta editable. Les durades de lectura són orientatives. Els models són didàctics, no eines de càlcul estructural.
 
 Els nous laboratoris permeten escriure prediccions, registrar proves, comparar condicions i desar conclusions. Els models de flexió, molles i suports expliciten les hipòtesis i no representen comprovacions de seguretat.
+
+## Tasques del dossier original
+
+`#dossier` agrupa 32 pàgines: S1A1–S1A2, 14 activitats de teoria, síntesi, 3 Aplica, 2 experiments, Organitza, 2 lectures, 3 experiències S1A3, 3 activitats finals i autoavaluació. Cada tasca és un JSON independent a `continguts/dossier/`; les dades es desen amb identificadors estables sense substituir activitats ni apunts anteriors.
+
+La correspondència amb les pàgines del PDF, els aclariments editorials i les instruccions d’edició són a [docs/CORRESPONDENCIA_DOSSIER.md](docs/CORRESPONDENCIA_DOSSIER.md). Les respostes es poden descarregar per tasca, imprimir completes o exportar conjuntament des del quadern. Les fotografies de l’alumnat es documenten amb una referència o enllaç; no es pugen fitxers.

@@ -1,0 +1,26 @@
+{
+  "id": "teoria-13",
+  "codi": "Teoria 13",
+  "titol": "Làmines al nostre entorn",
+  "grup": "Activitats de teoria",
+  "pdf": [
+    17
+  ],
+  "pagina": [
+    16
+  ],
+  "preguntes": [
+    {
+      "id": "q1",
+      "label": "Busca al teu voltant exemples d’estructures laminars.",
+      "type": "text"
+    }
+  ],
+  "reflexions": [
+    {
+      "id": "r1",
+      "label": "Tria’n dues. Com contribueixen els plecs, les curvatures o els nervis a mantenir-ne la forma?",
+      "type": "text"
+    }
+  ]
+}

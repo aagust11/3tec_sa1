@@ -1,0 +1,78 @@
+{
+  "id": "experiencia-arc",
+  "codi": "S1A3 · 2",
+  "titol": "Reforça amb un arc",
+  "grup": "Experiències",
+  "pdf": [
+    28
+  ],
+  "pagina": [
+    27
+  ],
+  "preguntes": [
+    {
+      "id": "q1",
+      "label": "a. Quina estructura ha suportat millor el pes? Com ho has observat?",
+      "type": "text"
+    },
+    {
+      "id": "q2",
+      "label": "b. Quina propietat has millorat: la resistència o l’estabilitat? Per què?",
+      "type": "text"
+    }
+  ],
+  "reflexions": [
+    {
+      "id": "r1",
+      "label": "Has afegit material, has canviat la forma o totes dues coses? Quina limitació té la comparació?",
+      "type": "text"
+    },
+    {
+      "id": "r2",
+      "label": "Si observes menys deformació, pots parlar de més rigidesa. Has comprovat també la ruptura o la bolcada? Diferencia què has mesurat i què has suposat.",
+      "type": "text"
+    }
+  ],
+  "materials": [
+    "Paper",
+    "Regle i tisores",
+    "Dos suports iguals",
+    "Pesos petits iguals"
+  ],
+  "passos": [
+    "Prepara una tira de paper de 14 × 3 cm. Recolza-la sobre dos suports i aplica una càrrega petita al centre.",
+    "Afegeix per sota una segona tira de 3 cm d’amplada, amb la longitud necessària per formar un arc entre els suports.",
+    "Repeteix la prova amb la mateixa càrrega i la mateixa separació dels suports. Observa sense carregar fins a una ruptura brusca."
+  ],
+  "registres": [
+    {
+      "id": "prova",
+      "label": "Registre afegit de la comparació.",
+      "type": "table",
+      "rows": [
+        "Tira plana",
+        "Tira amb arc"
+      ],
+      "columns": [
+        {
+          "id": "c1",
+          "label": "Càrrega utilitzada"
+        },
+        {
+          "id": "c2",
+          "label": "Deformació observada"
+        },
+        {
+          "id": "c3",
+          "label": "Fotografia o croquis"
+        }
+      ]
+    }
+  ],
+  "enllacos": [
+    {
+      "href": "#activitat/arc-biga",
+      "label": "Ampliació sobre arcs i bigues"
+    }
+  ]
+}

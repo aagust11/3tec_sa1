@@ -1,0 +1,59 @@
+{
+  "id": "aplica-01",
+  "codi": "Aplica 1",
+  "titol": "Identifica nou estructures",
+  "grup": "Síntesi i aplica",
+  "pdf": [
+    21
+  ],
+  "pagina": [
+    20
+  ],
+  "preguntes": [
+    {
+      "id": "imatges",
+      "label": "Identifica les estructures i classifica-les.",
+      "type": "table",
+      "rows": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I"
+      ],
+      "columns": [
+        {
+          "id": "c1",
+          "label": "Objecte o construcció"
+        },
+        {
+          "id": "c2",
+          "label": "Tipus d’estructura"
+        },
+        {
+          "id": "c3",
+          "label": "Evidència que ho justifica"
+        }
+      ]
+    }
+  ],
+  "reflexions": [
+    {
+      "id": "r1",
+      "label": "Quina imatge no és una estructura artificial? Quina funció té per a l’ésser viu?",
+      "type": "text"
+    }
+  ],
+  "figures": [
+    {
+      "src": "assets/dossier/aplica-01.jpg",
+      "alt": "Nou objectes etiquetats A–I: construcció esglaonada, caixa forta, pont, grua, closca, edifici en construcció, coberta tèxtil, presa i caixa de cartró.",
+      "peu": "Fragment del dossier original aportat pel professorat."
+    }
+  ],
+  "aclariment": "Consulta «Les estructures i els tipus d’estructura». Tot i que l’encapçalament parla d’estructures artificials, hi ha un exemple natural. Indica-ho i accepta estructures mixtes quan puguis justificar-les."
+}

@@ -1,0 +1,59 @@
+{
+  "id": "teoria-04",
+  "codi": "Teoria 4",
+  "titol": "Sis objectes, sis anàlisis",
+  "grup": "Activitats de teoria",
+  "pdf": [
+    10
+  ],
+  "pagina": [
+    9
+  ],
+  "preguntes": [
+    {
+      "id": "objectes",
+      "label": "Identifica els objectes i classifica les estructures de les imatges.",
+      "type": "table",
+      "rows": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "columns": [
+        {
+          "id": "c1",
+          "label": "Objecte"
+        },
+        {
+          "id": "c2",
+          "label": "Natural o artificial"
+        },
+        {
+          "id": "c3",
+          "label": "Tipus, si és artificial"
+        },
+        {
+          "id": "c4",
+          "label": "Material principal"
+        }
+      ]
+    }
+  ],
+  "reflexions": [
+    {
+      "id": "r1",
+      "label": "En quin cas has dubtat? Quina part de l’objecte has considerat per classificar-lo?",
+      "type": "text"
+    }
+  ],
+  "figures": [
+    {
+      "src": "assets/dossier/teoria-04.jpg",
+      "alt": "Sis dibuixos numerades: caixa, bastida, coberta tèxtil, grua, closca i cabana.",
+      "peu": "Fragment del dossier original aportat pel professorat."
+    }
+  ]
+}

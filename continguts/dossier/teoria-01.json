@@ -1,0 +1,43 @@
+{
+  "id": "teoria-01",
+  "codi": "Teoria 1",
+  "titol": "Paper, esquelet i cadira",
+  "grup": "Activitats de teoria",
+  "pdf": [
+    9,
+    10
+  ],
+  "pagina": [
+    8,
+    9
+  ],
+  "preguntes": [
+    {
+      "id": "q1",
+      "label": "a. Com podries aconseguir que un simple full de paper pogués suportar pesos com si fos una columna?",
+      "type": "text"
+    },
+    {
+      "id": "q2",
+      "label": "b. Quina relació té amb l’esquelet humà?",
+      "type": "text"
+    },
+    {
+      "id": "q3",
+      "label": "c. Quines similituds hi ha entre el nostre esquelet i les estructures artificials?",
+      "type": "text"
+    },
+    {
+      "id": "q4",
+      "label": "d. A quin tipus d’estructura pertany la cadira on seus? Justifica la teva resposta.",
+      "type": "text"
+    }
+  ],
+  "reflexions": [
+    {
+      "id": "r1",
+      "label": "Quina prova petita faries per comprovar la teva idea del full? Què mantindries igual?",
+      "type": "text"
+    }
+  ]
+}

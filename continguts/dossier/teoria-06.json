@@ -1,0 +1,26 @@
+{
+  "id": "teoria-06",
+  "codi": "Teoria 6",
+  "titol": "Corda o cable",
+  "grup": "Activitats de teoria",
+  "pdf": [
+    13
+  ],
+  "pagina": [
+    12
+  ],
+  "preguntes": [
+    {
+      "id": "q1",
+      "label": "Quin tipus d’esforç pot suportar una corda o un cable? Raona la resposta.",
+      "type": "text"
+    }
+  ],
+  "reflexions": [
+    {
+      "id": "r1",
+      "label": "Què observes si intentes empènyer un objecte amb una corda flexible? Relaciona-ho amb la resposta.",
+      "type": "text"
+    }
+  ]
+}

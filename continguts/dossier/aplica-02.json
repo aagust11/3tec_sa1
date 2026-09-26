@@ -1,0 +1,72 @@
+{
+  "id": "aplica-02",
+  "codi": "Aplica 2",
+  "titol": "Relaciona esforços i definicions",
+  "grup": "Síntesi i aplica",
+  "pdf": [
+    22
+  ],
+  "pagina": [
+    21
+  ],
+  "preguntes": [
+    {
+      "id": "relacions",
+      "label": "Relaciona cada dibuix amb el nom de l’esforç i la definició corresponent.",
+      "type": "table",
+      "rows": [
+        "Dibuix 1 (superior)",
+        "Dibuix 2",
+        "Dibuix 3",
+        "Dibuix 4",
+        "Dibuix 5 (inferior)"
+      ],
+      "columns": [
+        {
+          "id": "c1",
+          "label": "Esforç",
+          "options": [
+            "Tracció",
+            "Compressió",
+            "Flexió",
+            "Torsió",
+            "Cisallament"
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Definició",
+          "options": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E"
+          ]
+        }
+      ]
+    }
+  ],
+  "reflexions": [
+    {
+      "id": "r1",
+      "label": "En què t’has fixat per distingir tracció de compressió? I flexió de cisallament?",
+      "type": "text"
+    }
+  ],
+  "figures": [
+    {
+      "src": "assets/dossier/aplica-02.jpg",
+      "alt": "Cinc dibuixos de peces amb fletxes de força i les cinc definicions d’esforços del dossier.",
+      "peu": "Fragment del dossier original aportat pel professorat."
+    }
+  ],
+  "lectura": [
+    "Definicions de la figura, identificades amb lletres per poder registrar la resposta:",
+    "A. Seccionar un cos amb dues forces de sentit contrari aplicades l’una al costat de l’altra.",
+    "B. Aixafar un cos amb dues forces oposades.",
+    "C. Retorçar un cos amb forces que el fan girar en sentits contraris.",
+    "D. Corbar un cos amb una força central contrària a les dels extrems.",
+    "E. Estirar un cos amb forces de sentit contrari."
+  ]
+}

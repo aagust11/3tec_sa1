@@ -1,0 +1,48 @@
+{
+  "id": "teoria-09",
+  "codi": "Teoria 9",
+  "titol": "Vertader o fals?",
+  "grup": "Activitats de teoria",
+  "pdf": [
+    16
+  ],
+  "pagina": [
+    15
+  ],
+  "preguntes": [
+    {
+      "id": "afirmacions",
+      "label": "Indica si cada afirmació és vertadera o falsa.",
+      "type": "table",
+      "rows": [
+        "a. Les estructures entramades estan formades només per elements horitzontals.",
+        "b. Les jàsseres són bigues molt grosses.",
+        "c. Els pilars dels habitatges solen ser de formigó armat.",
+        "d. Els forjats són elements verticals.",
+        "e. Les bigues de l’embigat tenen una secció més gran que les jàsseres."
+      ],
+      "columns": [
+        {
+          "id": "c1",
+          "label": "Resposta",
+          "options": [
+            "Vertader",
+            "Fals"
+          ]
+        },
+        {
+          "id": "c2",
+          "label": "Justificació o correcció"
+        }
+      ]
+    }
+  ],
+  "reflexions": [
+    {
+      "id": "r1",
+      "label": "Quina afirmació depèn del tipus d’edifici? Explica la diferència entre «solen ser» i «sempre són».",
+      "type": "text"
+    }
+  ],
+  "aclariment": "La justificació és un suport afegit. Considera el sistema constructiu estudiat: una jàssera es defineix sobretot perquè rep altres bigues, i no tots els edificis utilitzen els mateixos materials o dimensions."
+}

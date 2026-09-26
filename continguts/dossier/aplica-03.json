@@ -1,0 +1,51 @@
+{
+  "id": "aplica-03",
+  "codi": "Aplica 3",
+  "titol": "La bicicleta sota càrrega",
+  "grup": "Síntesi i aplica",
+  "pdf": [
+    22
+  ],
+  "pagina": [
+    21
+  ],
+  "preguntes": [
+    {
+      "id": "bicicleta",
+      "label": "Quin esforç suporta cada element de la bicicleta?",
+      "type": "table",
+      "rows": [
+        "Radis de la roda",
+        "Cadena",
+        "Seient",
+        "Eix del plat",
+        "Manillar"
+      ],
+      "columns": [
+        {
+          "id": "c1",
+          "label": "Esforç principal"
+        },
+        {
+          "id": "c2",
+          "label": "Situació de càrrega i justificació"
+        }
+      ]
+    }
+  ],
+  "reflexions": [
+    {
+      "id": "r1",
+      "label": "Com es transmet la força dels pedals a la roda? Quins dos elements de la taula intervenen en aquesta transmissió?",
+      "type": "text"
+    }
+  ],
+  "figures": [
+    {
+      "src": "assets/dossier/bicicleta.jpg",
+      "alt": "Fotografia d’una bicicleta que acompanya l’activitat.",
+      "peu": "Fragment del dossier original aportat pel professorat."
+    }
+  ],
+  "aclariment": "Pensa en la bicicleta en ús: segons com s’apliquin les forces, un element pot combinar esforços. Concretar la situació de càrrega ajuda a justificar la resposta."
+}

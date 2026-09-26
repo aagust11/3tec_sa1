@@ -1,0 +1,53 @@
+{
+  "id": "teoria-03",
+  "codi": "Teoria 3",
+  "titol": "Exemples de cada estructura",
+  "grup": "Activitats de teoria",
+  "pdf": [
+    10
+  ],
+  "pagina": [
+    9
+  ],
+  "preguntes": [
+    {
+      "id": "tipus",
+      "label": "Confecciona una taula de cinc columnes amb una llista d’estructures de cada tipus.",
+      "type": "table",
+      "rows": [
+        "Exemple 1",
+        "Exemple 2",
+        "Exemple 3"
+      ],
+      "columns": [
+        {
+          "id": "c1",
+          "label": "Massisses"
+        },
+        {
+          "id": "c2",
+          "label": "Laminars"
+        },
+        {
+          "id": "c3",
+          "label": "Entramades"
+        },
+        {
+          "id": "c4",
+          "label": "Triangulades"
+        },
+        {
+          "id": "c5",
+          "label": "Penjades"
+        }
+      ]
+    }
+  ],
+  "reflexions": [
+    {
+      "id": "r1",
+      "label": "Escull un exemple i explica quins elements t’han permès classificar-lo.",
+      "type": "text"
+    }
+  ]
+}

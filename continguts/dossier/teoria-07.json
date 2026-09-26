@@ -1,0 +1,26 @@
+{
+  "id": "teoria-07",
+  "codi": "Teoria 7",
+  "titol": "On és el centre de gravetat?",
+  "grup": "Activitats de teoria",
+  "pdf": [
+    14
+  ],
+  "pagina": [
+    13
+  ],
+  "preguntes": [
+    {
+      "id": "q1",
+      "label": "El centre de gravetat d’un cos és sempre al seu interior o pot estar situat a fora?",
+      "type": "text"
+    }
+  ],
+  "reflexions": [
+    {
+      "id": "r1",
+      "label": "Dibuixa un objecte que serveixi per justificar-ho i assenyala on situaries el centre de gravetat.",
+      "type": "text"
+    }
+  ]
+}

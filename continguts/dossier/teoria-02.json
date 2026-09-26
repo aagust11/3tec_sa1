@@ -1,0 +1,32 @@
+{
+  "id": "teoria-02",
+  "codi": "Teoria 2",
+  "titol": "Investiguem un pont",
+  "grup": "Activitats de teoria",
+  "pdf": [
+    10
+  ],
+  "pagina": [
+    9
+  ],
+  "preguntes": [
+    {
+      "id": "q1",
+      "label": "Busca una fotografia del pont de la badia de San Francisco. Identifica i descriu els tipus d’estructura que s’hi veuen.",
+      "type": "text"
+    },
+    {
+      "id": "q2",
+      "label": "Anota la font de la fotografia i identifica el tram del pont que observes.",
+      "type": "text"
+    }
+  ],
+  "reflexions": [
+    {
+      "id": "r1",
+      "label": "Pot un mateix pont combinar més d’un tipus d’estructura? Assenyala les evidències de la teva fotografia.",
+      "type": "text"
+    }
+  ],
+  "aclariment": "La referència de la fotografia és un espai de documentació afegit. Comprova que investigues el pont de la badia de San Francisco (Bay Bridge); no el confonguis amb el Golden Gate."
+}

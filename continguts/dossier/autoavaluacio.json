@@ -1,0 +1,57 @@
+{
+  "id": "autoavaluacio",
+  "codi": "S1GA",
+  "titol": "Com valoro el meu aprenentatge?",
+  "grup": "Autoavaluació",
+  "pdf": [
+    32
+  ],
+  "pagina": [
+    31
+  ],
+  "preguntes": [
+    {
+      "id": "nivells",
+      "label": "Valora el teu nivell en cadascun dels aspectes del dossier.",
+      "type": "table",
+      "rows": [
+        "Propietats mecàniques dels materials",
+        "Tipus d’estructures",
+        "Esforços",
+        "Elements estructurals",
+        "Estructures resistents i rígides",
+        "Estructures estables",
+        "Seguiment del portafolis a Google Site"
+      ],
+      "columns": [
+        {
+          "id": "c1",
+          "label": "Nivell",
+          "options": [
+            "Baix",
+            "Regular",
+            "Bo",
+            "Molt bo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "comentaris",
+      "label": "Comentaris sobre el teu aprenentatge.",
+      "type": "text"
+    }
+  ],
+  "reflexions": [
+    {
+      "id": "r1",
+      "label": "Escull dos aspectes i aporta una evidència concreta del teu quadern que justifiqui la valoració.",
+      "type": "text"
+    },
+    {
+      "id": "r2",
+      "label": "Què necessites millorar? Escriu una acció concreta i quan la faràs.",
+      "type": "text"
+    }
+  ]
+}

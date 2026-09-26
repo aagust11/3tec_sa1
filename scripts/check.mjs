@@ -34,3 +34,19 @@ for(const s of sessions){const html=readFileSync(s.fitxer,'utf8');const times=[.
 assert.ok(project.plec.incrementG>0&&project.plec.maximG>=project.plec.incrementG);for(const c of project.criteris)assert.equal(c.descriptors.length,project.nivells.length);
 for(const item of [...course.temes,...activities,...sessions]){const html=readFileSync(item.fitxer,'utf8');for(const [,id] of html.matchAll(/data-task="([^"]+)"/g))assert.ok(exercises[id]);for(const [,type,id] of html.matchAll(/href="#(tema|activitat|sessio|laboratori)\/([^"/]+)"/g)){const list={tema:course.temes,activitat:activities,sessio:sessions,laboratori:labs}[type];assert.ok(list.some(x=>x.id===id),`${item.fitxer}: ${type}/${id}`);}}
 console.log('Glossari complet, raonament, rúbrica, enllaços i temps de les sessions: correctes.');
+// Correspondència amb el dossier: 32 tasques, 14 exercicis de teoria etapes separades.
+const dossier=json('continguts/dossier/index.json');assert.equal(dossier.length,32);assert.equal(new Set(dossier.map(t=>t.id)).size,32);
+for(let i=1;i<=14;i++)assert.ok(dossier.some(t=>t.id===`teoria-${String(i).padStart(2,'0')}`));
+for(const t of dossier){
+ const d=json(t.fitxer);assert.equal(t.id,d.id);assert.deepEqual(t.pdf,d.pdf);assert.deepEqual(t.pagina,t.pdf.map(p=>p-1));assert.ok(d.preguntes.length>0);assert.ok(d.reflexions.length>0);
+ const fields=[...d.preguntes,...(d.registres||[]),...d.reflexions];assert.equal(new Set(fields.map(f=>f.id)).size,fields.length,`Camps duplicats: ${t.id}`);
+ for(const f of fields){assert.ok(f.label);assert.ok(['text','table'].includes(f.type));if(f.type==='table'){assert.ok(f.rows.length&&f.columns.length);assert.equal(new Set(f.columns.map(c=>c.id)).size,f.columns.length);}}
+ for(const f of d.figures||[])assert.ok(existsSync(f.src),`Figura absent: ${f.src}`);
+ for(const l of d.enllacos||[]){const [kind,id]=l.href.slice(1).split('/');const list={activitat:activities,tema:course.temes,laboratori:labs,dossier}[kind];assert.ok(list?.some(x=>x.id===id),`Enllaç desconegut: ${l.href}`);}
+}
+for(const [id,count] of [['final-02',10],['final-03',9],['lectura-romans',4],['lectura-leonardo',4],['sintesi',8]])assert.equal(json(`continguts/dossier/${id}.json`).preguntes.length,count);
+assert.equal(json('continguts/dossier/teoria-05.json').preguntes[0].rows.length,12);
+assert.equal(json('continguts/dossier/aplica-01.json').preguntes[0].rows.length,9);
+assert.equal(json('continguts/dossier/aplica-03.json').preguntes[0].rows.length,5);
+assert.equal(json('continguts/dossier/autoavaluacio.json').preguntes[0].rows.length,7);
+console.log('Dossier: 32 tasques, 14 exercicis de teoria, preguntes, figures i referències verificats.');

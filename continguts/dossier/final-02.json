@@ -1,0 +1,120 @@
+{
+  "id": "final-02",
+  "codi": "S1AF2",
+  "titol": "Paper pla i paper plegat",
+  "grup": "Activitats finals",
+  "pdf": [
+    30
+  ],
+  "pagina": [
+    29
+  ],
+  "preguntes": [
+    {
+      "id": "q1",
+      "label": "a. Quin paper ha suportat millor el pes? Com ho has observat?",
+      "type": "text"
+    },
+    {
+      "id": "q2",
+      "label": "b. Quin s’ha deformat més? Descriu com s’ha deformat.",
+      "type": "text"
+    },
+    {
+      "id": "q3",
+      "label": "c. Per què creus que el paper amb ones o plecs ha suportat més pes?",
+      "type": "text"
+    },
+    {
+      "id": "q4",
+      "label": "d. Quina relació hi ha entre la forma i la resistència d’una estructura?",
+      "type": "text"
+    },
+    {
+      "id": "q5",
+      "label": "e. Si els dos papers són del mateix material, què ha canviat: el material o l’estructura? Justifica-ho.",
+      "type": "text"
+    },
+    {
+      "id": "q6",
+      "label": "f. En quin cas es veu més clarament la flexió?",
+      "type": "text"
+    },
+    {
+      "id": "q7",
+      "label": "g. Què passaria si poséssim el pes al centre o més a prop d’un suport?",
+      "type": "text"
+    },
+    {
+      "id": "q8",
+      "label": "h. Com milloraries l’estructura sense canviar el material?",
+      "type": "text"
+    },
+    {
+      "id": "q9",
+      "label": "i. On trobes exemples semblants a la vida quotidiana?",
+      "type": "text"
+    },
+    {
+      "id": "q10",
+      "label": "j. Quina conclusió en treus sobre el disseny d’estructures?",
+      "type": "text"
+    }
+  ],
+  "reflexions": [
+    {
+      "id": "r1",
+      "label": "Abans de provar: quin resultat preveus i per què?",
+      "type": "text"
+    },
+    {
+      "id": "r2",
+      "label": "Afegeix la referència de les fotografies de tots dos muntatges. Quines dades et permeten revisar la predicció?",
+      "type": "text"
+    }
+  ],
+  "figures": [
+    {
+      "src": "assets/dossier/paper-final.jpg",
+      "alt": "Comparació del paper pla i del paper amb plecs entre dos suports.",
+      "peu": "Fragment del dossier original aportat pel professorat."
+    }
+  ],
+  "passos": [
+    "Prepara dos fulls iguals: deixa’n un pla i plega l’altre com un acordió.",
+    "Mantén la mateixa separació entre suports i la mateixa posició de càrrega.",
+    "Afegeix pesos petits de manera gradual i observa. Atura la prova si el paper llisca o la càrrega és inestable."
+  ],
+  "registres": [
+    {
+      "id": "proves",
+      "label": "Registre afegit per recolzar les respostes.",
+      "type": "table",
+      "rows": [
+        "Prova 1",
+        "Prova 2",
+        "Prova 3"
+      ],
+      "columns": [
+        {
+          "id": "c1",
+          "label": "Massa (g) o pesos iguals"
+        },
+        {
+          "id": "c2",
+          "label": "Paper pla: deformació"
+        },
+        {
+          "id": "c3",
+          "label": "Paper plegat: deformació"
+        }
+      ]
+    }
+  ],
+  "enllacos": [
+    {
+      "href": "#activitat/paper",
+      "label": "Altres formes de paper per investigar"
+    }
+  ]
+}

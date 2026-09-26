@@ -1,0 +1,424 @@
+[
+  {
+    "id": "propietats",
+    "codi": "S1A1",
+    "titol": "Propietats mecàniques",
+    "grup": "Activitats inicials",
+    "pdf": [
+      8
+    ],
+    "pagina": [
+      7
+    ],
+    "fitxer": "continguts/dossier/propietats.json"
+  },
+  {
+    "id": "teoria-01",
+    "codi": "Teoria 1",
+    "titol": "Paper, esquelet i cadira",
+    "grup": "Activitats de teoria",
+    "pdf": [
+      9,
+      10
+    ],
+    "pagina": [
+      8,
+      9
+    ],
+    "fitxer": "continguts/dossier/teoria-01.json"
+  },
+  {
+    "id": "teoria-02",
+    "codi": "Teoria 2",
+    "titol": "Investiguem un pont",
+    "grup": "Activitats de teoria",
+    "pdf": [
+      10
+    ],
+    "pagina": [
+      9
+    ],
+    "fitxer": "continguts/dossier/teoria-02.json"
+  },
+  {
+    "id": "teoria-03",
+    "codi": "Teoria 3",
+    "titol": "Exemples de cada estructura",
+    "grup": "Activitats de teoria",
+    "pdf": [
+      10
+    ],
+    "pagina": [
+      9
+    ],
+    "fitxer": "continguts/dossier/teoria-03.json"
+  },
+  {
+    "id": "teoria-04",
+    "codi": "Teoria 4",
+    "titol": "Sis objectes, sis anàlisis",
+    "grup": "Activitats de teoria",
+    "pdf": [
+      10
+    ],
+    "pagina": [
+      9
+    ],
+    "fitxer": "continguts/dossier/teoria-04.json"
+  },
+  {
+    "id": "esforcos",
+    "codi": "S1A2",
+    "titol": "Els cinc esforços",
+    "grup": "Activitats inicials",
+    "pdf": [
+      13
+    ],
+    "pagina": [
+      12
+    ],
+    "fitxer": "continguts/dossier/esforcos.json"
+  },
+  {
+    "id": "teoria-05",
+    "codi": "Teoria 5",
+    "titol": "Quin esforç suporta?",
+    "grup": "Activitats de teoria",
+    "pdf": [
+      13
+    ],
+    "pagina": [
+      12
+    ],
+    "fitxer": "continguts/dossier/teoria-05.json"
+  },
+  {
+    "id": "teoria-06",
+    "codi": "Teoria 6",
+    "titol": "Corda o cable",
+    "grup": "Activitats de teoria",
+    "pdf": [
+      13
+    ],
+    "pagina": [
+      12
+    ],
+    "fitxer": "continguts/dossier/teoria-06.json"
+  },
+  {
+    "id": "teoria-07",
+    "codi": "Teoria 7",
+    "titol": "On és el centre de gravetat?",
+    "grup": "Activitats de teoria",
+    "pdf": [
+      14
+    ],
+    "pagina": [
+      13
+    ],
+    "fitxer": "continguts/dossier/teoria-07.json"
+  },
+  {
+    "id": "teoria-08",
+    "codi": "Teoria 8",
+    "titol": "Troba el centre de gravetat",
+    "grup": "Activitats de teoria",
+    "pdf": [
+      14
+    ],
+    "pagina": [
+      13
+    ],
+    "fitxer": "continguts/dossier/teoria-08.json"
+  },
+  {
+    "id": "teoria-09",
+    "codi": "Teoria 9",
+    "titol": "Vertader o fals?",
+    "grup": "Activitats de teoria",
+    "pdf": [
+      16
+    ],
+    "pagina": [
+      15
+    ],
+    "fitxer": "continguts/dossier/teoria-09.json"
+  },
+  {
+    "id": "teoria-10",
+    "codi": "Teoria 10",
+    "titol": "Com se sosté l’institut?",
+    "grup": "Activitats de teoria",
+    "pdf": [
+      16
+    ],
+    "pagina": [
+      15
+    ],
+    "fitxer": "continguts/dossier/teoria-10.json"
+  },
+  {
+    "id": "teoria-11",
+    "codi": "Teoria 11",
+    "titol": "Elements d’un habitatge",
+    "grup": "Activitats de teoria",
+    "pdf": [
+      16
+    ],
+    "pagina": [
+      15
+    ],
+    "fitxer": "continguts/dossier/teoria-11.json"
+  },
+  {
+    "id": "teoria-12",
+    "codi": "Teoria 12",
+    "titol": "Polígons i rigidesa",
+    "grup": "Activitats de teoria",
+    "pdf": [
+      16,
+      17
+    ],
+    "pagina": [
+      15,
+      16
+    ],
+    "fitxer": "continguts/dossier/teoria-12.json"
+  },
+  {
+    "id": "teoria-13",
+    "codi": "Teoria 13",
+    "titol": "Làmines al nostre entorn",
+    "grup": "Activitats de teoria",
+    "pdf": [
+      17
+    ],
+    "pagina": [
+      16
+    ],
+    "fitxer": "continguts/dossier/teoria-13.json"
+  },
+  {
+    "id": "teoria-14",
+    "codi": "Teoria 14",
+    "titol": "Classifica i justifica",
+    "grup": "Activitats de teoria",
+    "pdf": [
+      17
+    ],
+    "pagina": [
+      16
+    ],
+    "fitxer": "continguts/dossier/teoria-14.json"
+  },
+  {
+    "id": "sintesi",
+    "codi": "Síntesi",
+    "titol": "Completa les idees clau",
+    "grup": "Síntesi i aplica",
+    "pdf": [
+      20
+    ],
+    "pagina": [
+      19
+    ],
+    "fitxer": "continguts/dossier/sintesi.json"
+  },
+  {
+    "id": "aplica-01",
+    "codi": "Aplica 1",
+    "titol": "Identifica nou estructures",
+    "grup": "Síntesi i aplica",
+    "pdf": [
+      21
+    ],
+    "pagina": [
+      20
+    ],
+    "fitxer": "continguts/dossier/aplica-01.json"
+  },
+  {
+    "id": "aplica-02",
+    "codi": "Aplica 2",
+    "titol": "Relaciona esforços i definicions",
+    "grup": "Síntesi i aplica",
+    "pdf": [
+      22
+    ],
+    "pagina": [
+      21
+    ],
+    "fitxer": "continguts/dossier/aplica-02.json"
+  },
+  {
+    "id": "aplica-03",
+    "codi": "Aplica 3",
+    "titol": "La bicicleta sota càrrega",
+    "grup": "Síntesi i aplica",
+    "pdf": [
+      22
+    ],
+    "pagina": [
+      21
+    ],
+    "fitxer": "continguts/dossier/aplica-03.json"
+  },
+  {
+    "id": "experiment-01",
+    "codi": "S1Exp1",
+    "titol": "Esforços en una estructura de barres",
+    "grup": "Experiments",
+    "pdf": [
+      23
+    ],
+    "pagina": [
+      22
+    ],
+    "fitxer": "continguts/dossier/experiment-01.json"
+  },
+  {
+    "id": "experiment-02",
+    "codi": "S1Exp2",
+    "titol": "Dos quadrats i una diagonal",
+    "grup": "Experiments",
+    "pdf": [
+      24
+    ],
+    "pagina": [
+      23
+    ],
+    "fitxer": "continguts/dossier/experiment-02.json"
+  },
+  {
+    "id": "organitza",
+    "codi": "Organitza",
+    "titol": "Completa el mapa conceptual",
+    "grup": "Organització i lectures",
+    "pdf": [
+      25
+    ],
+    "pagina": [
+      24
+    ],
+    "fitxer": "continguts/dossier/organitza.json"
+  },
+  {
+    "id": "lectura-romans",
+    "codi": "S1L1 · Romans",
+    "titol": "Per què perduren els ponts romans?",
+    "grup": "Organització i lectures",
+    "pdf": [
+      26
+    ],
+    "pagina": [
+      25
+    ],
+    "fitxer": "continguts/dossier/lectura-romans.json"
+  },
+  {
+    "id": "lectura-leonardo",
+    "codi": "S1L1 · Leonardo",
+    "titol": "Un pont sense claus",
+    "grup": "Organització i lectures",
+    "pdf": [
+      27
+    ],
+    "pagina": [
+      26
+    ],
+    "fitxer": "continguts/dossier/lectura-leonardo.json"
+  },
+  {
+    "id": "experiencia-palleta",
+    "codi": "S1A3 · 1",
+    "titol": "Fabrica una palleta de paper",
+    "grup": "Experiències",
+    "pdf": [
+      28
+    ],
+    "pagina": [
+      27
+    ],
+    "fitxer": "continguts/dossier/experiencia-palleta.json"
+  },
+  {
+    "id": "experiencia-arc",
+    "codi": "S1A3 · 2",
+    "titol": "Reforça amb un arc",
+    "grup": "Experiències",
+    "pdf": [
+      28
+    ],
+    "pagina": [
+      27
+    ],
+    "fitxer": "continguts/dossier/experiencia-arc.json"
+  },
+  {
+    "id": "experiencia-biga",
+    "codi": "S1A3 · 3",
+    "titol": "Una biga o dues?",
+    "grup": "Experiències",
+    "pdf": [
+      28,
+      29
+    ],
+    "pagina": [
+      27,
+      28
+    ],
+    "fitxer": "continguts/dossier/experiencia-biga.json"
+  },
+  {
+    "id": "final-01",
+    "codi": "S1AF1",
+    "titol": "Construeix l’estructura triangulada",
+    "grup": "Activitats finals",
+    "pdf": [
+      30
+    ],
+    "pagina": [
+      29
+    ],
+    "fitxer": "continguts/dossier/final-01.json"
+  },
+  {
+    "id": "final-02",
+    "codi": "S1AF2",
+    "titol": "Paper pla i paper plegat",
+    "grup": "Activitats finals",
+    "pdf": [
+      30
+    ],
+    "pagina": [
+      29
+    ],
+    "fitxer": "continguts/dossier/final-02.json"
+  },
+  {
+    "id": "final-03",
+    "codi": "S1AF3",
+    "titol": "Analitza una estructura real",
+    "grup": "Activitats finals",
+    "pdf": [
+      31
+    ],
+    "pagina": [
+      30
+    ],
+    "fitxer": "continguts/dossier/final-03.json"
+  },
+  {
+    "id": "autoavaluacio",
+    "codi": "S1GA",
+    "titol": "Com valoro el meu aprenentatge?",
+    "grup": "Autoavaluació",
+    "pdf": [
+      32
+    ],
+    "pagina": [
+      31
+    ],
+    "fitxer": "continguts/dossier/autoavaluacio.json"
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "id": "teoria-11",
+  "codi": "Teoria 11",
+  "titol": "Elements d’un habitatge",
+  "grup": "Activitats de teoria",
+  "pdf": [
+    16
+  ],
+  "pagina": [
+    15
+  ],
+  "preguntes": [
+    {
+      "id": "q1",
+      "label": "Observa el dibuix de l’habitatge i classifica els elements estructurals en verticals i horitzontals.",
+      "type": "text"
+    }
+  ],
+  "reflexions": [
+    {
+      "id": "r1",
+      "label": "Hi ha elements inclinats, unions o conjunts que no encaixen en aquestes dues categories? Identifica’ls sense forçar-ne la classificació.",
+      "type": "text"
+    },
+    {
+      "id": "r2",
+      "label": "Tria una biga i descriu el recorregut de la càrrega fins al terreny.",
+      "type": "text"
+    }
+  ],
+  "figures": [
+    {
+      "src": "assets/dossier/habitatge.jpg",
+      "alt": "Esquema d’un habitatge amb els noms dels pilars, bigues, forjats, paret mestra, fonamentació i elements de la coberta.",
+      "peu": "Fragment del dossier original aportat pel professorat."
+    }
+  ]
+}

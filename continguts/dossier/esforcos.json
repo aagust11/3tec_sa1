@@ -1,0 +1,59 @@
+{
+  "id": "esforcos",
+  "codi": "S1A2",
+  "titol": "Els cinc esforços",
+  "grup": "Activitats inicials",
+  "pdf": [
+    13
+  ],
+  "pagina": [
+    12
+  ],
+  "preguntes": [
+    {
+      "id": "esforcos",
+      "label": "Per a cada esforç: explica què fa, posa un exemple real i prepara un dibuix a mà.",
+      "type": "table",
+      "rows": [
+        "Tracció",
+        "Compressió",
+        "Flexió",
+        "Torsió",
+        "Cisallament"
+      ],
+      "columns": [
+        {
+          "id": "c1",
+          "label": "Explicació amb paraules pròpies"
+        },
+        {
+          "id": "c2",
+          "label": "Exemple real"
+        },
+        {
+          "id": "c3",
+          "label": "Referència de la foto del dibuix amb forces"
+        }
+      ]
+    }
+  ],
+  "reflexions": [
+    {
+      "id": "r1",
+      "label": "En els teus dibuixos, què indiquen la direcció i el sentit de cada fletxa?",
+      "type": "text"
+    }
+  ],
+  "passos": [
+    "Crea al teu Google Site una pàgina titulada «Els esforços».",
+    "Explica els cinc esforços amb paraules pròpies i exemples reals.",
+    "Fes els dibuixos a mà. Representa les forces amb fletxes, fes-ne una fotografia clara i incorpora-la al Site."
+  ],
+  "aclariment": "El vinclament és un fenomen d’inestabilitat que pot aparèixer en peces esveltes comprimides; no és un sisè esforç.",
+  "enllacos": [
+    {
+      "href": "#activitat/esforcos",
+      "label": "Pràctica complementària dels esforços"
+    }
+  ]
+}

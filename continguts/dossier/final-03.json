@@ -1,0 +1,82 @@
+{
+  "id": "final-03",
+  "codi": "S1AF3",
+  "titol": "Analitza una estructura real",
+  "grup": "Activitats finals",
+  "pdf": [
+    31
+  ],
+  "pagina": [
+    30
+  ],
+  "preguntes": [
+    {
+      "id": "q1",
+      "label": "1. Fes un croquis de l’estructura i indica els elements principals.",
+      "type": "text"
+    },
+    {
+      "id": "q2",
+      "label": "2. Quina funció té l’estructura?",
+      "type": "text"
+    },
+    {
+      "id": "q3",
+      "label": "3. A quin tipus o tipus d’estructura pertany?",
+      "type": "text"
+    },
+    {
+      "id": "q4",
+      "label": "4. Quins materials principals s’hi han utilitzat? Quines propietats mecàniques els fan adequats?",
+      "type": "text"
+    },
+    {
+      "id": "q5",
+      "label": "5. Identifica almenys quatre elements estructurals i explica la funció de cadascun.",
+      "type": "text"
+    },
+    {
+      "id": "q6",
+      "label": "6. Quines càrregues suporta? Considera el pes propi, l’ús, el vent, la neu o altres.",
+      "type": "text"
+    },
+    {
+      "id": "q7",
+      "label": "7. Escull almenys tres elements i indica l’esforç principal que suporta cadascun.",
+      "type": "text"
+    },
+    {
+      "id": "q8",
+      "label": "8. Explica com s’aconsegueix que sigui resistent, rígida i estable.",
+      "type": "text"
+    },
+    {
+      "id": "q9",
+      "label": "9. Proposa una millora i justifica-la.",
+      "type": "text"
+    }
+  ],
+  "reflexions": [
+    {
+      "id": "r1",
+      "label": "Identifica l’estructura, la ubicació i la font de la fotografia.",
+      "type": "text"
+    },
+    {
+      "id": "r2",
+      "label": "Quina dada et falta per comprovar que la millora proposada funcionaria?",
+      "type": "text"
+    }
+  ],
+  "passos": [
+    "Escull una estructura real que puguis observar sense entrar en zones restringides.",
+    "Documenta les observacions amb un croquis propi i una fotografia o referència.",
+    "Distingeix què pots observar i què és una hipòtesi que caldria comprovar."
+  ],
+  "enllacos": [
+    {
+      "href": "#activitat/entorn",
+      "label": "Guia complementària d’observació"
+    }
+  ]
+}

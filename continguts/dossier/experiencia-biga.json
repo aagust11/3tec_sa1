@@ -1,0 +1,81 @@
+{
+  "id": "experiencia-biga",
+  "codi": "S1A3 · 3",
+  "titol": "Una biga o dues?",
+  "grup": "Experiències",
+  "pdf": [
+    28,
+    29
+  ],
+  "pagina": [
+    27,
+    28
+  ],
+  "preguntes": [
+    {
+      "id": "q1",
+      "label": "a. A quin esforç estan sotmeses les dues estructures?",
+      "type": "text"
+    },
+    {
+      "id": "q2",
+      "label": "b. Quina de les dues es deforma menys?",
+      "type": "text"
+    }
+  ],
+  "reflexions": [
+    {
+      "id": "r1",
+      "label": "Quines variables has mantingut iguals? Recorda que la segona biga conté més material.",
+      "type": "text"
+    },
+    {
+      "id": "r2",
+      "label": "Canviaria el resultat si les dues palletes estiguessin superposades en vertical o de costat? Formula una predicció abans de provar-ho.",
+      "type": "text"
+    }
+  ],
+  "materials": [
+    "Tres palletes de paper de 14 cm",
+    "Cinta adhesiva o cola",
+    "Dos suports iguals",
+    "Càrrega petita"
+  ],
+  "passos": [
+    "Construeix una primera biga amb una palleta de 14 cm.",
+    "Uneix les altres dues palletes de 14 cm amb cinta o cola per formar una segona biga. Anota com les has orientat.",
+    "Col·loca successivament cada biga sobre els mateixos suports, amb la mateixa llum.",
+    "Aplica la mateixa càrrega al mateix punt i compara les deformacions."
+  ],
+  "registres": [
+    {
+      "id": "prova",
+      "label": "Registre afegit per justificar la resposta.",
+      "type": "table",
+      "rows": [
+        "Una palleta",
+        "Dues palletes unides"
+      ],
+      "columns": [
+        {
+          "id": "c1",
+          "label": "Càrrega i posició"
+        },
+        {
+          "id": "c2",
+          "label": "Deformació"
+        },
+        {
+          "id": "c3",
+          "label": "Referència de fotografia"
+        }
+      ]
+    }
+  ],
+  "enllacos": [
+    {
+      "href": "#laboratori/flexio",
+      "label": "Laboratori de flexió"
+    }
+  ]
+}

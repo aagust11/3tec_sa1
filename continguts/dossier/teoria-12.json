@@ -1,0 +1,67 @@
+{
+  "id": "teoria-12",
+  "codi": "Teoria 12",
+  "titol": "Polígons i rigidesa",
+  "grup": "Activitats de teoria",
+  "pdf": [
+    16,
+    17
+  ],
+  "pagina": [
+    15,
+    16
+  ],
+  "preguntes": [
+    {
+      "id": "poligons",
+      "label": "Dibuixa les figures i respon per a cadascuna.",
+      "type": "table",
+      "rows": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "columns": [
+        {
+          "id": "c1",
+          "label": "Nom del polígon"
+        },
+        {
+          "id": "c2",
+          "label": "És regular?"
+        },
+        {
+          "id": "c3",
+          "label": "És rígid? Per què?"
+        },
+        {
+          "id": "c4",
+          "label": "Solució per fer-lo rígid i referència del dibuix"
+        }
+      ]
+    }
+  ],
+  "reflexions": [
+    {
+      "id": "r1",
+      "label": "Què impedeix una diagonal que no impedeixen només els costats?",
+      "type": "text"
+    }
+  ],
+  "figures": [
+    {
+      "src": "assets/dossier/poligons.jpg",
+      "alt": "Cinc polígons de barres amb unions als vèrtexs: quadrilàter, triangle, pentàgon, hexàgon i trapezi.",
+      "peu": "Fragment del dossier original aportat pel professorat."
+    }
+  ],
+  "aclariment": "Considera unions articulades i barres que no canvien de longitud. La regularitat geomètrica i la rigidesa són propietats diferents.",
+  "enllacos": [
+    {
+      "href": "#laboratori/triangulacio",
+      "label": "Comprova-ho al laboratori"
+    }
+  ]
+}

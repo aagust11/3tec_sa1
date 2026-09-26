@@ -1,0 +1,53 @@
+{
+  "id": "lectura-romans",
+  "codi": "S1L1 · Romans",
+  "titol": "Per què perduren els ponts romans?",
+  "grup": "Organització i lectures",
+  "pdf": [
+    26
+  ],
+  "pagina": [
+    25
+  ],
+  "preguntes": [
+    {
+      "id": "q1",
+      "label": "1. Com eren els primers ponts romans? Per què no se’n conserven?",
+      "type": "text"
+    },
+    {
+      "id": "q2",
+      "label": "2. Com són els ponts romans que es conserven actualment?",
+      "type": "text"
+    },
+    {
+      "id": "q3",
+      "label": "3. A quin tipus d’estructura pertanyen?",
+      "type": "text"
+    },
+    {
+      "id": "q4",
+      "label": "4. Per què han durat tant de temps?",
+      "type": "text"
+    }
+  ],
+  "reflexions": [
+    {
+      "id": "r1",
+      "label": "Quina part de la teva explicació prové de la lectura i quina és una deducció? Què necessitaries investigar per parlar del manteniment d’un pont concret?",
+      "type": "text"
+    }
+  ],
+  "lectura": [
+    "Lectura adaptada del dossier: els primers ponts romans es construïen amb fusta, un material que es degrada amb el temps si no es protegeix i manté. Els ponts de pedra que han perdurat permeten observar una altra manera de construir.",
+    "S’hi poden veure arcs de mig punt recolzats en pilars. Els carreus formen una estructura que transmet les càrregues cap als suports; els tallamars dels pilars ajuden a dividir el corrent de l’aigua. El dossier presenta el pont d’Alcántara com a exemple.",
+    "La qualitat dels materials, el disseny, la construcció i les condicions de conservació contribueixen a la durabilitat. La supervivència d’un pont no s’explica per un únic factor."
+  ],
+  "aclariment": "El dossier identifica les dues lectures amb el mateix codi S1L1. Aquí es distingeixen pel títol. La primera pregunta conserva el plantejament del text: parla dels primers ponts de fusta, no afirma que no hagi existit cap resta arqueològica de fusta.",
+  "enllacos": [
+    {
+      "href": "#activitat/romans",
+      "label": "Activitat complementària sobre arcs"
+    }
+  ]
+}

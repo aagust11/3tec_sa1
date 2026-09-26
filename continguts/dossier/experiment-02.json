@@ -1,0 +1,91 @@
+{
+  "id": "experiment-02",
+  "codi": "S1Exp2",
+  "titol": "Dos quadrats i una diagonal",
+  "grup": "Experiments",
+  "pdf": [
+    24
+  ],
+  "pagina": [
+    23
+  ],
+  "preguntes": [
+    {
+      "id": "proves",
+      "label": "Taula d’observació demanada al dossier: registra almenys tres pesos en les dues estructures.",
+      "type": "table",
+      "rows": [
+        "Càrrega 1",
+        "Càrrega 2",
+        "Càrrega 3"
+      ],
+      "columns": [
+        {
+          "id": "c1",
+          "label": "Massa (g) o nombre de pesos iguals"
+        },
+        {
+          "id": "c2",
+          "label": "Sense diagonal: observació"
+        },
+        {
+          "id": "c3",
+          "label": "Amb diagonal: observació"
+        }
+      ]
+    },
+    {
+      "id": "q1",
+      "label": "a. Quina estructura s’ha deformat més? Quina ha suportat millor els pesos?",
+      "type": "text"
+    },
+    {
+      "id": "q2",
+      "label": "b. Per què l’estructura amb diagonal és més resistent?",
+      "type": "text"
+    },
+    {
+      "id": "q3",
+      "label": "c. On es fan servir estructures triangulades a la vida real?",
+      "type": "text"
+    },
+    {
+      "id": "q4",
+      "label": "Aporta fotografies de les dues estructures sense càrrega i de cadascuna amb els diferents pesos.",
+      "type": "text"
+    }
+  ],
+  "reflexions": [
+    {
+      "id": "r1",
+      "label": "Què has mantingut igual per fer una comparació justa? Com matisaries la paraula «resistent» de la pregunta b amb les dades obtingudes?",
+      "type": "text"
+    }
+  ],
+  "materials": [
+    "Paper: vuit peces de 100 × 80 mm i una de 120 × 80 mm",
+    "Cola",
+    "Clips",
+    "Tisores i regle",
+    "Tres càrregues petites que puguis repetir"
+  ],
+  "passos": [
+    "Plega cada peça de 80 mm d’amplada per la meitat i enganxa-la: obtindràs peces de 100 × 40 mm i una de 120 × 40 mm.",
+    "Torna a plegar els 40 mm per la meitat, aquesta vegada sense enganxar: obtindràs perfils de 100 × 20 mm i un de 120 × 20 mm.",
+    "Munta dos quadrats amb les vuit peces curtes i enganxa la peça llarga com a diagonal d’un dels dos. Comprova abans d’encolar que la superposició dels extrems permet encaixar-la sense deformar el quadrat.",
+    "Col·loca clips en dos vèrtexs oposats. Sostén cada estructura per un clip i penja del contrari les mateixes càrregues, d’una en una.",
+    "Prova almenys tres càrregues petites en totes dues estructures. Fotografia i registra la deformació. Atura’t si es desenganxa una unió.",
+    "Individualment, crea una pàgina al portafoli amb fotografies sense pes i amb diferents pesos, la taula d’observació i la reflexió final que respon les preguntes a–c."
+  ],
+  "aclariment": "Es conserven les mides del dossier. La longitud útil depèn de la superposició a les unions: anota la mida final dels costats. Si només mesures deformació, les dades informen sobretot sobre rigidesa; no demostren per si soles la càrrega de ruptura.",
+  "enllacos": [
+    {
+      "href": "#laboratori/triangulacio",
+      "label": "Laboratori virtual"
+    },
+    {
+      "href": "#activitat/triangulacio",
+      "label": "Altres propostes de triangulació"
+    }
+  ]
+}

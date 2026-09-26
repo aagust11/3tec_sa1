@@ -1,0 +1,41 @@
+{
+  "id": "teoria-08",
+  "codi": "Teoria 8",
+  "titol": "Troba el centre de gravetat",
+  "grup": "Activitats de teoria",
+  "pdf": [
+    14
+  ],
+  "pagina": [
+    13
+  ],
+  "preguntes": [
+    {
+      "id": "q1",
+      "label": "Com podries conèixer el centre de gravetat d’una figura plana completament irregular?",
+      "type": "text"
+    }
+  ],
+  "reflexions": [
+    {
+      "id": "r1",
+      "label": "Per què cal fer dues suspensions? Quina incertesa tenen les línies que has traçat?",
+      "type": "text"
+    }
+  ],
+  "passos": [
+    "Proposa primer un procediment i explica per què hauria de funcionar.",
+    "Prova opcional afegida: retalla una figura de cartró uniforme amb tisores escolars. Amb ajuda del professorat, suspèn-la de dos punts diferents i dibuixa en cada posició la vertical d’un fil amb un petit pes.",
+    "Compara la intersecció de les dues verticals amb la teva previsió. Mantén els peus fora de la zona de caiguda del pes."
+  ],
+  "enllacos": [
+    {
+      "href": "#activitat/centre-gravetat",
+      "label": "Taller complementari"
+    },
+    {
+      "href": "#laboratori/estabilitat",
+      "label": "Laboratori d’estabilitat"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "organitza",
+  "codi": "Organitza",
+  "titol": "Completa el mapa conceptual",
+  "grup": "Organització i lectures",
+  "pdf": [
+    25
+  ],
+  "pagina": [
+    24
+  ],
+  "preguntes": [
+    {
+      "id": "buits",
+      "label": "Completa els set espais del mapa.",
+      "type": "table",
+      "rows": [
+        "Tipus: entre entramades i tensades",
+        "Rama que agrupa les propietats",
+        "Propietat que falta entre resistència i fragilitat",
+        "Propietat relacionada amb mal·leabilitat i ductilitat",
+        "Rama que agrupa tracció, compressió, etc.",
+        "Esforç que falta abans de compressió",
+        "Esforç que falta entre compressió i torsió"
+      ],
+      "columns": [
+        {
+          "id": "c1",
+          "label": "Concepte"
+        }
+      ]
+    }
+  ],
+  "reflexions": [
+    {
+      "id": "r1",
+      "label": "Explica la connexió corregida entre compressió i vinclament amb un exemple.",
+      "type": "text"
+    },
+    {
+      "id": "r2",
+      "label": "Tria dues branques del mapa i escriu una frase que les relacioni.",
+      "type": "text"
+    }
+  ],
+  "figures": [
+    {
+      "src": "assets/dossier/mapa-original.jpg",
+      "alt": "Mapa conceptual del dossier amb set conceptes en blanc i una connexió de vinclament que cal corregir.",
+      "peu": "Fragment del dossier original aportat pel professorat."
+    }
+  ],
+  "aclariment": "Correcció conceptual: el mapa original vincula «Vinclament» amb el buit de flexió. En completar-lo, connecta el vinclament amb compressió: és una inestabilitat de peces esveltes comprimides."
+}
