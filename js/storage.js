@@ -1,6 +1,6 @@
 // Persistència local. Cap dada s'envia a cap servidor.
 const KEY = '3tec-sa1-v1';
-const initial = () => ({ completed: [], notes: {}, done: [], answers: {}, rubric: {}, experiments: {}, practice: {}, dossier: {} });
+const initial = () => ({ completed: [], notes: {}, done: [], answers: {}, rubric: {}, experiments: {}, practice: {}, dossier: {}, exportStyle: {} });
 function warning(message) { const node = document.querySelector('#storage-warning'); node.hidden = false; node.textContent = message; }
 function read() {
   try {

@@ -1,3 +1,4 @@
+import {installSitesExport} from './sites-export.js';
 import {dossierPage,dossierLinks} from './dossier.js';
 import {mountProject} from './project.js';
 import {mountReasoning} from './reasoning.js';
@@ -7,6 +8,7 @@ import {laboratoryPage} from './laboratoris/index.js';
 import {state, save, toggle, reset} from './storage.js';
 import {mountQuiz} from './quiz.js';
 const main = document.querySelector('#main');
+installSitesExport(main);
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 async function get(path, type='json') { const response = await fetch(path); if (!response.ok) throw new Error(`No s’ha pogut carregar ${path}`); return type === 'json' ? response.json() : response.text(); }
 let course, activities, questions, photos, dossierIndex, routeVersion=0;

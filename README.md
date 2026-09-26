@@ -53,3 +53,11 @@ Els nous laboratoris permeten escriure prediccions, registrar proves, comparar c
 `#dossier` agrupa 32 pàgines: S1A1–S1A2, 14 activitats de teoria, síntesi, 3 Aplica, 2 experiments, Organitza, 2 lectures, 3 experiències S1A3, 3 activitats finals i autoavaluació. Cada tasca és un JSON independent a `continguts/dossier/`; les dades es desen amb identificadors estables sense substituir activitats ni apunts anteriors.
 
 La correspondència amb les pàgines del PDF, els aclariments editorials i les instruccions d’edició són a [docs/CORRESPONDENCIA_DOSSIER.md](docs/CORRESPONDENCIA_DOSSIER.md). Les respostes es poden descarregar per tasca, imprimir completes o exportar conjuntament des del quadern. Les fotografies de l’alumnat es documenten amb una referència o enllaç; no es pugen fitxers.
+
+## Copiar a Google Sites
+
+Totes les pàgines amb respostes tenen «Copia per a Google Sites» i «Estil i previsualització». El codi inclou els valors actuals dels camps i desplegables, les opcions de qüestionari triades i els registres visibles; no exporta formularis actius ni solucions desplegables. El menú permet canviar font, mida, accent, fons, text i títol personal opcional. Les preferències es desen al navegador.
+
+A Google Sites: Insereix → Insereix contingut (Embed) → Codi d’inserció. Enganxa el codi copiat i ajusta l’altura del requadre. És una còpia fixa: les edicions posteriors s’han de tornar a copiar. Les imatges es carreguen des d’URLs absolutes del web original. Si el navegador denega el porta-retalls, s’ofereix selecció manual i descàrrega HTML. Les dades només s’envien a Google Sites quan l’alumne les hi enganxa.
+
+Implementació central: `js/sites-export.js` i `assets/sites-export.css`; detecta també els formularis que es tornen a renderitzar. Referència del flux d’inserció: https://support.google.com/sites/answer/90569 .
