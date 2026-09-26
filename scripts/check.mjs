@@ -62,3 +62,5 @@ assert.equal(beamRatio({modulus:10}),20);
 assert.equal(beamDeflection({modulus:10}),25);
 assert.ok(Math.abs(beamDeflection({modulus:70})-25/7)<1e-10);
 assert.ok(Math.abs(beamDeflection({modulus:3.3})-250/3.3)<1e-10);
+
+const guides=json('continguts/guies-laboratori.json');for(const lab of labs){const g=guides[lab.id];assert.ok(g?.a&&g.b&&g.keep&&g.starter&&g.conclusion);assert.equal(g.questions.length,3);for(const q of g.questions)assert.ok(q.options.length>=3);assert.deepEqual(Object.keys(g.controlsA),Object.keys(g.controlsB));}

@@ -36,7 +36,7 @@ export function sitesSnapshot(main){
   if(reasoning){add(text(reasoning.querySelector('h2')),node.id==='reasoning-answer'?text(reasoning.querySelector('.device-body > p')):label,value);continue;}
   const rubric=node.closest('.rubric-criterion');if(rubric){add('Rúbrica · '+text(rubric.querySelector('h3')),label,value);continue;}
   const task=node.closest('[data-task]');if(task){add(text(task.closest('.idevice')?.querySelector('h2'))||'Activitat de pràctica',label,value);continue;}
-  const group=node.id==='prediction'||node.id==='conclusion'?text(main.querySelector('.experiment-question h2')):node.hasAttribute('data-rubric')?'Autoavaluació':'Reflexió personal';
+  const group=node.id==='prediction'||node.id==='conclusion'?text(main.querySelector('[data-export-section] h2')):node.hasAttribute('data-rubric')?'Autoavaluació':'Reflexió personal';
   add(group,label||node.getAttribute('aria-label')||'La meva resposta',value);
  }
  if(!count)parts.push('<p>Encara no hi ha respostes escrites o seleccionades per copiar.</p>');

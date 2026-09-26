@@ -1,0 +1,304 @@
+{
+  "forces": {
+    "title": "Una força de 50 N: cap a la dreta o cap amunt?",
+    "a": "A: mòdul 50 N i angle 0° (cap a la dreta).",
+    "b": "B: mòdul 50 N i angle 90° (cap amunt).",
+    "keep": "El mòdul es manté a 50 N. Canvia només l’angle.",
+    "questions": [
+      {
+        "id": "change",
+        "label": "1. Per comparar A i B, quin canvi has d’observar?",
+        "options": [
+          "L’angle: de 0° a 90°",
+          "El mòdul: de 50 N a 100 N",
+          "Encara no ho tinc clar"
+        ]
+      },
+      {
+        "id": "predict",
+        "label": "2. De 0° a 90°, la fletxa de 50 N es farà més llarga o només girarà?",
+        "options": [
+          "Girarà i mantindrà la longitud",
+          "Serà més llarga",
+          "Serà més curta",
+          "Encara no ho sé"
+        ]
+      },
+      {
+        "id": "evidence",
+        "label": "3. Quines dues característiques de la fletxa miraràs per comprovar la previsió?",
+        "options": [
+          "L’orientació i la longitud",
+          "Només el color",
+          "Només el punt d’origen",
+          "Necessito ajuda per decidir-ho"
+        ]
+      }
+    ],
+    "prediction": "4. Justifica la teva previsió: De 0° a 90°, la fletxa de 50 N es farà més llarga o només girarà?",
+    "starter": "«A i B tenen el mateix mòdul de… N. Canvia… Per això penso que la fletxa…». Pots escriure paraules clau o explicar-ho oralment abans d’escriure.",
+    "controlsA": {
+      "force": 50,
+      "angle": 0
+    },
+    "controlsB": {
+      "force": 50,
+      "angle": 90
+    },
+    "conclusion": "Després de registrar A i B, compara l’orientació i la longitud de les dues fletxes. Completa: «A apunta…; B apunta…; la longitud…; això confirma/canvia la meva previsió perquè…»."
+  },
+  "triangulacio": {
+    "title": "El mateix marc, sense diagonal i amb barra diagonal",
+    "a": "A: sense diagonal, desplaçament imposat +30.",
+    "b": "B: amb diagonal rígida, mateix desplaçament demanat +30.",
+    "keep": "La base, les barres i les unions són iguals. Canvia només la presència de diagonal. El control és un desplaçament, no una força en N.",
+    "questions": [
+      {
+        "id": "change",
+        "label": "1. Per comparar A i B, quin canvi has d’observar?",
+        "options": [
+          "Afegir una barra diagonal",
+          "Canviar el desplaçament de +30 a −30",
+          "Encara no ho tinc clar"
+        ]
+      },
+      {
+        "id": "predict",
+        "label": "2. En afegir una barra diagonal, el marc podrà inclinar-se igual que sense diagonal?",
+        "options": [
+          "S’inclinarà menys o quedarà bloquejat",
+          "S’inclinarà igual",
+          "S’inclinarà més",
+          "Encara no ho sé"
+        ]
+      },
+      {
+        "id": "evidence",
+        "label": "3. Què miraràs per saber si el marc ha canviat de forma?",
+        "options": [
+          "Si els angles del marc canvien",
+          "Si canvia el color del fons",
+          "Si desapareixen els suports",
+          "Necessito ajuda per decidir-ho"
+        ]
+      }
+    ],
+    "prediction": "4. Justifica la teva previsió: En afegir una barra diagonal, el marc podrà inclinar-se igual que sense diagonal?",
+    "starter": "«Sense diagonal, penso que les unions permetran… Amb la barra diagonal penso que… perquè els triangles…». Si dubtes, assenyala quin vèrtex creus que podrà moure’s.",
+    "controlsA": {
+      "push": 30,
+      "brace": false,
+      "brace-type": "rigid"
+    },
+    "controlsB": {
+      "push": 30,
+      "brace": true,
+      "brace-type": "rigid"
+    },
+    "conclusion": "Després de registrar A i B, descriu si els angles canvien en A i en B. Completa: «Sense diagonal…; amb barra diagonal…; la diagonal impedeix/permet…»."
+  },
+  "estabilitat": {
+    "title": "La mateixa base amb el centre de gravetat més alt",
+    "a": "A: base 140, posició horitzontal 0, altura del CG 100 i inclinació 30°.",
+    "b": "B: mateixa base 140, posició 0 i inclinació 30°, però altura del CG 150.",
+    "keep": "La base i la inclinació són iguals. Només augmenta l’altura del centre de gravetat. Les mides són unitats del dibuix.",
+    "questions": [
+      {
+        "id": "change",
+        "label": "1. Per comparar A i B, quin canvi has d’observar?",
+        "options": [
+          "L’altura del centre de gravetat",
+          "L’amplada de la base",
+          "Encara no ho tinc clar"
+        ]
+      },
+      {
+        "id": "predict",
+        "label": "2. Amb el CG a 150 en lloc de 100, la vertical del pes quedarà més a prop de la vora dreta de la base?",
+        "options": [
+          "Més a prop de la vora, o fora de la base",
+          "Al mateix lloc",
+          "Més a prop del centre de la base",
+          "Encara no ho sé"
+        ]
+      },
+      {
+        "id": "evidence",
+        "label": "3. Què miraràs per decidir si el cos tendeix a bolcar?",
+        "options": [
+          "On la vertical del pes talla la base",
+          "Només la llargada de la fletxa",
+          "Només el color del cos",
+          "Necessito ajuda per decidir-ho"
+        ]
+      }
+    ],
+    "prediction": "4. Justifica la teva previsió: Amb el CG a 150 en lloc de 100, la vertical del pes quedarà més a prop de la vora dreta de la base?",
+    "starter": "«En A i B la base fa… i la inclinació és… Només puja… Penso que la vertical quedarà… i el cos tindrà més/menys tendència a…».",
+    "controlsA": {
+      "base": 140,
+      "offset": 0,
+      "cg-height": 100,
+      "tilt": 30
+    },
+    "controlsB": {
+      "base": 140,
+      "offset": 0,
+      "cg-height": 150,
+      "tilt": 30
+    },
+    "conclusion": "Després de registrar A i B, indica si la vertical del pes cau dins o fora de la base en cada cas. Completa: «Amb altura 100…; amb altura 150…; elevar el CG…»."
+  },
+  "flexio": {
+    "title": "La mateixa biga: 10 N o 20 N al centre?",
+    "a": "A: acer, càrrega 10 N, suports separats 100 cm, perfil 10 × 10 mm.",
+    "b": "B: mateixa biga d’acer i mateixos suports, però càrrega 20 N.",
+    "keep": "Mantén acer, 100 cm, amplada 10 mm i alçada 10 mm. Només canvia la càrrega.",
+    "questions": [
+      {
+        "id": "change",
+        "label": "1. Per comparar A i B, quin canvi has d’observar?",
+        "options": [
+          "La càrrega: de 10 N a 20 N",
+          "El material: d’acer a fusta",
+          "Encara no ho tinc clar"
+        ]
+      },
+      {
+        "id": "predict",
+        "label": "2. Quan passes de 10 N a 20 N, el centre de la mateixa biga baixarà més, igual o menys?",
+        "options": [
+          "Baixarà més",
+          "Baixarà igual",
+          "Baixarà menys",
+          "Encara no ho sé"
+        ]
+      },
+      {
+        "id": "evidence",
+        "label": "3. Quin valor anotaràs per comparar quant baixa la biga?",
+        "options": [
+          "La fletxa al centre, en mm",
+          "Només el mòdul E, en GPa",
+          "L’amplada, que no canvia",
+          "Necessito ajuda per decidir-ho"
+        ]
+      }
+    ],
+    "prediction": "4. Justifica la teva previsió: Quan passes de 10 N a 20 N, el centre de la mateixa biga baixarà més, igual o menys?",
+    "starter": "«El material i les dimensions són iguals. En B la força és… que en A. Penso que el centre baixarà… perquè…». No cal calcular cap número abans de provar.",
+    "controlsA": {
+      "beam-material": "acer",
+      "constant-area": false,
+      "load": 10,
+      "span": 100,
+      "width": 10,
+      "height": 10
+    },
+    "controlsB": {
+      "beam-material": "acer",
+      "constant-area": false,
+      "load": 20,
+      "span": 100,
+      "width": 10,
+      "height": 10
+    },
+    "conclusion": "Després de registrar A i B, anota «Amb 10 N baixa… mm; amb 20 N baixa… mm». Compara els dos valors: més, igual o menys? Explica si coincideix amb la teva previsió."
+  },
+  "molles": {
+    "title": "La mateixa molla: 2 N o 4 N?",
+    "a": "A: molla amb k = 2 N/cm i força 2 N.",
+    "b": "B: mateixa molla amb k = 2 N/cm i força 4 N.",
+    "keep": "La constant k indica la rigidesa de la molla. No la canviïs en aquesta comparació; només augmenta la força.",
+    "questions": [
+      {
+        "id": "change",
+        "label": "1. Per comparar A i B, quin canvi has d’observar?",
+        "options": [
+          "La força: de 2 N a 4 N",
+          "La rigidesa k: de 2 a 4 N/cm",
+          "Encara no ho tinc clar"
+        ]
+      },
+      {
+        "id": "predict",
+        "label": "2. En passar de 2 N a 4 N sobre la mateixa molla, l’extrem baixarà més, igual o menys?",
+        "options": [
+          "Baixarà més: s’allargarà més",
+          "Baixarà igual",
+          "Baixarà menys",
+          "Encara no ho sé"
+        ]
+      },
+      {
+        "id": "evidence",
+        "label": "3. Des d’on has de mirar l’allargament?",
+        "options": [
+          "Des de la línia discontínua de la posició sense càrrega",
+          "Des de la part superior de tota la molla",
+          "Des de la part inferior de la pantalla",
+          "Necessito ajuda per decidir-ho"
+        ]
+      }
+    ],
+    "prediction": "4. Justifica la teva previsió: En passar de 2 N a 4 N sobre la mateixa molla, l’extrem baixarà més, igual o menys?",
+    "starter": "«És la mateixa molla perquè k continua sent… En B hi pengem una força… Penso que s’allargarà… perquè…». Pots comparar-ho amb un objecte més pesant penjat de la mateixa molla.",
+    "controlsA": {
+      "stiffness": 2,
+      "spring-force": 2
+    },
+    "controlsB": {
+      "stiffness": 2,
+      "spring-force": 4
+    },
+    "conclusion": "Després de registrar A i B, anota «Amb 2 N s’allarga… cm; amb 4 N s’allarga… cm». La segona força és el doble: l’allargament també ho és en aquest model?"
+  },
+  "suports": {
+    "title": "La mateixa càrrega: al centre o a prop de l’esquerra?",
+    "a": "A: càrrega 60 N al centre de la biga, a 50 cm del suport esquerre.",
+    "b": "B: mateixa càrrega 60 N a 25 cm del suport esquerre.",
+    "keep": "La biga fa 100 cm i la càrrega és de 60 N en tots dos casos. Només canvia la posició de la càrrega.",
+    "questions": [
+      {
+        "id": "change",
+        "label": "1. Per comparar A i B, quin canvi has d’observar?",
+        "options": [
+          "La posició: de 50 cm a 25 cm",
+          "El pes: de 60 N a 100 N",
+          "Encara no ho tinc clar"
+        ]
+      },
+      {
+        "id": "predict",
+        "label": "2. Quan mous els 60 N de 50 cm a 25 cm, quin suport creus que rebrà més càrrega?",
+        "options": [
+          "L’esquerre rebrà més que el dret",
+          "El dret rebrà més que l’esquerre",
+          "Tots dos continuaran rebent la mateixa",
+          "Encara no ho sé"
+        ]
+      },
+      {
+        "id": "evidence",
+        "label": "3. Quins dos valors has de comparar?",
+        "options": [
+          "R esquerra i R dreta, en N",
+          "Només la càrrega total, que no canvia",
+          "Només la llargada de la biga",
+          "Necessito ajuda per decidir-ho"
+        ]
+      }
+    ],
+    "prediction": "4. Justifica la teva previsió: Quan mous els 60 N de 50 cm a 25 cm, quin suport creus que rebrà més càrrega?",
+    "starter": "«A 25 cm, la càrrega és més a prop del suport… Penso que aquest suport rebrà… que l’altre perquè…». Imagina dues persones sostenint una safata amb el pes desplaçat cap a una d’elles.",
+    "controlsA": {
+      "bridge-force": 60,
+      "position": 50
+    },
+    "controlsB": {
+      "bridge-force": 60,
+      "position": 25
+    },
+    "conclusion": "Després de registrar A i B, anota R esquerra i R dreta en A i en B. Completa: «Al centre…; a 25 cm el suport… rep més perquè…». Comprova que els dos valors sumen 60 N."
+  }
+}

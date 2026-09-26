@@ -1,5 +1,7 @@
 const questions=[
- ['prediction','1. Abans de provar: en quina posició creus que el regle baixarà més? Per què?'],
+ ['prediction','1. Mateix regle, mateix pes al centre i mateixos suports: creus que baixarà més pla, més de cantell o igual? Completa: «Penso que baixarà més… En aquesta posició, l’alçada del perfil és més…». Si encara no ho saps, indica si et costa imaginar la secció o l’efecte de la càrrega.'],
+ ['compare-before','1b. En girar el mateix regle 90°, canvien el material i el pes aplicat, o només l’orientació de la secció? Escriu què mantindràs igual.'],
+ ['observe-before','1c. Per comprovar la teva previsió, miraràs quant baixa el centre o si el regle bolca de costat? Indica quin moviment correspon a la flexió i quin cal evitar amb les guies laterals.'],
  ['setup','2. Preparació: anota el material del regle, l’amplada i el gruix (mm), la distància entre suports (cm) i la càrrega utilitzada (massa en g o força en N, indicant la unitat).'],
  ['flat','3. Regle pla: què observes en aplicar la càrrega? Descriu la deformació i si recupera la forma en retirar-la.'],
  ['flat-mm','4. Regle pla: quina distància baixa el centre? Anota la fletxa en mm, o «no mesurable» si no la pots determinar.'],
