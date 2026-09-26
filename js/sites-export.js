@@ -22,6 +22,7 @@ export function sitesSnapshot(main){
   let label=text(node.labels?.[0]);
   // Remove option text nested inside a label (notebook rubric).
   if(node.labels?.[0]){const copy=node.labels[0].cloneNode(true);copy.querySelectorAll('input,textarea,select').forEach(n=>n.remove());label=text(copy);}
+  const section=node.closest('[data-export-section]');if(section){add(section.dataset.exportSection,label,value);continue;}
   const field=node.closest('.dossier-field');
   if(field){
    const section=field.closest('section'),group=text(section?.querySelector('h2'))||'Activitat';
