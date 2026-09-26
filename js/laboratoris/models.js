@@ -3,6 +3,12 @@ export function beamRatio({force=10,length=100,width=10,height=10}) {
   // δ = F L³/(48 E I), I = b h³/12. E és constant.
   return (force/10)*(length/100)**3*(10/width)*(10/height)**3;
 }
+// F en N; longitud en cm; perfil en mm; E en GPa. Retorna la fletxa en mm.
+// Biga simplement recolzada amb càrrega puntual central, sense pes propi.
+export function beamDeflection({force=10,length=100,width=10,height=10,modulus=200}={}) {
+ const spanMm=length*10,elasticity=modulus*1000,inertia=width*height**3/12;
+ return force*spanMm**3/(48*elasticity*inertia);
+}
 export function springExtension(force,stiffness) { return force/stiffness; }
 export function supportReactions(force,position,length=100) {
   return {left:force*(length-position)/length,right:force*position/length};

@@ -63,3 +63,5 @@ A Google Sites: Insereix → Insereix contingut (Embed) → Codi d’inserció. 
 Implementació central: `js/sites-export.js` i `assets/sites-export.css`; detecta també els formularis que es tornen a renderitzar. Referència del flux d’inserció: https://support.google.com/sites/answer/90569 .
 
 L’exportació HTML conté exclusivament treball de l’alumnat: títol, pregunta i resposta a sota. S’ometen els camps buits, la teoria, materials, procediments, exemples, pistes i solucionaris. Les proves registrades dels laboratoris es conserven com a evidències. Els desplegables s’exporten amb el text de l’opció seleccionada, sota l’enunciat i la identificació de l’element.
+
+El laboratori de flexió calcula la fletxa central en mm amb δ = FL³/(48EI), I = bh³/12 i E fix de 200 GPa (material ideal assumit). Converteix cm a mm i GPa a N/mm². Biga simplement recolzada, càrrega central, sense pes propi i petites deformacions. La representació gràfica és exagerada i limitada, però el valor calculat i les proves registrades no es retallen. Referència de la fórmula: https://engineering.purdue.edu/~ce474/Docs/DA6-BeamFormulas.pdf .

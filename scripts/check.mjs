@@ -15,7 +15,7 @@ for(const entries of [sessions,labs,initial,photos]) assert.equal(new Set(entrie
 for(const s of sessions) assert.ok(existsSync(s.fitxer),`Falta ${s.fitxer}`);
 for(const q of initial){assert.ok(q.correcta>=0&&q.correcta<q.opcions.length);assert.ok(!questions.some(x=>x.id===q.id),'Diagnòstic i repàs comparteixen ID');}
 for(const p of photos){assert.match(p.src,/^https:\/\//);assert.ok(p.autor&&p.font&&p.urlLlicencia&&p.alt);}
-const {beamRatio,springExtension,supportReactions}=await import('../js/laboratoris/models.js');
+const {beamRatio,beamDeflection,springExtension,supportReactions}=await import('../js/laboratoris/models.js');
 assert.equal(beamRatio({}),1);
 assert.equal(beamRatio({height:20}),.125);
 assert.equal(beamRatio({width:20}),.5);
@@ -50,3 +50,10 @@ assert.equal(json('continguts/dossier/aplica-01.json').preguntes[0].rows.length,
 assert.equal(json('continguts/dossier/aplica-03.json').preguntes[0].rows.length,5);
 assert.equal(json('continguts/dossier/autoavaluacio.json').preguntes[0].rows.length,7);
 console.log('Dossier: 32 tasques, 14 exercicis de teoria, preguntes, figures i referències verificats.');
+
+assert.equal(beamDeflection(),1.25);
+assert.equal(beamDeflection({force:20}),2.5);
+assert.equal(beamDeflection({length:200}),10);
+assert.equal(beamDeflection({height:20}),0.15625);
+assert.equal(beamDeflection({width:5,height:20}),0.3125);
+assert.equal(beamDeflection({modulus:100}),2.5);
