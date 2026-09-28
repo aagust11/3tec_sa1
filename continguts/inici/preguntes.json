@@ -62,14 +62,14 @@
   {
     "id": "basics-1",
     "tema": "forces",
-    "enunciat": "Amb g ≈ 10 N/kg, quin pes té una massa de 2 kg?",
+    "enunciat": "Amb g = 9,81 m/s², quin pes té una massa de 2 kg?",
     "opcions": [
       "2 N",
-      "20 N",
+      "19,62 N",
       "200 N"
     ],
     "correcta": 1,
-    "explicacio": "P = m · g = 2 · 10 = 20 N."
+    "explicacio": "P = m · g = 2 · 9,81 = 19,62 N. Amb 10 obtindríem una estimació de 20 N."
   },
   {
     "id": "basics-2",

@@ -1,8 +1,8 @@
 {
   "forces": {
     "pregunta": "Una motxilla de 4 kg penja quieta d’un ganxo. Dibuixa les forces sobre la motxilla a escala 1 cm = 10 N i justifica per què no cau.",
-    "pista": "Comença amb P = m · g i g ≈ 10 N/kg. Quina altra interacció hi ha?",
-    "model": "El pes és aproximadament 40 N cap avall i el ganxo exerceix 40 N cap amunt. Les dues fletxes fan 4 cm a l’escala indicada; en aquest cas les forces i els moments es compensen.",
+    "pista": "Comença amb P = m · g i g = 9,81 m/s². Quina altra interacció hi ha?",
+    "model": "El pes és P = 4 · 9,81 = 39,24 N cap avall i el ganxo exerceix 39,24 N cap amunt. Les dues fletxes fan 39,24 / 10 = 3,924 cm (aproximadament 3,92 cm) a l’escala indicada; en aquest cas les forces i els moments es compensen.",
     "criteris": [
       "Diferencio kg i N",
       "Indico dues forces i el cos estudiat",

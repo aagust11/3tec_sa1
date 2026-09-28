@@ -146,14 +146,14 @@
   {
     "id": "q13",
     "tema": "forces",
-    "enunciat": "Una massa de 3 kg té a la Terra un pes aproximat de…",
+    "enunciat": "Amb g = 9,81 m/s², quin pes té una massa de 3 kg?",
     "opcions": [
       "3 N",
-      "30 N",
+      "29,43 N",
       "300 N"
     ],
     "correcta": 1,
-    "explicacio": "Amb g ≈ 10 N/kg, P = 3 · 10 = 30 N."
+    "explicacio": "Amb g = 9,81 m/s², P = 3 · 9,81 = 29,43 N. Amb 10 obtindríem una estimació de 30 N."
   },
   {
     "id": "q14",
