@@ -1,12 +1,12 @@
 import {chromium} from 'playwright';
 import assert from 'node:assert/strict';
 import {createServer} from 'node:http';
-import {readFile,mkdir} from 'node:fs/promises';
+import {readFile,mkdir,readdir} from 'node:fs/promises';
 import {extname,resolve,sep} from 'node:path';
 const root=resolve('.');
 const types={'.html':'text/html','.js':'text/javascript','.json':'application/json','.css':'text/css','.svg':'image/svg+xml','.jpg':'image/jpeg'};
 const server=createServer(async(req,res)=>{
- try{const pathname=new URL(req.url,'http://local').pathname;const file=resolve(root,'.'+decodeURIComponent(pathname.endsWith('/')?pathname+'index.html':pathname));if(!file.startsWith(root+sep))throw Error('Ruta');const body=await readFile(file);res.writeHead(200,{'Content-Type':types[extname(file)]||'application/octet-stream'});res.end(body);}catch{res.writeHead(404);res.end('Not found');}
+ try{const pathname=new URL(req.url,'http://local').pathname;if(pathname==='/llistat-exercicis.json'){res.writeHead(200,{'Content-Type':'application/json'});res.end(JSON.stringify((await readdir('activitats')).filter(f=>f.endsWith('.json')).map(f=>'activitats/'+f)));return;}const file=resolve(root,'.'+decodeURIComponent(pathname.endsWith('/')?pathname+'index.html':pathname));if(!file.startsWith(root+sep))throw Error('Ruta');const body=await readFile(file);res.writeHead(200,{'Content-Type':types[extname(file)]||'application/octet-stream'});res.end(body);}catch{res.writeHead(404);res.end('Not found');}
 });
 await new Promise(r=>server.listen(0,'127.0.0.1',r));
 const base=`http://127.0.0.1:${server.address().port}`;
@@ -103,5 +103,17 @@ try{
   for(const [route,selector] of [['dossier','.dossier-card'],['dossier/propietats','#dossier-done'],['dossier/aplica-02','#dossier-done'],['dossier/experiment-02','#dossier-done'],['inici','.hero'],['sessions','.session-card'],['sessio/punt-partida','#note'],['basics','#entry-quiz'],['laboratori/flexio','#height'],['quadern','#export'],['galeria','.photo-card'],['tema/elements','#complete'],['tema/forces','.check-task'],['activitat/pont','#project-save'],['laboratori/molles','#spring-plot'],['laboratori/estabilitat','#tilt']]){await go(route,selector);assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),`Desbordament ${width}: ${route}`);}
   await go('inici','.hero');await page.screenshot({path:`test-output/inici-${width}.png`,fullPage:true});await go('dossier/aplica-02','#dossier-done');await page.screenshot({path:`test-output/dossier-${width}.png`,fullPage:true});
  }
+ // Exercise editor: rich HTML, image, download, reopen, optional solution, student response.
+ const sample={version:1,id:'S1E1',titol:'Prova de forces',enunciat:'<p>Calcula el <strong>pes</strong>.</p>',solucio:'<p>19,62 N</p>',imatge:null};
+ await page.route('**/llistat-exercicis.json',r=>r.fulfill({json:['activitats/S1E1.json']}));
+ await page.route('**/activitats/S1E1.json',r=>r.fulfill({json:sample}));
+ await page.goto(base+'/administracio-exercicis.html');await page.locator('[data-open]').click();assert.equal(await page.locator('#exercise-id').inputValue(),'S1E1');
+ await page.locator('#statement-editor [data-mode]').click();await page.locator('#statement-html').fill('<p>Calcula <strong>el pes</strong> i <em>explica</em>.</p><ul><li>Massa 2 kg</li></ul><script>alert(1)</script><img src=x onerror=alert(1)>');await page.locator('#statement-editor [data-mode]').click();assert.equal(await page.locator('#statement-visual strong').textContent(),'el pes');assert.equal(await page.locator('#statement-visual script,#statement-visual img').count(),0);
+ await page.locator('#image-file').setInputFiles({name:'pixel.png',mimeType:'image/png',buffer:Buffer.from('iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAGElEQVR4nGP8v5SBJMBEmvJRDaMahpIGADhSAcQt7YKJAAAAAElFTkSuQmCC','base64')});await page.waitForFunction(()=>!document.querySelector('#image-thumb').hidden);await page.locator('#image-alt').fill('Esquema de la càrrega');await page.locator('#image-width').fill('45');
+ await page.locator('#preview').click();assert.equal(await page.locator('#preview-content figure').evaluate(e=>e.style.width),'45%');await page.locator('#preview-content summary').click();assert.match(await page.locator('#preview-content').textContent(),/19,62/);
+ const fileEvent=page.waitForEvent('download');await page.locator('#download').click();await(await fileEvent).saveAs('test-output/S1E1.json');const saved=JSON.parse(await readFile('test-output/S1E1.json','utf8'));assert.match(saved.imatge.src,/data:image\/webp/);assert.doesNotMatch(saved.enunciat,/script|onerror/);assert.equal(saved.imatge.width,45);
+ await page.locator('#new').click();await page.locator('#import').setInputFiles('test-output/S1E1.json');assert.equal(await page.locator('#exercise-title').inputValue(),'Prova de forces');await page.locator('#preview').click();await page.locator('#preview-content img').evaluate(im=>im.decode());await page.screenshot({path:'test-output/exercise-editor.png',fullPage:true});
+ await page.locator('#solution-visual').fill('');await page.locator('#preview').click();assert.equal(await page.locator('#preview-content details').count(),0);await page.locator('#download').click();
+ await go('exercicis','#exercise-search');await page.locator('#exercise-list a').click();await page.locator('#exercise-answer').fill('La meva resposta');await page.reload();await page.locator('#exercise-answer').waitFor();assert.equal(await page.locator('#exercise-answer').inputValue(),'La meva resposta');await page.locator('[data-sites-style]').click();assert.match(await page.locator('#sites-code').inputValue(),/La meva resposta/);assert.doesNotMatch(await page.locator('#sites-code').inputValue(),/19,62/);await page.locator('#sites-close').click();
  assert.deepEqual(errors,[]);console.log('OK: sessions, diagnòstic preservat, models, registre persistent, exportació i disseny adaptable.');
 }finally{await browser?.close();server.close();}

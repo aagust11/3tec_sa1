@@ -1,3 +1,4 @@
+import {exercisesPage} from './exercises.js';
 import {installSitesExport} from './sites-export.js';
 import {dossierPage,dossierLinks} from './dossier.js';
 import {mountProject} from './project.js';
@@ -71,12 +72,12 @@ async function glossary(version){
 function notFound(){main.innerHTML=header('PÀGINA NO TROBADA','Aquest apartat no existeix.')+'<a class="btn" href="#inici">Torna a l’inici</a>';}
 async function route(){
  const version=++routeVersion; const [page='inici',id]=location.hash.slice(1).split('/');
- const selected=page==='sessio'?'sessions':['tema','aplicacio'].includes(page)?'aprendre':page==='activitat'?'activitats':page||'inici';
+ const selected=page==='sessio'?'sessions':['tema','aplicacio'].includes(page)?'aprendre':page==='exercici'?'exercicis':page==='activitat'?'activitats':page||'inici';
  document.querySelectorAll('[data-nav]').forEach(a=>{a.classList.toggle('active',a.dataset.nav===selected);if(a.dataset.nav===selected)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');});
  document.title=`${selected==='inici'?'Forces i estructures':selected.charAt(0).toUpperCase()+selected.slice(1)} · Tecnologia 3r ESO`;
  main.innerHTML='<p role="status">Carregant…</p>';
  try {
- switch(page){case '':case 'inici':home();break;case 'aprendre':main.innerHTML=header('EXPLORA LES ESTRUCTURES','Aprèn, relaciona i comprova','Segueix l’ordre proposat o torna al tema que necessitis reforçar.')+topicCards();break;case 'aplicacio':case 'tema':await lesson(id,version);break;case 'rubrica-projecte':await activity('pont',version);break;case 'dossier':await dossierPage(id,{main,header,esc,get,current:()=>version===routeVersion,index:dossierIndex});break;case 'activitats':activityList();break;case 'activitat':await activity(id,version);break;case 'laboratori':await laboratoryPage(id,{main,header,esc,get,current:()=>version===routeVersion});break;case 'previ':case 'basics':case 'sessions':case 'sessio':case 'galeria':await expandedPage(page,id,{main,header,esc,get,current:()=>version===routeVersion,noteBlock,bindNote});break;case 'glossari':await glossary(version);break;case 'repas':review();break;case 'quadern':notebook();break;default:notFound();}
+ switch(page){case '':case 'inici':home();break;case 'aprendre':main.innerHTML=header('EXPLORA LES ESTRUCTURES','Aprèn, relaciona i comprova','Segueix l’ordre proposat o torna al tema que necessitis reforçar.')+topicCards();break;case 'aplicacio':case 'tema':await lesson(id,version);break;case 'rubrica-projecte':await activity('pont',version);break;case 'dossier':await dossierPage(id,{main,header,esc,get,current:()=>version===routeVersion,index:dossierIndex});break;case 'exercicis':case 'exercici':await exercisesPage(id,{main,header,current:()=>version===routeVersion});break;case 'activitats':activityList();break;case 'activitat':await activity(id,version);break;case 'laboratori':await laboratoryPage(id,{main,header,esc,get,current:()=>version===routeVersion});break;case 'previ':case 'basics':case 'sessions':case 'sessio':case 'galeria':await expandedPage(page,id,{main,header,esc,get,current:()=>version===routeVersion,noteBlock,bindNote});break;case 'glossari':await glossary(version);break;case 'repas':review();break;case 'quadern':notebook();break;default:notFound();}
  if(version===routeVersion){window.scrollTo(0,0);main.focus({preventScroll:true});}
  }catch(error){if(version===routeVersion)main.innerHTML=`<div class="error"><h1>No hem pogut obrir el contingut</h1><p>${esc(error.message)}</p><p>Comprova la connexió i torna-ho a provar.</p><button class="btn" onclick="location.reload()">Recarrega</button></div>`;}
 }

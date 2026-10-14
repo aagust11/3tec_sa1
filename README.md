@@ -71,3 +71,8 @@ Materials del laboratori de flexió: acer 200 GPa, alumini 70 GPa, fusta amb fib
 ## Raonament guiat als laboratoris
 
 Les sis guies inicials són a `continguts/guies-laboratori.json`: situacions A/B, condicions constants, tres decisions amb opcions (inclosa la incertesa), frase de suport i conclusió vinculada a dades concretes. «Prepara A/B» configura el model però no registra automàticament cap prova. Les previsions antigues es conserven; les seleccions noves s’afegeixen a `experiments[id].guidance` i al quadern. El regle també té preguntes prèvies sobre orientació, variables constants i observació de flexió o bolcat.
+
+
+## Exercicis del professorat
+
+Editor: `administracio-exercicis.html`. Publica els JSON descarregats a `activitats/`. Consulta `activitats/README.md`. El llistat `llistat-exercicis.json` el genera Jekyll durant la publicació de GitHub Pages (deploy from branch, main, arrel). No afegeixis `.nojekyll`: impediria generar el llistat. Per provar en local, executa `npm start`.
