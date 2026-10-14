@@ -64,3 +64,11 @@ assert.ok(Math.abs(beamDeflection({modulus:70})-25/7)<1e-10);
 assert.ok(Math.abs(beamDeflection({modulus:3.3})-250/3.3)<1e-10);
 
 const guides=json('continguts/guies-laboratori.json');for(const lab of labs){const g=guides[lab.id];assert.ok(g?.a&&g.b&&g.keep&&g.starter&&g.conclusion);assert.equal(g.questions.length,3);for(const q of g.questions)assert.ok(q.options.length>=3);assert.deepEqual(Object.keys(g.controlsA),Object.keys(g.controlsB));}
+
+const {nextExerciseID}=await import('../js/exercise-format.js');
+assert.equal(nextExerciseID([]),'S1E01');
+assert.equal(nextExerciseID([{id:'S1E01'}]),'S1E02');
+assert.equal(nextExerciseID([{id:'S1E01'},{id:'S1E03'}]),'S1E04');
+assert.equal(nextExerciseID([{id:'S1E99'}]),'S1E100');
+assert.equal(nextExerciseID([{id:'S1E02'},{id:'S2E004'}]),'S2E005');
+assert.equal(nextExerciseID([{id:'S1E02'},{id:'S2E004'}],'S1E01'),'S1E03');
