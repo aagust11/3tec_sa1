@@ -1,4 +1,4 @@
 ---
 layout: null
 ---
-[{% assign first = true %}{% for file in site.static_files %}{% assign parts = file.path | split: '/' %}{% if parts[1] == 'activitats' and file.extname == '.json' %}{% unless first %},{% endunless %}{{ file.path | remove_first: '/' | jsonify }}{% assign first = false %}{% endif %}{% endfor %}]
+[{% assign first = true %}{% for file in site.static_files %}{% assign parts = file.path | split: '/' %}{% if parts[1] == 'exercicis' and file.extname == '.json' %}{% unless first %},{% endunless %}{{ file.path | remove_first: '/' | jsonify }}{% assign first = false %}{% endif %}{% endfor %}]

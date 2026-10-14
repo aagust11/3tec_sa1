@@ -75,4 +75,4 @@ Les sis guies inicials són a `continguts/guies-laboratori.json`: situacions A/B
 
 ## Exercicis del professorat
 
-Editor: `administracio-exercicis.html`. Publica els JSON descarregats a `activitats/`. Consulta `activitats/README.md`. El llistat `llistat-exercicis.json` el genera Jekyll durant la publicació de GitHub Pages (deploy from branch, main, arrel). No afegeixis `.nojekyll`: impediria generar el llistat. Per provar en local, executa `npm start`.
+Editor: `administracio-exercicis.html`. Publica els JSON descarregats a `exercicis/`. Consulta `exercicis/README.md`. El llistat `llistat-exercicis.json` el genera Jekyll durant la publicació de GitHub Pages (deploy from branch, main, arrel). No afegeixis `.nojekyll`: impediria generar el llistat. Per provar en local, executa `npm start`.

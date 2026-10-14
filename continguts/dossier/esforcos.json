@@ -29,10 +29,6 @@
         {
           "id": "c2",
           "label": "Exemple real"
-        },
-        {
-          "id": "c3",
-          "label": "Referència de la foto del dibuix amb forces"
         }
       ]
     }
@@ -45,9 +41,9 @@
     }
   ],
   "passos": [
-    "Crea al teu Google Site una pàgina titulada «Els esforços».",
+    "Crea al teu Google Sites una pàgina titulada «Dossier Esforços».",
     "Explica els cinc esforços amb paraules pròpies i exemples reals.",
-    "Fes els dibuixos a mà. Representa les forces amb fletxes, fes-ne una fotografia clara i incorpora-la al Site."
+    "Fes a mà un esquema de cadascun dels cinc esforços i representa les forces amb fletxes. Fes una fotografia clara dels esquemes i penja-la a la pàgina «Dossier Esforços» del teu Google Sites."
   ],
   "aclariment": "El vinclament és un fenomen d’inestabilitat que pot aparèixer en peces esveltes comprimides; no és un sisè esforç.",
   "enllacos": [

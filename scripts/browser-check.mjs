@@ -6,7 +6,7 @@ import {extname,resolve,sep} from 'node:path';
 const root=resolve('.');
 const types={'.html':'text/html','.js':'text/javascript','.json':'application/json','.css':'text/css','.svg':'image/svg+xml','.jpg':'image/jpeg'};
 const server=createServer(async(req,res)=>{
- try{const pathname=new URL(req.url,'http://local').pathname;if(pathname==='/llistat-exercicis.json'){res.writeHead(200,{'Content-Type':'application/json'});res.end(JSON.stringify((await readdir('activitats')).filter(f=>f.endsWith('.json')).map(f=>'activitats/'+f)));return;}const file=resolve(root,'.'+decodeURIComponent(pathname.endsWith('/')?pathname+'index.html':pathname));if(!file.startsWith(root+sep))throw Error('Ruta');const body=await readFile(file);res.writeHead(200,{'Content-Type':types[extname(file)]||'application/octet-stream'});res.end(body);}catch{res.writeHead(404);res.end('Not found');}
+ try{const pathname=new URL(req.url,'http://local').pathname;if(pathname==='/llistat-exercicis.json'){res.writeHead(200,{'Content-Type':'application/json'});res.end(JSON.stringify((await readdir('exercicis')).filter(f=>f.endsWith('.json')).map(f=>'exercicis/'+f)));return;}const file=resolve(root,'.'+decodeURIComponent(pathname.endsWith('/')?pathname+'index.html':pathname));if(!file.startsWith(root+sep))throw Error('Ruta');const body=await readFile(file);res.writeHead(200,{'Content-Type':types[extname(file)]||'application/octet-stream'});res.end(body);}catch{res.writeHead(404);res.end('Not found');}
 });
 await new Promise(r=>server.listen(0,'127.0.0.1',r));
 const base=`http://127.0.0.1:${server.address().port}`;
@@ -105,9 +105,17 @@ try{
  }
  // Exercise editor: rich HTML, image, download, reopen, optional solution, student response.
  const sample={version:1,id:'S1E1',titol:'Prova de forces',enunciat:'<p>Calcula el <strong>pes</strong>.</p>',solucio:'<p>19,62 N</p>',imatge:null};
- await page.route('**/llistat-exercicis.json',r=>r.fulfill({json:['activitats/S1E1.json']}));
- await page.route('**/activitats/S1E1.json',r=>r.fulfill({json:sample}));
- await page.goto(base+'/administracio-exercicis.html');await page.locator('[data-open]').click();assert.equal(await page.locator('#exercise-id').inputValue(),'S1E1');
+ await page.route('**/llistat-exercicis.json',r=>r.fulfill({json:['exercicis/S1E1.json']}));
+ await page.route('**/exercicis/S1E1.json',r=>r.fulfill({json:sample}));
+ await page.goto(base+'/administracio-exercicis.html');
+ assert.equal(await page.locator('#editor-content').isVisible(),false);
+ await page.locator('#editor-password').fill('incorrecta');await page.locator('#access-form button').click();await page.waitForFunction(()=>document.querySelector('#access-error').textContent.includes('incorrecta'));
+ assert.equal(await page.locator('#editor-content').isVisible(),false);
+ // Stub only the digest for the successful gate path; never publish the password.
+ await page.evaluate(expected=>{crypto.subtle.digest=async()=>Uint8Array.from(expected.match(/../g),x=>parseInt(x,16)).buffer;},'6da713af1d2e18991dc91b38ba5f0d6a88002e6ee3496d14402c0a78b6fa6939');
+ await page.locator('#editor-password').fill('test');await page.locator('#access-form button').click();await page.locator('#editor-content').waitFor();
+ assert.equal(await page.locator('a[href$="/tree/main/exercicis"]').getAttribute('target'),'_blank');
+ await page.locator('[data-open]').click();assert.equal(await page.locator('#exercise-id').inputValue(),'S1E1');
  await page.locator('#statement-editor [data-mode]').click();await page.locator('#statement-html').fill('<p>Calcula <strong>el pes</strong> i <em>explica</em>.</p><ul><li>Massa 2 kg</li></ul><script>alert(1)</script><img src=x onerror=alert(1)>');await page.locator('#statement-editor [data-mode]').click();assert.equal(await page.locator('#statement-visual strong').textContent(),'el pes');assert.equal(await page.locator('#statement-visual script,#statement-visual img').count(),0);
  await page.locator('#image-file').setInputFiles({name:'pixel.png',mimeType:'image/png',buffer:Buffer.from('iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAGElEQVR4nGP8v5SBJMBEmvJRDaMahpIGADhSAcQt7YKJAAAAAElFTkSuQmCC','base64')});await page.waitForFunction(()=>!document.querySelector('#image-thumb').hidden);await page.locator('#image-alt').fill('Esquema de la càrrega');await page.locator('#image-width').fill('45');
  await page.locator('#preview').click();assert.equal(await page.locator('#preview-content figure').evaluate(e=>e.style.width),'45%');await page.locator('#preview-content summary').click();assert.match(await page.locator('#preview-content').textContent(),/19,62/);

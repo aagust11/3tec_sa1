@@ -6,4 +6,4 @@ Les imatges PNG/JPEG/WebP es redimensionen i s'incorporen dins del JSON. No cal 
 
 Identificadors únics. Per eliminar un exercici, elimina el JSON a GitHub. Per canviar-ne l'identificador, puja el fitxer nou i elimina l'antic. Espera que acabi la publicació de Pages i recarrega el llistat.
 
-L'editor és públic i només genera fitxers locals. No publica ni modifica GitHub. Les solucions publicades són accessibles a l'alumnat.
+L'editor demana una contrasenya d'accés bàsica al navegador i només genera fitxers locals. Aquesta barrera no és una autenticació de servidor; els fitxers del repositori són públics. No publica ni modifica GitHub. Les solucions publicades són accessibles a l'alumnat.
