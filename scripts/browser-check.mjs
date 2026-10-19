@@ -103,6 +103,24 @@ try{
   for(const [route,selector] of [['dossier','.dossier-card'],['dossier/propietats','#dossier-done'],['dossier/aplica-02','#dossier-done'],['dossier/experiment-02','#dossier-done'],['inici','.hero'],['sessions','.session-card'],['sessio/punt-partida','#note'],['basics','#entry-quiz'],['laboratori/flexio','#height'],['quadern','#export'],['galeria','.photo-card'],['tema/elements','#complete'],['tema/forces','.check-task'],['activitat/pont','#project-save'],['laboratori/molles','#spring-plot'],['laboratori/estabilitat','#tilt']]){await go(route,selector);assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),`Desbordament ${width}: ${route}`);}
   await go('inici','.hero');await page.screenshot({path:`test-output/inici-${width}.png`,fullPage:true});await go('dossier/aplica-02','#dossier-done');await page.screenshot({path:`test-output/dossier-${width}.png`,fullPage:true});
  }
+ // Structure types: one row per type, persistent answers and image export.
+ await go('dossier/teoria-03','#dossier-done');
+ assert.equal(await page.locator('.dossier-table tbody tr').count(),8);
+ assert.equal(await page.locator('.dossier-table thead th').count(),4);
+ const first=page.locator('.dossier-table tbody tr').first();
+ await first.locator('textarea').nth(0).fill('Tenen molt material i una base ampla.');
+ await first.locator('textarea').nth(1).fill('Piràmide de Kheops\nPresa de gravetat');
+ const imageURL='https://images.example.org/estructura.png';
+ await page.route(imageURL,r=>r.fulfill({contentType:'image/png',body:Buffer.from('iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAGElEQVR4nGP8v5SBJMBEmvJRDaMahpIGADhSAcQt7YKJAAAAAElFTkSuQmCC','base64')}));
+ await first.locator('input').fill(imageURL);await first.locator('input').blur();
+ await first.locator('img').waitFor({state:'visible'});
+ await page.reload();await page.locator('.dossier-url-preview').first().waitFor({state:'visible'});
+ assert.equal(await page.locator('.dossier-table textarea').first().inputValue(),'Tenen molt material i una base ampla.');
+ await page.locator('[data-sites-style]').click();
+ const typesExported=await page.locator('#sites-code').inputValue();assert.match(typesExported,/width="200"/);assert.match(typesExported,/https:\/\/images.example.org\/estructura.png/);assert.match(typesExported,/Piràmide de Kheops/);
+ await page.locator('#sites-close').click();
+ await first.locator('input').fill('javascript:alert(1)');await first.locator('input').blur();
+ await page.locator('[data-sites-style]').click();assert.doesNotMatch(await page.locator('#sites-code').inputValue(),/<img[^>]*src="javascript:/);await page.locator('#sites-close').click();
  // Exercise editor: rich HTML, image, download, reopen, optional solution, student response.
  const sample={version:1,id:'S1E1',titol:'Prova de forces',enunciat:'<p>Calcula el <strong>pes</strong>.</p>',solucio:'<p>19,62 N</p>',mostrarSolucio:true,imatge:null};
  await page.route('**/llistat-exercicis.json',r=>r.fulfill({json:['exercicis/S1E1.json']}));

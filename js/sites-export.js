@@ -1,3 +1,4 @@
+import {imageURL} from './image-url.js';
 import {trialFigure} from './laboratoris/snapshot.js';
 import {state,save} from './storage.js';
 const defaults={font:'Arial',size:'16',accent:'#ad490b',background:'#f4f5f6',ink:'#262d33',name:''};
@@ -10,8 +11,8 @@ export function sitesSnapshot(main){
  const pair=(question,answer)=>`<div class="response-item"><h3 class="response-label">${esc(question)}</h3><p class="student-response">${esc(answer)}</p></div>`;
  const parts=[`<h1>${esc(text(main.querySelector('h1'))||'Les meves activitats')}</h1>`];
  let lastGroup='',count=0;
- function add(group,question,answer){if(!String(answer??'').trim())return;if(group&&group!==lastGroup){parts.push(`<h2>${esc(group)}</h2>`);lastGroup=group;}parts.push(pair(question,answer));count++;}
- const nodes=main.querySelectorAll('textarea,select,input[data-criterion],.question,.notebook-entry,#trials tbody tr');
+ function add(group,question,answer,isImage=false){if(!String(answer??'').trim())return;if(group&&group!==lastGroup){parts.push(`<h2>${esc(group)}</h2>`);lastGroup=group;}const src=isImage?imageURL(answer):'';parts.push(src?`<div class="response-item"><h3 class="response-label">${esc(question)}</h3><figure><img src="${esc(src)}" alt="${esc(question)}" width="200" style="width:200px;max-width:100%;height:auto" referrerpolicy="no-referrer"><figcaption><a href="${esc(src)}" target="_blank" rel="noopener noreferrer">Obre la imatge original</a></figcaption></figure></div>`:pair(question,answer));count++;}
+ const nodes=main.querySelectorAll('textarea,select,input[data-image-url],input[data-criterion],.question,.notebook-entry,#trials tbody tr');
  for(const node of nodes){
   if(node.closest('.sites-toolbar,#experiment-model,.dossier-filters'))continue;
   if(node.matches('.notebook-entry')){add(text(node.querySelector('h2')),'Apunts i respostes',text(node.querySelector('p')));continue;}
@@ -29,7 +30,7 @@ export function sitesSnapshot(main){
    const section=field.closest('section'),group=text(section?.querySelector('h2'))||'Activitat';
    const question=text(field.querySelector('legend,label'));
    const cell=node.closest('td');
-   if(cell){const row=cell.parentElement;const col=cell.cellIndex;const heading=text(cell.closest('table').querySelector('thead tr')?.children[col]);add(group,`${question} — ${text(row.querySelector('th'))} · ${heading}`,value);}
+   if(cell){const row=cell.parentElement;const col=cell.cellIndex;const heading=text(cell.closest('table').querySelector('thead tr')?.children[col]);add(group,`${question} — ${text(row.querySelector('th'))} · ${heading}`,value,node.hasAttribute('data-image-url'));}
    else add(group,question,value);
    continue;
   }

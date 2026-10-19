@@ -11,34 +11,33 @@
   ],
   "preguntes": [
     {
-      "id": "tipus",
-      "label": "Confecciona una taula de cinc columnes amb una llista d’estructures de cada tipus.",
+      "id": "tipus-v2",
+      "label": "Per a cada tipus d’estructura, explica amb les teves paraules com és i escriu el nom de dos exemples. Pots afegir-hi una imatge amb una URL directa.",
       "type": "table",
+      "rowHeading": "Tipus d’estructura",
       "rows": [
-        "Exemple 1",
-        "Exemple 2",
-        "Exemple 3"
+        "Massisses (massives)",
+        "Pneumàtiques",
+        "Laminars",
+        "Triangulades",
+        "Tensades (penjades)",
+        "Entramades",
+        "De volta i cúpula",
+        "Geodèsiques"
       ],
       "columns": [
         {
-          "id": "c1",
-          "label": "Massisses"
+          "id": "explicacio",
+          "label": "Com són? Explica-ho amb les teves paraules."
         },
         {
-          "id": "c2",
-          "label": "Laminars"
+          "id": "exemples",
+          "label": "Nom de dos exemples"
         },
         {
-          "id": "c3",
-          "label": "Entramades"
-        },
-        {
-          "id": "c4",
-          "label": "Triangulades"
-        },
-        {
-          "id": "c5",
-          "label": "Penjades"
+          "id": "imatge",
+          "label": "Imatge (URL directa)",
+          "type": "image-url"
         }
       ]
     }
@@ -49,5 +48,10 @@
       "label": "Escull un exemple i explica quins elements t’han permès classificar-lo.",
       "type": "text"
     }
+  ],
+  "passos": [
+    "Observa la forma de cada tipus d’estructura i explica de què està feta i com s’aguanta. Escriu-ho amb les teves paraules.",
+    "Escriu dos exemples concrets a cada fila, un a cada línia.",
+    "Si hi afegeixes una imatge, enganxa l’adreça directa d’una imatge pública (https://…), no l’enllaç a una cerca o a una pàgina web. Comprova que es veu a la previsualització. En copiar a Google Sites es mostrarà amb una amplada de 200 píxels."
   ]
 }
